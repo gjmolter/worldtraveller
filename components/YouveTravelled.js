@@ -4,6 +4,8 @@ import {
   getCountryById,
   worldLand,
   europeanUnion,
+  sevenWondersNew,
+  sevenWondersOld,
 } from "../utils/mapData";
 
 const YouveTravelled = ({ countries }) => {
@@ -33,6 +35,20 @@ const YouveTravelled = ({ countries }) => {
         });
         setDisplayPercentage((euCount / europeanUnion.length) * 100);
         break;
+      case "7old":
+        var wonderCount = 0;
+        countries.forEach((country) => {
+          if (sevenWondersOld.includes(country)) wonderCount++;
+        });
+        setDisplayPercentage((wonderCount / sevenWondersOld.length) * 100);
+        break;
+      case "7new":
+        var wonderCount = 0;
+        countries.forEach((country) => {
+          if (sevenWondersNew.includes(country)) wonderCount++;
+        });
+        setDisplayPercentage((wonderCount / sevenWondersNew.length) * 100);
+        break;
       default:
         setDisplayPercentage(0);
         break;
@@ -58,10 +74,10 @@ const YouveTravelled = ({ countries }) => {
             className="selectDisplay"
           >
             <option value="land">World Land</option>
-            <option value="monarchies">World Monarchies</option>
-            {/* <option value="north">North Hemisphere</option>
-            <option value="south">South Hemisphere</option> */}
             <option value="eu">European Union</option>
+            <option value="7old">Ancient 7 Wonders</option>
+            <option value="7new">New 7 Wonders</option>
+            <option value="monarchies">World Monarchies</option>
           </select>
         </p>
       </div>
@@ -90,9 +106,26 @@ const YouveTravelled = ({ countries }) => {
           width: 400px;
           top: 119px;
           border-radius: 0 0 0 20px;
+          height: 50px;
+          align-items: center;
+        }
+        .percentage p {
+          margin: 0;
         }
         .percentage strong {
           color: #46e992;
+        }
+
+        @media only screen and (max-width: 768px) {
+          .percentage {
+            width: 100% !important;
+            right: 0 !important;
+            border-radius: 0 !important;
+          }
+          .percentage > p,
+          .percentage select {
+            font-size: 13px;
+          }
         }
       `}</style>
     </>

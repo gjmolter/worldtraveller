@@ -26,11 +26,11 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
 
   return (
     <Combobox
-      openOnFocus
       onSelect={(item) => {
         selectedCountry(item);
         setTerm("");
       }}
+      className="comboInputWrapper"
     >
       <ComboboxInput
         value={term}
@@ -63,7 +63,7 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
       )}
       <style jsx global>{`
         .addCountryInput {
-          width: 250px;
+          width: 240px;
           margin: 10px;
           border: none;
           background: none;
@@ -71,6 +71,7 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
           font-size: 18px;
           padding: 5px;
         }
+
         .addCountryInput:focus {
           outline: none;
         }
@@ -86,6 +87,7 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
           -ms-overflow-style: none;
           scrollbar-width: none;
         }
+
         .comboPopOver::-webkit-scrollbar {
           display: none; /* Safari and Chrome */
         }
@@ -95,6 +97,18 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
           background: #46e992;
           color: #2d2d2d;
           font-weight: bold;
+        }
+
+        .comboBox:focus {
+          outline: none;
+        }
+        @media only screen and (max-width: 768px) {
+          .addCountryInput,
+          .comboInputWrapper {
+            width: 90%;
+            font-size: 14px;
+            text-align: center;
+          }
         }
       `}</style>
     </Combobox>

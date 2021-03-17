@@ -3158,6 +3158,9 @@ export const europeanUnion = [
   "sk",
 ];
 
+export const sevenWondersOld = ["eg", "iq", "gr", "tr"];
+export const sevenWondersNew = ["cn", "in", "jo", "it", "br", "mx", "pe"];
+
 export const getCountryById = (id) => {
   return worldJSON.filter((country) => country.id === id)[0];
 };

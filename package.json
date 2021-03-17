@@ -10,6 +10,7 @@
   "dependencies": {
     "@reach/combobox": "^0.13.2",
     "@south-paw/react-vector-maps": "^3.1.0",
+    "html2canvas": "^1.0.0-rc.7",
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
