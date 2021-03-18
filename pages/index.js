@@ -14,6 +14,8 @@ import { worldSVGs, getCountryById, getCountryByName } from "../utils/mapData";
 import { VectorMap } from "@south-paw/react-vector-maps";
 import Draggable from "react-draggable";
 import html2canvas from "html2canvas";
+import * as htmlToImage from "html-to-image";
+import * as download from "downloadjs";
 
 //Icons
 import {
@@ -85,6 +87,10 @@ const Home = () => {
   const [chevronDown, setChevronDown] = useState(countryArrowsDisabled);
   const [shareOpen, setShareOpen] = useState(false);
   const [shareText, setShareText] = useState("");
+  const [buyMap, setBuyMap] = useState([
+    "https://amzn.to/3bCUFJH",
+    "Buy World Scratch Map",
+  ]);
 
   // Refs
   const countryListRef = useRef();
@@ -212,7 +218,6 @@ const Home = () => {
 
   // Share button handler
   function shareMap() {
-    //TODO
     setShareOpen(true);
     html2canvas(shareMapRef.current, { width: 750, height: 525 }).then(
       function (canvas) {
@@ -248,23 +253,23 @@ const Home = () => {
     );
   }
 
+  //Save image
   function saveImage() {
-    //document.querySelector(".shareWrapper svg").style.opacity = 0;
-    html2canvas(shareWrapperRef.current, { width: 800, height: 640 }).then(
-      function (canvas) {
-        var link = document.createElement("a");
-        link.setAttribute("download", "ivetravelled.png");
-        link.setAttribute(
-          "href",
-          canvas
-            .toDataURL("image/png")
-            .replace("image/png", "image/octet-stream")
-        );
-        link.click();
-      }
-    );
-    //document.querySelector(".shareWrapper svg").style.opacity = 1;
+    document.querySelector(".shareWrapper svg").style.display = "none";
+    htmlToImage.toPng(shareWrapperRef.current).then((dataUrl) => {
+      download(dataUrl, "ivetravelled-map.png");
+      document.querySelector(".shareWrapper svg").style.display = "block";
+    });
   }
+
+  /* Amazon Links */
+
+  //Set Brazilian Amazon Link based on Browser Language
+  useEffect(() => {
+    if (window && window.navigator?.language === "pt-BR") {
+      setBuyMap(["https://amzn.to/2P12KjS", "Comprar Mapa de Raspar"]);
+    }
+  }, []);
 
   return (
     <div>
@@ -278,9 +283,9 @@ const Home = () => {
       <header>
         <img src="/img/logo.png" id="logo" />
         <div className="amazon">
-          <a href="https://amzn.to/3bCUFJH" target="_blank">
+          <a href={buyMap[0]} target="_blank">
             <img src="/img/scratchMap.png" />
-            <span>Buy World Scratch Map</span>
+            <span>{buyMap[1]}</span>
           </a>
         </div>
       </header>
