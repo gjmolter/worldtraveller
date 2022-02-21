@@ -3106,7 +3106,6 @@ export const monarchies = [
   "se",
   "bs",
   "to",
-  "bb",
   "jm",
   "my",
   "dk",
