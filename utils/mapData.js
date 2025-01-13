@@ -1,13 +1,27 @@
-import worldData from 'https://cdn.gabrielmolter.com/world.json';
+let worldData = null;
 
-export const worldSVGs = {
-  id: worldData.id,
-  name: worldData.name,
-  viewBox: worldData.viewBox,
-  layers: worldData.layers,
+async function loadWorldData() {
+  const response = await fetch('https://cdn.gabrielmolter.com/world.json');
+  if (!response.ok) {
+    throw new Error(`Failed to load world data: ${response.statusText}`);
+  }
+  worldData = await response.json();
+}
+
+export const getWorldSVGs = async () => {
+  if (!worldData) await loadWorldData();
+  return {
+    id: worldData.id,
+    name: worldData.name,
+    viewBox: worldData.viewBox,
+    layers: worldData.layers,
+  };
 };
 
-export const worldJSON = worldData.worldJSON;
+export const getWorldJSON = async () => {
+  if (!worldData) await loadWorldData();
+  return worldData.worldJSON;
+};
 
 export const worldLand = 1360100;
 export const monarchies = [
