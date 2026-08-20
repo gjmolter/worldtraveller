@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Head from "next/head";
+import dynamic from "next/dynamic";
 
 //Components
 import Tooltip from "../components/Tooltip";
@@ -7,13 +8,14 @@ import Toast from "../components/Toast";
 import ComboBox from "../components/Combobox";
 import YouveTravelled from "../components/YouveTravelled";
 
+const WorldMap = dynamic(() => import("../components/WorldMap"), {
+  ssr: false,
+});
+
 //Data
-import { worldSVGs, getCountryById, getCountryByName } from "../utils/mapData";
+import { getCountryById, getCountryByName } from "../utils/mapData";
 
 //Libs
-import { VectorMap } from "@south-paw/react-vector-maps";
-import Draggable from "react-draggable";
-import html2canvas from "html2canvas";
 import * as htmlToImage from "html-to-image";
 import * as download from "downloadjs";
 
@@ -67,18 +69,15 @@ const closeShareBtn = {
   cursor: "pointer",
 };
 
-// Non-reactive variables
-let dbClickTimer = null;
-const minZoom = 2.9;
-const maxZoom = 120;
-const zoomBy = 1.5;
+const minZoom = -0.75;
+const maxZoom = 8;
 
 const Home = () => {
   // Country List
   const [selected, setSelected] = useState([]);
 
   // Display Helpers
-  const [scale, setScale] = useState(minZoom);
+  const [scale, setScale] = useState(1.15);
   const [hoveredCountryName, setHoveredCountryName] = useState("");
   const [hoveredFlagName, setHoveredFlagName] = useState("");
   const [toast, setToast] = useState("");
@@ -87,15 +86,16 @@ const Home = () => {
   const [chevronDown, setChevronDown] = useState(countryArrowsDisabled);
   const [shareOpen, setShareOpen] = useState(false);
   const [shareText, setShareText] = useState("");
-  const [buyMap, setBuyMap] = useState([
-    "https://amzn.to/3bCUFJH",
-    "Buy World Scratch Map",
-  ]);
+  const [shareImage, setShareImage] = useState("");
+  const [travelSummary, setTravelSummary] = useState({
+    label: "World Land",
+    percentage: "0",
+  });
 
   // Refs
   const countryListRef = useRef();
-  const shareMapRef = useRef();
   const shareWrapperRef = useRef();
+  const mapRef = useRef();
 
   /* Country List Scolling */
 
@@ -124,25 +124,8 @@ const Home = () => {
 
   /* Zoom */
 
-  const scaleUp = () => setScale(scale < maxZoom ? scale * zoomBy : scale);
-  const scaleDown = () => setScale(scale > minZoom ? scale / zoomBy : scale);
-
-  // Mouse wheel handler
-  function wheelZoom(deltaY) {
-    if (deltaY < 0) scaleUp();
-    if (deltaY > 0) scaleDown();
-  }
-
-  // Custom double click on map Handler
-  function onDoubleClickHandler() {
-    if (dbClickTimer === null) {
-      dbClickTimer = setTimeout(() => {
-        dbClickTimer = null;
-      }, 200);
-    } else {
-      scaleUp();
-    }
-  }
+  const scaleUp = () => mapRef.current?.zoomIn();
+  const scaleDown = () => mapRef.current?.zoomOut();
 
   /* Toasts */
 
@@ -172,39 +155,10 @@ const Home = () => {
     chevronScroll();
   };
 
-  function mobileMapClick(e) {
-    if (e.type === "touchstart") {
-      var x = e.touches[0].clientX;
-      var y = e.touches[0].clientY;
-      var ev = document.createEvent("MouseEvent");
-      var el = document.elementFromPoint(x, y);
-      ev.initMouseEvent(
-        "click",
-        true,
-        true,
-        window,
-        null,
-        x,
-        y,
-        0,
-        0,
-        false,
-        false,
-        false,
-        false,
-        0,
-        null
-      );
-      el.dispatchEvent(ev);
-      document.activeElement.blur();
-    }
-  }
-
   /* Map Selection */
 
   // Country click handler
-  const clickCountry = ({ target }) => {
-    const id = target.attributes.id.value;
+  const clickCountry = (id) => {
     selected.includes(id) ? removeCountry(id) : addCountry(id);
   };
 
@@ -217,59 +171,22 @@ const Home = () => {
   /* Share */
 
   // Share button handler
-  function shareMap() {
+  async function shareMap() {
     setShareOpen(true);
-    html2canvas(shareMapRef.current, { width: 750, height: 525 }).then(
-      function (canvas) {
-        shareWrapperRef.current.appendChild(canvas);
-        var elPText = document.querySelector(".percentage p").textContent;
-        var elSelectText = document.querySelector(".percentage select")
-          .textContent;
-        var elSelectedIndex = document.querySelector(".percentage select")
-          .selectedIndex;
-        elPText = elPText.replace(elSelectText, "").replace("You've", "I've");
-
-        switch (elSelectedIndex) {
-          case 0:
-            setShareText(`${elPText} World Land`);
-            break;
-          case 1:
-            setShareText(`${elPText} European Union`);
-            break;
-          case 2:
-            setShareText(`${elPText} Ancient 7 Wonders Countries`);
-            break;
-          case 3:
-            setShareText(`${elPText} New 7 Wonders Countries`);
-            break;
-          case 4:
-            setShareText(`${elPText} World Monarchies`);
-            break;
-
-          default:
-            break;
-        }
-      }
+    setShareImage((await mapRef.current?.captureWorld()) || "");
+    setShareText(
+      `I've travelled ${travelSummary.percentage}% of the ${travelSummary.label}`,
     );
   }
 
   //Save image
   function saveImage() {
-    document.querySelector(".shareWrapper svg").style.display = "none";
+    document.querySelector(".shareWrapper .closeShare").style.display = "none";
     htmlToImage.toPng(shareWrapperRef.current).then((dataUrl) => {
       download(dataUrl, "ivetravelled-map.png");
-      document.querySelector(".shareWrapper svg").style.display = "block";
+      document.querySelector(".shareWrapper .closeShare").style.display = "block";
     });
   }
-
-  /* Amazon Links */
-
-  //Set Brazilian Amazon Link based on Browser Language
-  useEffect(() => {
-    if (window && window.navigator?.language === "pt-BR") {
-      setBuyMap(["https://amzn.to/2P12KjS", "Comprar Mapa de Raspar"]);
-    }
-  }, []);
 
   return (
     <div>
@@ -281,17 +198,7 @@ const Home = () => {
         ></meta>
       </Head>
       <header>
-        <img src="/img/logo.png" id="logo" />
-        <div className="amazon">
-          <a href={buyMap[0]} target="_blank">
-            <img src="/img/scratchMap.png" />
-            <span>{buyMap[1]}</span>
-          </a>
-        </div>
-      </header>
-      <main>
-        <YouveTravelled countries={selected} />
-        <div className="panels addCountry">
+        <div className="addCountry">
           <div className="plusContainer">
             <FiPlus />
           </div>
@@ -306,6 +213,13 @@ const Home = () => {
             }}
           />
         </div>
+        <img src="/img/logo.png" id="logo" alt="I've Travelled" />
+        <YouveTravelled
+          countries={selected}
+          onSummaryChange={setTravelSummary}
+        />
+      </header>
+      <main>
         <div className="panels share" onClick={shareMap}>
           <FiShare style={normalBtns} />
         </div>
@@ -350,28 +264,14 @@ const Home = () => {
         </div>
 
         <div className="mapWrapper">
-          <Draggable
-            scale={scale}
-            bounds={{ top: -150, left: -220, right: 220, bottom: 100 }}
-            onMouseDown={mobileMapClick}
-          >
-            <div
-              className="map"
-              onWheel={(e) => wheelZoom(e.deltaY)}
-              onClick={onDoubleClickHandler}
-            >
-              <VectorMap
-                {...worldSVGs}
-                checkedLayers={selected}
-                layerProps={{
-                  onClick: clickCountry,
-                  onMouseEnter: ({ target }) =>
-                    setHoveredCountryName(target.attributes.name.value),
-                  onMouseLeave: () => setHoveredCountryName(""),
-                }}
-              />
-            </div>
-          </Draggable>
+          <WorldMap
+            controlRef={mapRef}
+            selected={selected}
+            onCountryClick={clickCountry}
+            onCountryEnter={setHoveredCountryName}
+            onCountryLeave={() => setHoveredCountryName("")}
+            onZoom={setScale}
+          />
         </div>
       </main>
       <Tooltip text={hoveredCountryName} offsetX={0} offsetY={-25} />
@@ -379,37 +279,30 @@ const Home = () => {
       <Toast text={toast} />
 
       <div
-        ref={shareMapRef}
-        className="map"
-        style={{
-          padding: 0,
-          margin: "50px",
-          backgroundImage: "url(img/textured-paper.png)",
-          backgroundRepeat: "repeat",
-        }}
-      >
-        <VectorMap
-          {...worldSVGs}
-          checkedLayers={selected}
-          style={{ padding: 0 }}
-        />
-      </div>
-
-      <div
         style={{ display: shareOpen ? "flex" : "none" }}
         className="shareWrapper"
       >
         <div ref={shareWrapperRef}>
           <FiX
+            className="closeShare"
             style={closeShareBtn}
             onClick={() => {
               setShareOpen(false);
-              document.querySelector(".shareWrapper canvas").remove();
+              setShareImage("");
               setShareText("");
             }}
           />
           <p>{shareText}</p>
-          <img src="/img/logo.png" />
+          {shareImage ? (
+            <img className="shareMapImage" src={shareImage} alt="Your travel map" />
+          ) : (
+            <span className="shareLoading">Preparing your map…</span>
+          )}
+          <img className="shareLogo" src="/img/logo.png" alt="I've Travelled" />
+          <small className="shareAttribution">
+            © MapTiler · OpenFreeMap · © OpenMapTiles · © OpenStreetMap · Marine
+            Regions EEZ v12 (CC BY 4.0)
+          </small>
         </div>
         <button onClick={saveImage}>Download Image</button>
       </div>
@@ -435,37 +328,53 @@ const Home = () => {
           background: #2d2d2d;
           color: white;
           text-align: center;
-          z-index: 1;
+          z-index: 8;
           display: flex;
           justify-content: center;
         }
 
         header {
-          display: flex;
+          position: relative;
+          z-index: 10;
+          display: grid;
+          grid-template-areas: "search logo progress";
+          grid-template-columns: minmax(280px, 1fr) auto minmax(420px, 1fr);
+          align-items: center;
+          gap: 24px;
+          padding: 0 18px;
           background: #2d2d2d;
-          height: 120px;
+          height: 96px;
         }
 
         header #logo {
-          padding: 18px 0;
-          max-width: 220px;
-          margin: 0 5px;
+          grid-area: logo;
+          width: 190px;
+          max-height: 78px;
+          justify-self: center;
+          object-fit: contain;
         }
 
         main {
           position: relative;
-          padding: 30px;
-          height: calc(100vh - 120px);
+          padding: 0;
+          height: calc(100vh - 96px);
           overflow: hidden;
         }
 
         .mapWrapper {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          position: relative;
           width: 100%;
           height: 100%;
-          transform: scale(${scale});
+          overflow: hidden;
+        }
+
+        .worldMap {
+          width: 100%;
+          height: 100%;
+        }
+
+        .maplibregl-canvas {
+          outline: none;
         }
 
         .zoom {
@@ -496,12 +405,22 @@ const Home = () => {
           color: #46e992;
           font-size: 16px;
         }
-        .shareWrapper img {
+        .shareWrapper .shareLogo {
           position: absolute;
           bottom: 10px;
           left: calc(50% - 60px);
           width: 120px;
           filter: drop-shadow(0px 0px 3px #0009);
+        }
+        .shareAttribution {
+          position: absolute;
+          right: 10px;
+          bottom: 8px;
+          padding: 2px 5px;
+          border-radius: 3px;
+          background: rgba(244, 239, 223, 0.86);
+          color: #4a4941;
+          font-size: 8px;
         }
         .shareWrapper p {
           position: absolute;
@@ -530,47 +449,24 @@ const Home = () => {
           max-width: 800px;
           min-height: 220px;
         }
-        .shareWrapper > div > canvas {
+        .shareWrapper .shareMapImage {
+          position: static;
+          display: block;
           width: 100% !important;
           height: auto !important;
         }
 
-        .amazon {
-          flex: 1;
-          display: flex;
-          justify-content: center;
-          align-items: flex-end;
-          flex-direction: column;
-          padding: 8px;
-        }
-
-        .amazon a {
-          display: flex;
-          justify-content: flex-end;
-          align-items: flex-end;
-          flex-direction: column;
-          max-width: 90px;
-          border: 1px solid #46e99277;
-          border-radius: 11px;
-          padding: 7px;
-        }
-
-        .amazon img {
-          max-width: 100%;
-          max-height: 90px;
-          border-radius: 5px;
-        }
-
-        .amazon span {
-          color: white;
+        .shareLoading {
+          display: block;
+          min-height: 260px;
+          padding-top: 110px;
+          color: #363636;
           text-align: center;
-          margin-top: 6px;
-          font-size: 11.5px;
         }
 
         .removeCountries {
-          top: 225px;
-          bottom: 100px;
+          top: 116px;
+          bottom: 70px;
           width: 40px;
           border-radius: 0 20px 20px 0;
           display: flex;
@@ -629,59 +525,54 @@ const Home = () => {
         }
 
         .addCountry {
-          left: -1px;
-          width: 300px;
-          top: 119px;
-          border-radius: 0 0 20px 0;
+          grid-area: search;
+          width: 280px;
           display: flex;
           justify-content: space-between;
           align-items: center;
           height: 50px;
+          color: white;
         }
 
-        .map {
-          width: 80%;
-          min-width: 850px;
-          max-width: 1000px;
-          padding: 200px 300px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        .map svg {
-          stroke: #c2bfa6;
-          stroke-width: 0.01px;
-        }
-
-        .map path {
-          fill: #2d2d2dee;
-          cursor: pointer;
-          outline: none;
-          stroke: rgba(0, 0, 0, 0);
-          stroke-width: 0.5px;
-          cursor: pointer;
-        }
-
-        .map path:hover {
-          fill: #37825a99;
-        }
-
-        .map path[aria-checked="true"] {
-          fill: #37825a;
+        header .percentage {
+          grid-area: progress;
         }
 
         @media only screen and (max-width: 768px) {
+          header {
+            grid-template-areas:
+              "logo"
+              "progress"
+              "search";
+            grid-template-columns: 1fr;
+            grid-template-rows: 64px 40px 40px;
+            gap: 0;
+            height: 144px;
+            padding: 0 10px;
+          }
+
+          header #logo {
+            width: 155px;
+            max-height: 58px;
+          }
+
+          main {
+            height: calc(100vh - 144px);
+          }
+
           .plusContainer {
             display: none;
           }
+
           .addCountry {
             width: 100%;
-            left: 0;
-            border-radius: 0;
             justify-content: center;
-            top: 159px;
             height: 40px;
+          }
+
+          .removeCountries {
+            top: 164px;
+            bottom: 70px;
           }
         }
         @media (pointer: coarse) {

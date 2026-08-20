@@ -1,29 +1,41 @@
-let worldData = null;
+import countries from "world-countries";
 
-async function loadWorldData() {
-  const response = await fetch('https://cdn.gabrielmolter.com/world.json');
-  if (!response.ok) {
-    throw new Error(`Failed to load world data: ${response.statusText}`);
-  }
-  worldData = await response.json();
-}
+export const worldJSON = countries
+  .filter((country) => country.cca2 && country.cca3)
+  .map((country) => ({
+    id: country.cca2.toLowerCase(),
+    name: country.name.common,
+    flag: country.flag,
+    land: country.area,
+    coordinates:
+      country.latlng?.length === 2
+        ? [country.latlng[1], country.latlng[0]]
+        : null,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
 
-export const getWorldSVGs = async () => {
-  if (!worldData) await loadWorldData();
-  return {
-    id: worldData.id,
-    name: worldData.name,
-    viewBox: worldData.viewBox,
-    layers: worldData.layers,
-  };
-};
+export const countryCodeByAlpha3 = Object.fromEntries(
+  countries.map((country) => [country.cca3, country.cca2.toLowerCase()]),
+);
 
-export const getWorldJSON = async () => {
-  if (!worldData) await loadWorldData();
-  return worldData.worldJSON;
-};
+const microstateCalloutCodes = new Set(["ad", "li", "mc", "sm", "va"]);
 
-export const worldLand = 1360100;
+export const microstateCallouts = countries
+  .filter(
+    (country) =>
+      microstateCalloutCodes.has(country.cca2?.toLowerCase()) &&
+      country.latlng?.length === 2,
+  )
+  .map((country) => ({
+    id: country.cca2.toLowerCase(),
+    name: country.name.common,
+    coordinates: [country.latlng[1], country.latlng[0]],
+  }));
+
+export const worldLand = worldJSON.reduce(
+  (total, country) => total + country.land,
+  0,
+);
 export const monarchies = [
   "qa",
   "va",
@@ -101,9 +113,13 @@ export const europeanUnion = [
 
 export const sevenWondersOld = ["eg", "iq", "gr", "tr"];
 export const sevenWondersNew = ["cn", "in", "jo", "it", "br", "mx", "pe"];
-export const getCountryById = (id) => {
-  return worldJSON.filter((country) => country.id === id)[0];
-};
-export const getCountryByName = (name) => {
-  return worldJSON.filter((country) => country.name === name)[0];
-};
+
+const countryById = Object.fromEntries(
+  worldJSON.map((country) => [country.id, country]),
+);
+const countryByName = Object.fromEntries(
+  worldJSON.map((country) => [country.name, country]),
+);
+
+export const getCountryById = (id) => countryById[id];
+export const getCountryByName = (name) => countryByName[name];

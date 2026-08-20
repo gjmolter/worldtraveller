@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+public/maplibre-gl-worker.mjs
+public/maplibre-gl-shared.mjs
+*.tsbuildinfo
