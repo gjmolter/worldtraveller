@@ -1,0 +1,3009 @@
+{
+  "reviewedOn": "2026-08-24",
+  "assets": {
+    "ar-ba": {
+      "path": "/img/subdivision-flags/ar-ba.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-caba": {
+      "path": "/img/subdivision-flags/ar-caba.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-cat": {
+      "path": "/img/subdivision-flags/ar-cat.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-cha": {
+      "path": "/img/subdivision-flags/ar-cha.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-chu": {
+      "path": "/img/subdivision-flags/ar-chu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-cor": {
+      "path": "/img/subdivision-flags/ar-cor.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-crr": {
+      "path": "/img/subdivision-flags/ar-crr.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-er": {
+      "path": "/img/subdivision-flags/ar-er.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-for": {
+      "path": "/img/subdivision-flags/ar-for.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-juj": {
+      "path": "/img/subdivision-flags/ar-juj.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-lp": {
+      "path": "/img/subdivision-flags/ar-lp.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-lr": {
+      "path": "/img/subdivision-flags/ar-lr.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-men": {
+      "path": "/img/subdivision-flags/ar-men.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-mis": {
+      "path": "/img/subdivision-flags/ar-mis.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-neu": {
+      "path": "/img/subdivision-flags/ar-neu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-rn": {
+      "path": "/img/subdivision-flags/ar-rn.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-sal": {
+      "path": "/img/subdivision-flags/ar-sal.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-sc": {
+      "path": "/img/subdivision-flags/ar-sc.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-se": {
+      "path": "/img/subdivision-flags/ar-se.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-sf": {
+      "path": "/img/subdivision-flags/ar-sf.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-sj": {
+      "path": "/img/subdivision-flags/ar-sj.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-sl": {
+      "path": "/img/subdivision-flags/ar-sl.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-tdf": {
+      "path": "/img/subdivision-flags/ar-tdf.png",
+      "status": "wikidata-flag-image"
+    },
+    "ar-tuc": {
+      "path": "/img/subdivision-flags/ar-tuc.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-1": {
+      "path": "/img/subdivision-flags/at-1.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-2": {
+      "path": "/img/subdivision-flags/at-2.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-3": {
+      "path": "/img/subdivision-flags/at-3.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-4": {
+      "path": "/img/subdivision-flags/at-4.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-5": {
+      "path": "/img/subdivision-flags/at-5.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-6": {
+      "path": "/img/subdivision-flags/at-6.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-7": {
+      "path": "/img/subdivision-flags/at-7.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-8": {
+      "path": "/img/subdivision-flags/at-8.png",
+      "status": "wikidata-flag-image"
+    },
+    "at-9": {
+      "path": "/img/subdivision-flags/at-9.png",
+      "status": "wikidata-flag-image"
+    },
+    "au-act": {
+      "path": "/img/subdivision-flags/au-act.png",
+      "status": "reviewed-commons-file"
+    },
+    "au-nsw": {
+      "path": "/img/subdivision-flags/au-nsw.png",
+      "status": "wikidata-flag-image"
+    },
+    "au-nt": {
+      "path": "/img/subdivision-flags/au-nt.png",
+      "status": "wikidata-flag-image"
+    },
+    "au-qld": {
+      "path": "/img/subdivision-flags/au-qld.png",
+      "status": "wikidata-flag-image"
+    },
+    "au-sa": {
+      "path": "/img/subdivision-flags/au-sa.png",
+      "status": "wikidata-flag-image"
+    },
+    "au-tas": {
+      "path": "/img/subdivision-flags/au-tas.png",
+      "status": "wikidata-flag-image"
+    },
+    "au-vic": {
+      "path": "/img/subdivision-flags/au-vic.png",
+      "status": "wikidata-flag-image"
+    },
+    "au-wa": {
+      "path": "/img/subdivision-flags/au-wa.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-b": {
+      "path": "/img/subdivision-flags/bo-b.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-c": {
+      "path": "/img/subdivision-flags/bo-c.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-h": {
+      "path": "/img/subdivision-flags/bo-h.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-l": {
+      "path": "/img/subdivision-flags/bo-l.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-n": {
+      "path": "/img/subdivision-flags/bo-n.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-o": {
+      "path": "/img/subdivision-flags/bo-o.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-p": {
+      "path": "/img/subdivision-flags/bo-p.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-s": {
+      "path": "/img/subdivision-flags/bo-s.png",
+      "status": "wikidata-flag-image"
+    },
+    "bo-t": {
+      "path": "/img/subdivision-flags/bo-t.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-ac": {
+      "path": "/img/subdivision-flags/br-ac.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-al": {
+      "path": "/img/subdivision-flags/br-al.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-am": {
+      "path": "/img/subdivision-flags/br-am.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-ap": {
+      "path": "/img/subdivision-flags/br-ap.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-ba": {
+      "path": "/img/subdivision-flags/br-ba.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-ce": {
+      "path": "/img/subdivision-flags/br-ce.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-df": {
+      "path": "/img/subdivision-flags/br-df.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-es": {
+      "path": "/img/subdivision-flags/br-es.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-go": {
+      "path": "/img/subdivision-flags/br-go.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-ma": {
+      "path": "/img/subdivision-flags/br-ma.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-mg": {
+      "path": "/img/subdivision-flags/br-mg.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-ms": {
+      "path": "/img/subdivision-flags/br-ms.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-mt": {
+      "path": "/img/subdivision-flags/br-mt.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-pa": {
+      "path": "/img/subdivision-flags/br-pa.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-pb": {
+      "path": "/img/subdivision-flags/br-pb.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-pe": {
+      "path": "/img/subdivision-flags/br-pe.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-pi": {
+      "path": "/img/subdivision-flags/br-pi.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-pr": {
+      "path": "/img/subdivision-flags/br-pr.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-rj": {
+      "path": "/img/subdivision-flags/br-rj.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-rn": {
+      "path": "/img/subdivision-flags/br-rn.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-ro": {
+      "path": "/img/subdivision-flags/br-ro.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-rr": {
+      "path": "/img/subdivision-flags/br-rr.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-rs": {
+      "path": "/img/subdivision-flags/br-rs.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-sc": {
+      "path": "/img/subdivision-flags/br-sc.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-se": {
+      "path": "/img/subdivision-flags/br-se.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-sp": {
+      "path": "/img/subdivision-flags/br-sp.png",
+      "status": "wikidata-flag-image"
+    },
+    "br-to": {
+      "path": "/img/subdivision-flags/br-to.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-ab": {
+      "path": "/img/subdivision-flags/ca-ab.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-bc": {
+      "path": "/img/subdivision-flags/ca-bc.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-mb": {
+      "path": "/img/subdivision-flags/ca-mb.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-nb": {
+      "path": "/img/subdivision-flags/ca-nb.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-nl": {
+      "path": "/img/subdivision-flags/ca-nl.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-ns": {
+      "path": "/img/subdivision-flags/ca-ns.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-nt": {
+      "path": "/img/subdivision-flags/ca-nt.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-nu": {
+      "path": "/img/subdivision-flags/ca-nu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-on": {
+      "path": "/img/subdivision-flags/ca-on.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-pe": {
+      "path": "/img/subdivision-flags/ca-pe.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-qc": {
+      "path": "/img/subdivision-flags/ca-qc.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-sk": {
+      "path": "/img/subdivision-flags/ca-sk.png",
+      "status": "wikidata-flag-image"
+    },
+    "ca-yt": {
+      "path": "/img/subdivision-flags/ca-yt.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ag": {
+      "path": "/img/subdivision-flags/ch-ag.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ai": {
+      "path": "/img/subdivision-flags/ch-ai.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ar": {
+      "path": "/img/subdivision-flags/ch-ar.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-be": {
+      "path": "/img/subdivision-flags/ch-be.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-bl": {
+      "path": "/img/subdivision-flags/ch-bl.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-bs": {
+      "path": "/img/subdivision-flags/ch-bs.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-fr": {
+      "path": "/img/subdivision-flags/ch-fr.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ge": {
+      "path": "/img/subdivision-flags/ch-ge.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-gl": {
+      "path": "/img/subdivision-flags/ch-gl.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-gr": {
+      "path": "/img/subdivision-flags/ch-gr.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ju": {
+      "path": "/img/subdivision-flags/ch-ju.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-lu": {
+      "path": "/img/subdivision-flags/ch-lu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ne": {
+      "path": "/img/subdivision-flags/ch-ne.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-nw": {
+      "path": "/img/subdivision-flags/ch-nw.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ow": {
+      "path": "/img/subdivision-flags/ch-ow.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-sg": {
+      "path": "/img/subdivision-flags/ch-sg.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-sh": {
+      "path": "/img/subdivision-flags/ch-sh.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-so": {
+      "path": "/img/subdivision-flags/ch-so.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-sz": {
+      "path": "/img/subdivision-flags/ch-sz.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-tg": {
+      "path": "/img/subdivision-flags/ch-tg.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ti": {
+      "path": "/img/subdivision-flags/ch-ti.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-ur": {
+      "path": "/img/subdivision-flags/ch-ur.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-vd": {
+      "path": "/img/subdivision-flags/ch-vd.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-vs": {
+      "path": "/img/subdivision-flags/ch-vs.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-zg": {
+      "path": "/img/subdivision-flags/ch-zg.png",
+      "status": "wikidata-flag-image"
+    },
+    "ch-zh": {
+      "path": "/img/subdivision-flags/ch-zh.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-ai": {
+      "path": "/img/subdivision-flags/cl-ai.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-an": {
+      "path": "/img/subdivision-flags/cl-an.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-ap": {
+      "path": "/img/subdivision-flags/cl-ap.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-ar": {
+      "path": "/img/subdivision-flags/cl-ar.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-at": {
+      "path": "/img/subdivision-flags/cl-at.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-bi": {
+      "path": "/img/subdivision-flags/cl-bi.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-co": {
+      "path": "/img/subdivision-flags/cl-co.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-li": {
+      "path": "/img/subdivision-flags/cl-li.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-ll": {
+      "path": "/img/subdivision-flags/cl-ll.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-lr": {
+      "path": "/img/subdivision-flags/cl-lr.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-ma": {
+      "path": "/img/subdivision-flags/cl-ma.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-ml": {
+      "path": "/img/subdivision-flags/cl-ml.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-nb": {
+      "path": "/img/subdivision-flags/cl-nb.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-rm": {
+      "path": "/img/subdivision-flags/cl-rm.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-ta": {
+      "path": "/img/subdivision-flags/cl-ta.png",
+      "status": "wikidata-flag-image"
+    },
+    "cl-vs": {
+      "path": "/img/subdivision-flags/cl-vs.png",
+      "status": "wikidata-flag-image"
+    },
+    "cn-ah": {
+      "path": "/img/subdivision-flags/cn-ah.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-bj": {
+      "path": "/img/subdivision-flags/cn-bj.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-cq": {
+      "path": "/img/subdivision-flags/cn-cq.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-fj": {
+      "path": "/img/subdivision-flags/cn-fj.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-gd": {
+      "path": "/img/subdivision-flags/cn-gd.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-gs": {
+      "path": "/img/subdivision-flags/cn-gs.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-gx": {
+      "path": "/img/subdivision-flags/cn-gx.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-gz": {
+      "path": "/img/subdivision-flags/cn-gz.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-ha": {
+      "path": "/img/subdivision-flags/cn-ha.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-hb": {
+      "path": "/img/subdivision-flags/cn-hb.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-he": {
+      "path": "/img/subdivision-flags/cn-he.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-hi": {
+      "path": "/img/subdivision-flags/cn-hi.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-hl": {
+      "path": "/img/subdivision-flags/cn-hl.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-hn": {
+      "path": "/img/subdivision-flags/cn-hn.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-jl": {
+      "path": "/img/subdivision-flags/cn-jl.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-js": {
+      "path": "/img/subdivision-flags/cn-js.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-jx": {
+      "path": "/img/subdivision-flags/cn-jx.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-ln": {
+      "path": "/img/subdivision-flags/cn-ln.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-nm": {
+      "path": "/img/subdivision-flags/cn-nm.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-nx": {
+      "path": "/img/subdivision-flags/cn-nx.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-qh": {
+      "path": "/img/subdivision-flags/cn-qh.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-sc": {
+      "path": "/img/subdivision-flags/cn-sc.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-sd": {
+      "path": "/img/subdivision-flags/cn-sd.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-sh": {
+      "path": "/img/subdivision-flags/cn-sh.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-sn": {
+      "path": "/img/subdivision-flags/cn-sn.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-sx": {
+      "path": "/img/subdivision-flags/cn-sx.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-tj": {
+      "path": "/img/subdivision-flags/cn-tj.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-xj": {
+      "path": "/img/subdivision-flags/cn-xj.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-xz": {
+      "path": "/img/subdivision-flags/cn-xz.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-yn": {
+      "path": "/img/subdivision-flags/cn-yn.png",
+      "status": "parent-country-fallback"
+    },
+    "cn-zj": {
+      "path": "/img/subdivision-flags/cn-zj.png",
+      "status": "parent-country-fallback"
+    },
+    "co-ama": {
+      "path": "/img/subdivision-flags/co-ama.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-ant": {
+      "path": "/img/subdivision-flags/co-ant.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-ara": {
+      "path": "/img/subdivision-flags/co-ara.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-atl": {
+      "path": "/img/subdivision-flags/co-atl.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-bol": {
+      "path": "/img/subdivision-flags/co-bol.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-boy": {
+      "path": "/img/subdivision-flags/co-boy.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-cal": {
+      "path": "/img/subdivision-flags/co-cal.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-caq": {
+      "path": "/img/subdivision-flags/co-caq.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-cas": {
+      "path": "/img/subdivision-flags/co-cas.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-cau": {
+      "path": "/img/subdivision-flags/co-cau.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-ces": {
+      "path": "/img/subdivision-flags/co-ces.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-cho": {
+      "path": "/img/subdivision-flags/co-cho.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-cor": {
+      "path": "/img/subdivision-flags/co-cor.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-cun": {
+      "path": "/img/subdivision-flags/co-cun.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-dc": {
+      "path": "/img/subdivision-flags/co-dc.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-gua": {
+      "path": "/img/subdivision-flags/co-gua.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-guv": {
+      "path": "/img/subdivision-flags/co-guv.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-hui": {
+      "path": "/img/subdivision-flags/co-hui.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-lag": {
+      "path": "/img/subdivision-flags/co-lag.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-mag": {
+      "path": "/img/subdivision-flags/co-mag.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-met": {
+      "path": "/img/subdivision-flags/co-met.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-nar": {
+      "path": "/img/subdivision-flags/co-nar.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-nsa": {
+      "path": "/img/subdivision-flags/co-nsa.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-put": {
+      "path": "/img/subdivision-flags/co-put.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-qui": {
+      "path": "/img/subdivision-flags/co-qui.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-ris": {
+      "path": "/img/subdivision-flags/co-ris.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-san": {
+      "path": "/img/subdivision-flags/co-san.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-sap": {
+      "path": "/img/subdivision-flags/co-sap.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-suc": {
+      "path": "/img/subdivision-flags/co-suc.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-tol": {
+      "path": "/img/subdivision-flags/co-tol.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-vac": {
+      "path": "/img/subdivision-flags/co-vac.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-vau": {
+      "path": "/img/subdivision-flags/co-vau.png",
+      "status": "wikidata-flag-image"
+    },
+    "co-vid": {
+      "path": "/img/subdivision-flags/co-vid.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-bb": {
+      "path": "/img/subdivision-flags/de-bb.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-be": {
+      "path": "/img/subdivision-flags/de-be.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-bw": {
+      "path": "/img/subdivision-flags/de-bw.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-by": {
+      "path": "/img/subdivision-flags/de-by.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-hb": {
+      "path": "/img/subdivision-flags/de-hb.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-he": {
+      "path": "/img/subdivision-flags/de-he.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-hh": {
+      "path": "/img/subdivision-flags/de-hh.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-mv": {
+      "path": "/img/subdivision-flags/de-mv.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-ni": {
+      "path": "/img/subdivision-flags/de-ni.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-nw": {
+      "path": "/img/subdivision-flags/de-nw.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-rp": {
+      "path": "/img/subdivision-flags/de-rp.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-sh": {
+      "path": "/img/subdivision-flags/de-sh.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-sl": {
+      "path": "/img/subdivision-flags/de-sl.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-sn": {
+      "path": "/img/subdivision-flags/de-sn.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-st": {
+      "path": "/img/subdivision-flags/de-st.png",
+      "status": "wikidata-flag-image"
+    },
+    "de-th": {
+      "path": "/img/subdivision-flags/de-th.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-a": {
+      "path": "/img/subdivision-flags/ec-a.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-b": {
+      "path": "/img/subdivision-flags/ec-b.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-c": {
+      "path": "/img/subdivision-flags/ec-c.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-d": {
+      "path": "/img/subdivision-flags/ec-d.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-e": {
+      "path": "/img/subdivision-flags/ec-e.png",
+      "status": "reviewed-commons-file"
+    },
+    "ec-f": {
+      "path": "/img/subdivision-flags/ec-f.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-g": {
+      "path": "/img/subdivision-flags/ec-g.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-h": {
+      "path": "/img/subdivision-flags/ec-h.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-i": {
+      "path": "/img/subdivision-flags/ec-i.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-l": {
+      "path": "/img/subdivision-flags/ec-l.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-m": {
+      "path": "/img/subdivision-flags/ec-m.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-n": {
+      "path": "/img/subdivision-flags/ec-n.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-o": {
+      "path": "/img/subdivision-flags/ec-o.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-p": {
+      "path": "/img/subdivision-flags/ec-p.png",
+      "status": "reviewed-commons-file"
+    },
+    "ec-r": {
+      "path": "/img/subdivision-flags/ec-r.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-s": {
+      "path": "/img/subdivision-flags/ec-s.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-sd": {
+      "path": "/img/subdivision-flags/ec-sd.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-se": {
+      "path": "/img/subdivision-flags/ec-se.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-t": {
+      "path": "/img/subdivision-flags/ec-t.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-u": {
+      "path": "/img/subdivision-flags/ec-u.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-w": {
+      "path": "/img/subdivision-flags/ec-w.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-x": {
+      "path": "/img/subdivision-flags/ec-x.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-y": {
+      "path": "/img/subdivision-flags/ec-y.png",
+      "status": "wikidata-flag-image"
+    },
+    "ec-z": {
+      "path": "/img/subdivision-flags/ec-z.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-an": {
+      "path": "/img/subdivision-flags/es-an.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-ar": {
+      "path": "/img/subdivision-flags/es-ar.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-as": {
+      "path": "/img/subdivision-flags/es-as.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-cb": {
+      "path": "/img/subdivision-flags/es-cb.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-cl": {
+      "path": "/img/subdivision-flags/es-cl.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-cm": {
+      "path": "/img/subdivision-flags/es-cm.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-cn": {
+      "path": "/img/subdivision-flags/es-cn.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-ct": {
+      "path": "/img/subdivision-flags/es-ct.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-ex": {
+      "path": "/img/subdivision-flags/es-ex.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-ga": {
+      "path": "/img/subdivision-flags/es-ga.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-ib": {
+      "path": "/img/subdivision-flags/es-ib.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-mc": {
+      "path": "/img/subdivision-flags/es-mc.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-md": {
+      "path": "/img/subdivision-flags/es-md.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-nc": {
+      "path": "/img/subdivision-flags/es-nc.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-pv": {
+      "path": "/img/subdivision-flags/es-pv.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-ri": {
+      "path": "/img/subdivision-flags/es-ri.png",
+      "status": "wikidata-flag-image"
+    },
+    "es-vc": {
+      "path": "/img/subdivision-flags/es-vc.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-20r": {
+      "path": "/img/subdivision-flags/fr-20r.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-ara": {
+      "path": "/img/subdivision-flags/fr-ara.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-bfc": {
+      "path": "/img/subdivision-flags/fr-bfc.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-bre": {
+      "path": "/img/subdivision-flags/fr-bre.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-cvl": {
+      "path": "/img/subdivision-flags/fr-cvl.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-ges": {
+      "path": "/img/subdivision-flags/fr-ges.png",
+      "status": "reviewed-commons-file"
+    },
+    "fr-hdf": {
+      "path": "/img/subdivision-flags/fr-hdf.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-idf": {
+      "path": "/img/subdivision-flags/fr-idf.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-naq": {
+      "path": "/img/subdivision-flags/fr-naq.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-nor": {
+      "path": "/img/subdivision-flags/fr-nor.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-occ": {
+      "path": "/img/subdivision-flags/fr-occ.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-pac": {
+      "path": "/img/subdivision-flags/fr-pac.png",
+      "status": "wikidata-flag-image"
+    },
+    "fr-pdl": {
+      "path": "/img/subdivision-flags/fr-pdl.png",
+      "status": "wikidata-flag-image"
+    },
+    "gy-ba": {
+      "path": "/img/subdivision-flags/gy-ba.png",
+      "status": "official-source"
+    },
+    "gy-cu": {
+      "path": "/img/subdivision-flags/gy-cu.png",
+      "status": "official-source"
+    },
+    "gy-de": {
+      "path": "/img/subdivision-flags/gy-de.png",
+      "status": "official-source"
+    },
+    "gy-eb": {
+      "path": "/img/subdivision-flags/gy-eb.png",
+      "status": "official-source"
+    },
+    "gy-es": {
+      "path": "/img/subdivision-flags/gy-es.png",
+      "status": "official-source"
+    },
+    "gy-ma": {
+      "path": "/img/subdivision-flags/gy-ma.png",
+      "status": "official-source"
+    },
+    "gy-pm": {
+      "path": "/img/subdivision-flags/gy-pm.png",
+      "status": "official-source"
+    },
+    "gy-pt": {
+      "path": "/img/subdivision-flags/gy-pt.png",
+      "status": "official-source"
+    },
+    "gy-ud": {
+      "path": "/img/subdivision-flags/gy-ud.png",
+      "status": "official-source"
+    },
+    "gy-ut": {
+      "path": "/img/subdivision-flags/gy-ut.png",
+      "status": "official-source"
+    },
+    "in-an": {
+      "path": "/img/subdivision-flags/in-an.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ap": {
+      "path": "/img/subdivision-flags/in-ap.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ar": {
+      "path": "/img/subdivision-flags/in-ar.png",
+      "status": "parent-country-fallback"
+    },
+    "in-as": {
+      "path": "/img/subdivision-flags/in-as.png",
+      "status": "parent-country-fallback"
+    },
+    "in-br": {
+      "path": "/img/subdivision-flags/in-br.png",
+      "status": "parent-country-fallback"
+    },
+    "in-cg": {
+      "path": "/img/subdivision-flags/in-cg.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ch": {
+      "path": "/img/subdivision-flags/in-ch.png",
+      "status": "parent-country-fallback"
+    },
+    "in-dh": {
+      "path": "/img/subdivision-flags/in-dh.png",
+      "status": "parent-country-fallback"
+    },
+    "in-dl": {
+      "path": "/img/subdivision-flags/in-dl.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ga": {
+      "path": "/img/subdivision-flags/in-ga.png",
+      "status": "parent-country-fallback"
+    },
+    "in-gj": {
+      "path": "/img/subdivision-flags/in-gj.png",
+      "status": "parent-country-fallback"
+    },
+    "in-hp": {
+      "path": "/img/subdivision-flags/in-hp.png",
+      "status": "parent-country-fallback"
+    },
+    "in-hr": {
+      "path": "/img/subdivision-flags/in-hr.png",
+      "status": "parent-country-fallback"
+    },
+    "in-jh": {
+      "path": "/img/subdivision-flags/in-jh.png",
+      "status": "parent-country-fallback"
+    },
+    "in-jk": {
+      "path": "/img/subdivision-flags/in-jk.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ka": {
+      "path": "/img/subdivision-flags/in-ka.png",
+      "status": "parent-country-fallback"
+    },
+    "in-kl": {
+      "path": "/img/subdivision-flags/in-kl.png",
+      "status": "parent-country-fallback"
+    },
+    "in-la": {
+      "path": "/img/subdivision-flags/in-la.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ld": {
+      "path": "/img/subdivision-flags/in-ld.png",
+      "status": "parent-country-fallback"
+    },
+    "in-mh": {
+      "path": "/img/subdivision-flags/in-mh.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ml": {
+      "path": "/img/subdivision-flags/in-ml.png",
+      "status": "parent-country-fallback"
+    },
+    "in-mn": {
+      "path": "/img/subdivision-flags/in-mn.png",
+      "status": "parent-country-fallback"
+    },
+    "in-mp": {
+      "path": "/img/subdivision-flags/in-mp.png",
+      "status": "parent-country-fallback"
+    },
+    "in-mz": {
+      "path": "/img/subdivision-flags/in-mz.png",
+      "status": "parent-country-fallback"
+    },
+    "in-nl": {
+      "path": "/img/subdivision-flags/in-nl.png",
+      "status": "parent-country-fallback"
+    },
+    "in-od": {
+      "path": "/img/subdivision-flags/in-od.png",
+      "status": "parent-country-fallback"
+    },
+    "in-pb": {
+      "path": "/img/subdivision-flags/in-pb.png",
+      "status": "parent-country-fallback"
+    },
+    "in-py": {
+      "path": "/img/subdivision-flags/in-py.png",
+      "status": "parent-country-fallback"
+    },
+    "in-rj": {
+      "path": "/img/subdivision-flags/in-rj.png",
+      "status": "parent-country-fallback"
+    },
+    "in-sk": {
+      "path": "/img/subdivision-flags/in-sk.png",
+      "status": "parent-country-fallback"
+    },
+    "in-tn": {
+      "path": "/img/subdivision-flags/in-tn.png",
+      "status": "parent-country-fallback"
+    },
+    "in-tr": {
+      "path": "/img/subdivision-flags/in-tr.png",
+      "status": "parent-country-fallback"
+    },
+    "in-ts": {
+      "path": "/img/subdivision-flags/in-ts.png",
+      "status": "parent-country-fallback"
+    },
+    "in-uk": {
+      "path": "/img/subdivision-flags/in-uk.png",
+      "status": "parent-country-fallback"
+    },
+    "in-up": {
+      "path": "/img/subdivision-flags/in-up.png",
+      "status": "parent-country-fallback"
+    },
+    "in-wb": {
+      "path": "/img/subdivision-flags/in-wb.png",
+      "status": "parent-country-fallback"
+    },
+    "it-21": {
+      "path": "/img/subdivision-flags/it-21.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-23": {
+      "path": "/img/subdivision-flags/it-23.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-25": {
+      "path": "/img/subdivision-flags/it-25.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-32": {
+      "path": "/img/subdivision-flags/it-32.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-34": {
+      "path": "/img/subdivision-flags/it-34.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-36": {
+      "path": "/img/subdivision-flags/it-36.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-42": {
+      "path": "/img/subdivision-flags/it-42.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-45": {
+      "path": "/img/subdivision-flags/it-45.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-52": {
+      "path": "/img/subdivision-flags/it-52.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-55": {
+      "path": "/img/subdivision-flags/it-55.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-57": {
+      "path": "/img/subdivision-flags/it-57.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-62": {
+      "path": "/img/subdivision-flags/it-62.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-65": {
+      "path": "/img/subdivision-flags/it-65.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-67": {
+      "path": "/img/subdivision-flags/it-67.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-72": {
+      "path": "/img/subdivision-flags/it-72.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-75": {
+      "path": "/img/subdivision-flags/it-75.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-77": {
+      "path": "/img/subdivision-flags/it-77.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-78": {
+      "path": "/img/subdivision-flags/it-78.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-82": {
+      "path": "/img/subdivision-flags/it-82.png",
+      "status": "wikidata-flag-image"
+    },
+    "it-88": {
+      "path": "/img/subdivision-flags/it-88.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-01": {
+      "path": "/img/subdivision-flags/jp-01.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-02": {
+      "path": "/img/subdivision-flags/jp-02.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-03": {
+      "path": "/img/subdivision-flags/jp-03.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-04": {
+      "path": "/img/subdivision-flags/jp-04.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-05": {
+      "path": "/img/subdivision-flags/jp-05.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-06": {
+      "path": "/img/subdivision-flags/jp-06.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-07": {
+      "path": "/img/subdivision-flags/jp-07.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-08": {
+      "path": "/img/subdivision-flags/jp-08.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-09": {
+      "path": "/img/subdivision-flags/jp-09.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-10": {
+      "path": "/img/subdivision-flags/jp-10.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-11": {
+      "path": "/img/subdivision-flags/jp-11.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-12": {
+      "path": "/img/subdivision-flags/jp-12.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-13": {
+      "path": "/img/subdivision-flags/jp-13.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-14": {
+      "path": "/img/subdivision-flags/jp-14.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-15": {
+      "path": "/img/subdivision-flags/jp-15.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-16": {
+      "path": "/img/subdivision-flags/jp-16.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-17": {
+      "path": "/img/subdivision-flags/jp-17.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-18": {
+      "path": "/img/subdivision-flags/jp-18.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-19": {
+      "path": "/img/subdivision-flags/jp-19.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-20": {
+      "path": "/img/subdivision-flags/jp-20.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-21": {
+      "path": "/img/subdivision-flags/jp-21.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-22": {
+      "path": "/img/subdivision-flags/jp-22.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-23": {
+      "path": "/img/subdivision-flags/jp-23.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-24": {
+      "path": "/img/subdivision-flags/jp-24.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-25": {
+      "path": "/img/subdivision-flags/jp-25.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-26": {
+      "path": "/img/subdivision-flags/jp-26.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-27": {
+      "path": "/img/subdivision-flags/jp-27.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-28": {
+      "path": "/img/subdivision-flags/jp-28.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-29": {
+      "path": "/img/subdivision-flags/jp-29.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-30": {
+      "path": "/img/subdivision-flags/jp-30.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-31": {
+      "path": "/img/subdivision-flags/jp-31.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-32": {
+      "path": "/img/subdivision-flags/jp-32.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-33": {
+      "path": "/img/subdivision-flags/jp-33.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-34": {
+      "path": "/img/subdivision-flags/jp-34.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-35": {
+      "path": "/img/subdivision-flags/jp-35.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-36": {
+      "path": "/img/subdivision-flags/jp-36.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-37": {
+      "path": "/img/subdivision-flags/jp-37.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-38": {
+      "path": "/img/subdivision-flags/jp-38.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-39": {
+      "path": "/img/subdivision-flags/jp-39.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-40": {
+      "path": "/img/subdivision-flags/jp-40.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-41": {
+      "path": "/img/subdivision-flags/jp-41.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-42": {
+      "path": "/img/subdivision-flags/jp-42.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-43": {
+      "path": "/img/subdivision-flags/jp-43.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-44": {
+      "path": "/img/subdivision-flags/jp-44.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-45": {
+      "path": "/img/subdivision-flags/jp-45.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-46": {
+      "path": "/img/subdivision-flags/jp-46.png",
+      "status": "wikidata-flag-image"
+    },
+    "jp-47": {
+      "path": "/img/subdivision-flags/jp-47.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-agu": {
+      "path": "/img/subdivision-flags/mx-agu.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-bcn": {
+      "path": "/img/subdivision-flags/mx-bcn.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-bcs": {
+      "path": "/img/subdivision-flags/mx-bcs.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-cam": {
+      "path": "/img/subdivision-flags/mx-cam.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-chh": {
+      "path": "/img/subdivision-flags/mx-chh.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-chp": {
+      "path": "/img/subdivision-flags/mx-chp.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-cmx": {
+      "path": "/img/subdivision-flags/mx-cmx.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-coa": {
+      "path": "/img/subdivision-flags/mx-coa.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-col": {
+      "path": "/img/subdivision-flags/mx-col.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-dur": {
+      "path": "/img/subdivision-flags/mx-dur.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-gro": {
+      "path": "/img/subdivision-flags/mx-gro.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-gua": {
+      "path": "/img/subdivision-flags/mx-gua.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-hid": {
+      "path": "/img/subdivision-flags/mx-hid.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-jal": {
+      "path": "/img/subdivision-flags/mx-jal.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-mex": {
+      "path": "/img/subdivision-flags/mx-mex.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-mic": {
+      "path": "/img/subdivision-flags/mx-mic.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-mor": {
+      "path": "/img/subdivision-flags/mx-mor.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-nay": {
+      "path": "/img/subdivision-flags/mx-nay.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-nle": {
+      "path": "/img/subdivision-flags/mx-nle.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-oax": {
+      "path": "/img/subdivision-flags/mx-oax.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-pue": {
+      "path": "/img/subdivision-flags/mx-pue.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-que": {
+      "path": "/img/subdivision-flags/mx-que.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-roo": {
+      "path": "/img/subdivision-flags/mx-roo.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-sin": {
+      "path": "/img/subdivision-flags/mx-sin.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-slp": {
+      "path": "/img/subdivision-flags/mx-slp.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-son": {
+      "path": "/img/subdivision-flags/mx-son.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-tab": {
+      "path": "/img/subdivision-flags/mx-tab.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-tam": {
+      "path": "/img/subdivision-flags/mx-tam.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-tla": {
+      "path": "/img/subdivision-flags/mx-tla.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-ver": {
+      "path": "/img/subdivision-flags/mx-ver.png",
+      "status": "reviewed-commons-file"
+    },
+    "mx-yuc": {
+      "path": "/img/subdivision-flags/mx-yuc.png",
+      "status": "wikidata-flag-image"
+    },
+    "mx-zac": {
+      "path": "/img/subdivision-flags/mx-zac.png",
+      "status": "reviewed-commons-file"
+    },
+    "nl-dr": {
+      "path": "/img/subdivision-flags/nl-dr.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-fl": {
+      "path": "/img/subdivision-flags/nl-fl.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-fr": {
+      "path": "/img/subdivision-flags/nl-fr.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-ge": {
+      "path": "/img/subdivision-flags/nl-ge.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-gr": {
+      "path": "/img/subdivision-flags/nl-gr.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-li": {
+      "path": "/img/subdivision-flags/nl-li.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-nb": {
+      "path": "/img/subdivision-flags/nl-nb.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-nh": {
+      "path": "/img/subdivision-flags/nl-nh.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-ov": {
+      "path": "/img/subdivision-flags/nl-ov.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-ut": {
+      "path": "/img/subdivision-flags/nl-ut.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-ze": {
+      "path": "/img/subdivision-flags/nl-ze.png",
+      "status": "wikidata-flag-image"
+    },
+    "nl-zh": {
+      "path": "/img/subdivision-flags/nl-zh.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-03": {
+      "path": "/img/subdivision-flags/no-03.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-11": {
+      "path": "/img/subdivision-flags/no-11.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-15": {
+      "path": "/img/subdivision-flags/no-15.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-18": {
+      "path": "/img/subdivision-flags/no-18.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-31": {
+      "path": "/img/subdivision-flags/no-31.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-32": {
+      "path": "/img/subdivision-flags/no-32.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-33": {
+      "path": "/img/subdivision-flags/no-33.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-34": {
+      "path": "/img/subdivision-flags/no-34.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-39": {
+      "path": "/img/subdivision-flags/no-39.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-40": {
+      "path": "/img/subdivision-flags/no-40.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-42": {
+      "path": "/img/subdivision-flags/no-42.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-46": {
+      "path": "/img/subdivision-flags/no-46.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-50": {
+      "path": "/img/subdivision-flags/no-50.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-55": {
+      "path": "/img/subdivision-flags/no-55.png",
+      "status": "wikidata-flag-image"
+    },
+    "no-56": {
+      "path": "/img/subdivision-flags/no-56.png",
+      "status": "wikidata-flag-image"
+    },
+    "nz-auk": {
+      "path": "/img/subdivision-flags/nz-auk.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-bop": {
+      "path": "/img/subdivision-flags/nz-bop.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-can": {
+      "path": "/img/subdivision-flags/nz-can.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-gis": {
+      "path": "/img/subdivision-flags/nz-gis.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-hkb": {
+      "path": "/img/subdivision-flags/nz-hkb.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-mbh": {
+      "path": "/img/subdivision-flags/nz-mbh.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-mwt": {
+      "path": "/img/subdivision-flags/nz-mwt.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-nsn": {
+      "path": "/img/subdivision-flags/nz-nsn.png",
+      "status": "reviewed-commons-file"
+    },
+    "nz-ntl": {
+      "path": "/img/subdivision-flags/nz-ntl.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-ota": {
+      "path": "/img/subdivision-flags/nz-ota.png",
+      "status": "wikidata-flag-image"
+    },
+    "nz-stl": {
+      "path": "/img/subdivision-flags/nz-stl.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-tas": {
+      "path": "/img/subdivision-flags/nz-tas.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-tki": {
+      "path": "/img/subdivision-flags/nz-tki.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-wgn": {
+      "path": "/img/subdivision-flags/nz-wgn.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-wko": {
+      "path": "/img/subdivision-flags/nz-wko.png",
+      "status": "parent-country-fallback"
+    },
+    "nz-wtc": {
+      "path": "/img/subdivision-flags/nz-wtc.png",
+      "status": "parent-country-fallback"
+    },
+    "pe-ama": {
+      "path": "/img/subdivision-flags/pe-ama.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-anc": {
+      "path": "/img/subdivision-flags/pe-anc.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-apu": {
+      "path": "/img/subdivision-flags/pe-apu.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-are": {
+      "path": "/img/subdivision-flags/pe-are.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-aya": {
+      "path": "/img/subdivision-flags/pe-aya.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-caj": {
+      "path": "/img/subdivision-flags/pe-caj.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-cal": {
+      "path": "/img/subdivision-flags/pe-cal.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-cus": {
+      "path": "/img/subdivision-flags/pe-cus.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-huc": {
+      "path": "/img/subdivision-flags/pe-huc.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-huv": {
+      "path": "/img/subdivision-flags/pe-huv.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-ica": {
+      "path": "/img/subdivision-flags/pe-ica.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-jun": {
+      "path": "/img/subdivision-flags/pe-jun.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-lal": {
+      "path": "/img/subdivision-flags/pe-lal.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-lam": {
+      "path": "/img/subdivision-flags/pe-lam.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-lim": {
+      "path": "/img/subdivision-flags/pe-lim.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-lor": {
+      "path": "/img/subdivision-flags/pe-lor.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-mdd": {
+      "path": "/img/subdivision-flags/pe-mdd.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-moq": {
+      "path": "/img/subdivision-flags/pe-moq.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-pas": {
+      "path": "/img/subdivision-flags/pe-pas.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-piu": {
+      "path": "/img/subdivision-flags/pe-piu.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-pun": {
+      "path": "/img/subdivision-flags/pe-pun.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-sam": {
+      "path": "/img/subdivision-flags/pe-sam.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-tac": {
+      "path": "/img/subdivision-flags/pe-tac.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-tum": {
+      "path": "/img/subdivision-flags/pe-tum.png",
+      "status": "wikidata-flag-image"
+    },
+    "pe-uca": {
+      "path": "/img/subdivision-flags/pe-uca.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-02": {
+      "path": "/img/subdivision-flags/pl-02.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-04": {
+      "path": "/img/subdivision-flags/pl-04.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-06": {
+      "path": "/img/subdivision-flags/pl-06.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-08": {
+      "path": "/img/subdivision-flags/pl-08.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-10": {
+      "path": "/img/subdivision-flags/pl-10.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-12": {
+      "path": "/img/subdivision-flags/pl-12.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-14": {
+      "path": "/img/subdivision-flags/pl-14.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-16": {
+      "path": "/img/subdivision-flags/pl-16.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-18": {
+      "path": "/img/subdivision-flags/pl-18.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-20": {
+      "path": "/img/subdivision-flags/pl-20.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-22": {
+      "path": "/img/subdivision-flags/pl-22.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-24": {
+      "path": "/img/subdivision-flags/pl-24.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-26": {
+      "path": "/img/subdivision-flags/pl-26.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-28": {
+      "path": "/img/subdivision-flags/pl-28.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-30": {
+      "path": "/img/subdivision-flags/pl-30.png",
+      "status": "wikidata-flag-image"
+    },
+    "pl-32": {
+      "path": "/img/subdivision-flags/pl-32.png",
+      "status": "wikidata-flag-image"
+    },
+    "pt-01": {
+      "path": "/img/subdivision-flags/pt-01.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-02": {
+      "path": "/img/subdivision-flags/pt-02.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-03": {
+      "path": "/img/subdivision-flags/pt-03.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-04": {
+      "path": "/img/subdivision-flags/pt-04.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-05": {
+      "path": "/img/subdivision-flags/pt-05.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-06": {
+      "path": "/img/subdivision-flags/pt-06.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-07": {
+      "path": "/img/subdivision-flags/pt-07.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-08": {
+      "path": "/img/subdivision-flags/pt-08.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-09": {
+      "path": "/img/subdivision-flags/pt-09.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-10": {
+      "path": "/img/subdivision-flags/pt-10.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-11": {
+      "path": "/img/subdivision-flags/pt-11.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-12": {
+      "path": "/img/subdivision-flags/pt-12.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-13": {
+      "path": "/img/subdivision-flags/pt-13.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-14": {
+      "path": "/img/subdivision-flags/pt-14.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-15": {
+      "path": "/img/subdivision-flags/pt-15.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-16": {
+      "path": "/img/subdivision-flags/pt-16.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-17": {
+      "path": "/img/subdivision-flags/pt-17.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-18": {
+      "path": "/img/subdivision-flags/pt-18.png",
+      "status": "parent-country-fallback"
+    },
+    "pt-20": {
+      "path": "/img/subdivision-flags/pt-20.png",
+      "status": "wikidata-flag-image"
+    },
+    "pt-30": {
+      "path": "/img/subdivision-flags/pt-30.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-1": {
+      "path": "/img/subdivision-flags/py-1.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-10": {
+      "path": "/img/subdivision-flags/py-10.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-11": {
+      "path": "/img/subdivision-flags/py-11.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-12": {
+      "path": "/img/subdivision-flags/py-12.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-13": {
+      "path": "/img/subdivision-flags/py-13.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-14": {
+      "path": "/img/subdivision-flags/py-14.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-15": {
+      "path": "/img/subdivision-flags/py-15.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-16": {
+      "path": "/img/subdivision-flags/py-16.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-19": {
+      "path": "/img/subdivision-flags/py-19.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-2": {
+      "path": "/img/subdivision-flags/py-2.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-3": {
+      "path": "/img/subdivision-flags/py-3.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-4": {
+      "path": "/img/subdivision-flags/py-4.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-5": {
+      "path": "/img/subdivision-flags/py-5.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-6": {
+      "path": "/img/subdivision-flags/py-6.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-7": {
+      "path": "/img/subdivision-flags/py-7.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-8": {
+      "path": "/img/subdivision-flags/py-8.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-9": {
+      "path": "/img/subdivision-flags/py-9.png",
+      "status": "wikidata-flag-image"
+    },
+    "py-asu": {
+      "path": "/img/subdivision-flags/py-asu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ad": {
+      "path": "/img/subdivision-flags/ru-ad.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-al": {
+      "path": "/img/subdivision-flags/ru-al.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-alt": {
+      "path": "/img/subdivision-flags/ru-alt.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-amu": {
+      "path": "/img/subdivision-flags/ru-amu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ark": {
+      "path": "/img/subdivision-flags/ru-ark.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ast": {
+      "path": "/img/subdivision-flags/ru-ast.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ba": {
+      "path": "/img/subdivision-flags/ru-ba.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-bel": {
+      "path": "/img/subdivision-flags/ru-bel.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-bry": {
+      "path": "/img/subdivision-flags/ru-bry.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-bu": {
+      "path": "/img/subdivision-flags/ru-bu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ce": {
+      "path": "/img/subdivision-flags/ru-ce.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-che": {
+      "path": "/img/subdivision-flags/ru-che.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-chu": {
+      "path": "/img/subdivision-flags/ru-chu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-cu": {
+      "path": "/img/subdivision-flags/ru-cu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-da": {
+      "path": "/img/subdivision-flags/ru-da.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-in": {
+      "path": "/img/subdivision-flags/ru-in.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-irk": {
+      "path": "/img/subdivision-flags/ru-irk.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-iva": {
+      "path": "/img/subdivision-flags/ru-iva.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kam": {
+      "path": "/img/subdivision-flags/ru-kam.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kb": {
+      "path": "/img/subdivision-flags/ru-kb.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kc": {
+      "path": "/img/subdivision-flags/ru-kc.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kda": {
+      "path": "/img/subdivision-flags/ru-kda.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kem": {
+      "path": "/img/subdivision-flags/ru-kem.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kgd": {
+      "path": "/img/subdivision-flags/ru-kgd.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kgn": {
+      "path": "/img/subdivision-flags/ru-kgn.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kha": {
+      "path": "/img/subdivision-flags/ru-kha.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-khm": {
+      "path": "/img/subdivision-flags/ru-khm.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kir": {
+      "path": "/img/subdivision-flags/ru-kir.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kk": {
+      "path": "/img/subdivision-flags/ru-kk.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kl": {
+      "path": "/img/subdivision-flags/ru-kl.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-klu": {
+      "path": "/img/subdivision-flags/ru-klu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ko": {
+      "path": "/img/subdivision-flags/ru-ko.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kos": {
+      "path": "/img/subdivision-flags/ru-kos.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kr": {
+      "path": "/img/subdivision-flags/ru-kr.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-krs": {
+      "path": "/img/subdivision-flags/ru-krs.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-kya": {
+      "path": "/img/subdivision-flags/ru-kya.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-len": {
+      "path": "/img/subdivision-flags/ru-len.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-lip": {
+      "path": "/img/subdivision-flags/ru-lip.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-mag": {
+      "path": "/img/subdivision-flags/ru-mag.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-me": {
+      "path": "/img/subdivision-flags/ru-me.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-mo": {
+      "path": "/img/subdivision-flags/ru-mo.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-mos": {
+      "path": "/img/subdivision-flags/ru-mos.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-mow": {
+      "path": "/img/subdivision-flags/ru-mow.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-mur": {
+      "path": "/img/subdivision-flags/ru-mur.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-nen": {
+      "path": "/img/subdivision-flags/ru-nen.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ngr": {
+      "path": "/img/subdivision-flags/ru-ngr.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-niz": {
+      "path": "/img/subdivision-flags/ru-niz.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-nvs": {
+      "path": "/img/subdivision-flags/ru-nvs.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-oms": {
+      "path": "/img/subdivision-flags/ru-oms.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ore": {
+      "path": "/img/subdivision-flags/ru-ore.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-orl": {
+      "path": "/img/subdivision-flags/ru-orl.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-per": {
+      "path": "/img/subdivision-flags/ru-per.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-pnz": {
+      "path": "/img/subdivision-flags/ru-pnz.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-pri": {
+      "path": "/img/subdivision-flags/ru-pri.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-psk": {
+      "path": "/img/subdivision-flags/ru-psk.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ros": {
+      "path": "/img/subdivision-flags/ru-ros.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-rya": {
+      "path": "/img/subdivision-flags/ru-rya.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-sa": {
+      "path": "/img/subdivision-flags/ru-sa.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-sak": {
+      "path": "/img/subdivision-flags/ru-sak.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-sam": {
+      "path": "/img/subdivision-flags/ru-sam.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-sar": {
+      "path": "/img/subdivision-flags/ru-sar.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-se": {
+      "path": "/img/subdivision-flags/ru-se.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-smo": {
+      "path": "/img/subdivision-flags/ru-smo.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-spe": {
+      "path": "/img/subdivision-flags/ru-spe.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-sta": {
+      "path": "/img/subdivision-flags/ru-sta.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-sve": {
+      "path": "/img/subdivision-flags/ru-sve.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ta": {
+      "path": "/img/subdivision-flags/ru-ta.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-tam": {
+      "path": "/img/subdivision-flags/ru-tam.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-tom": {
+      "path": "/img/subdivision-flags/ru-tom.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-tul": {
+      "path": "/img/subdivision-flags/ru-tul.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-tve": {
+      "path": "/img/subdivision-flags/ru-tve.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ty": {
+      "path": "/img/subdivision-flags/ru-ty.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-tyu": {
+      "path": "/img/subdivision-flags/ru-tyu.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-ud": {
+      "path": "/img/subdivision-flags/ru-ud.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-uly": {
+      "path": "/img/subdivision-flags/ru-uly.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-vgg": {
+      "path": "/img/subdivision-flags/ru-vgg.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-vla": {
+      "path": "/img/subdivision-flags/ru-vla.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-vlg": {
+      "path": "/img/subdivision-flags/ru-vlg.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-vor": {
+      "path": "/img/subdivision-flags/ru-vor.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-yan": {
+      "path": "/img/subdivision-flags/ru-yan.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-yar": {
+      "path": "/img/subdivision-flags/ru-yar.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-yev": {
+      "path": "/img/subdivision-flags/ru-yev.png",
+      "status": "wikidata-flag-image"
+    },
+    "ru-zab": {
+      "path": "/img/subdivision-flags/ru-zab.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-ab": {
+      "path": "/img/subdivision-flags/se-ab.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-ac": {
+      "path": "/img/subdivision-flags/se-ac.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-bd": {
+      "path": "/img/subdivision-flags/se-bd.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-c": {
+      "path": "/img/subdivision-flags/se-c.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-d": {
+      "path": "/img/subdivision-flags/se-d.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-e": {
+      "path": "/img/subdivision-flags/se-e.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-f": {
+      "path": "/img/subdivision-flags/se-f.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-g": {
+      "path": "/img/subdivision-flags/se-g.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-h": {
+      "path": "/img/subdivision-flags/se-h.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-i": {
+      "path": "/img/subdivision-flags/se-i.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-k": {
+      "path": "/img/subdivision-flags/se-k.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-m": {
+      "path": "/img/subdivision-flags/se-m.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-n": {
+      "path": "/img/subdivision-flags/se-n.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-o": {
+      "path": "/img/subdivision-flags/se-o.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-s": {
+      "path": "/img/subdivision-flags/se-s.png",
+      "status": "reviewed-commons-file"
+    },
+    "se-t": {
+      "path": "/img/subdivision-flags/se-t.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-u": {
+      "path": "/img/subdivision-flags/se-u.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-w": {
+      "path": "/img/subdivision-flags/se-w.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-x": {
+      "path": "/img/subdivision-flags/se-x.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-y": {
+      "path": "/img/subdivision-flags/se-y.png",
+      "status": "wikidata-flag-image"
+    },
+    "se-z": {
+      "path": "/img/subdivision-flags/se-z.png",
+      "status": "wikidata-flag-image"
+    },
+    "sr-br": {
+      "path": "/img/subdivision-flags/sr-br.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-cm": {
+      "path": "/img/subdivision-flags/sr-cm.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-cr": {
+      "path": "/img/subdivision-flags/sr-cr.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-ma": {
+      "path": "/img/subdivision-flags/sr-ma.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-ni": {
+      "path": "/img/subdivision-flags/sr-ni.png",
+      "status": "wikidata-flag-image"
+    },
+    "sr-pm": {
+      "path": "/img/subdivision-flags/sr-pm.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-pr": {
+      "path": "/img/subdivision-flags/sr-pr.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-sa": {
+      "path": "/img/subdivision-flags/sr-sa.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-si": {
+      "path": "/img/subdivision-flags/sr-si.png",
+      "status": "parent-country-fallback"
+    },
+    "sr-wa": {
+      "path": "/img/subdivision-flags/sr-wa.png",
+      "status": "parent-country-fallback"
+    },
+    "us-ak": {
+      "path": "/img/subdivision-flags/us-ak.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-al": {
+      "path": "/img/subdivision-flags/us-al.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ar": {
+      "path": "/img/subdivision-flags/us-ar.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-az": {
+      "path": "/img/subdivision-flags/us-az.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ca": {
+      "path": "/img/subdivision-flags/us-ca.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-co": {
+      "path": "/img/subdivision-flags/us-co.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ct": {
+      "path": "/img/subdivision-flags/us-ct.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-dc": {
+      "path": "/img/subdivision-flags/us-dc.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-de": {
+      "path": "/img/subdivision-flags/us-de.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-fl": {
+      "path": "/img/subdivision-flags/us-fl.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ga": {
+      "path": "/img/subdivision-flags/us-ga.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-hi": {
+      "path": "/img/subdivision-flags/us-hi.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ia": {
+      "path": "/img/subdivision-flags/us-ia.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-id": {
+      "path": "/img/subdivision-flags/us-id.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-il": {
+      "path": "/img/subdivision-flags/us-il.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-in": {
+      "path": "/img/subdivision-flags/us-in.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ks": {
+      "path": "/img/subdivision-flags/us-ks.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ky": {
+      "path": "/img/subdivision-flags/us-ky.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-la": {
+      "path": "/img/subdivision-flags/us-la.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ma": {
+      "path": "/img/subdivision-flags/us-ma.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-md": {
+      "path": "/img/subdivision-flags/us-md.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-me": {
+      "path": "/img/subdivision-flags/us-me.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-mi": {
+      "path": "/img/subdivision-flags/us-mi.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-mn": {
+      "path": "/img/subdivision-flags/us-mn.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-mo": {
+      "path": "/img/subdivision-flags/us-mo.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ms": {
+      "path": "/img/subdivision-flags/us-ms.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-mt": {
+      "path": "/img/subdivision-flags/us-mt.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-nc": {
+      "path": "/img/subdivision-flags/us-nc.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-nd": {
+      "path": "/img/subdivision-flags/us-nd.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ne": {
+      "path": "/img/subdivision-flags/us-ne.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-nh": {
+      "path": "/img/subdivision-flags/us-nh.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-nj": {
+      "path": "/img/subdivision-flags/us-nj.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-nm": {
+      "path": "/img/subdivision-flags/us-nm.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-nv": {
+      "path": "/img/subdivision-flags/us-nv.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ny": {
+      "path": "/img/subdivision-flags/us-ny.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-oh": {
+      "path": "/img/subdivision-flags/us-oh.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ok": {
+      "path": "/img/subdivision-flags/us-ok.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-or": {
+      "path": "/img/subdivision-flags/us-or.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-pa": {
+      "path": "/img/subdivision-flags/us-pa.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ri": {
+      "path": "/img/subdivision-flags/us-ri.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-sc": {
+      "path": "/img/subdivision-flags/us-sc.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-sd": {
+      "path": "/img/subdivision-flags/us-sd.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-tn": {
+      "path": "/img/subdivision-flags/us-tn.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-tx": {
+      "path": "/img/subdivision-flags/us-tx.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-ut": {
+      "path": "/img/subdivision-flags/us-ut.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-va": {
+      "path": "/img/subdivision-flags/us-va.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-vt": {
+      "path": "/img/subdivision-flags/us-vt.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-wa": {
+      "path": "/img/subdivision-flags/us-wa.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-wi": {
+      "path": "/img/subdivision-flags/us-wi.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-wv": {
+      "path": "/img/subdivision-flags/us-wv.png",
+      "status": "wikidata-flag-image"
+    },
+    "us-wy": {
+      "path": "/img/subdivision-flags/us-wy.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-ar": {
+      "path": "/img/subdivision-flags/uy-ar.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-ca": {
+      "path": "/img/subdivision-flags/uy-ca.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-cl": {
+      "path": "/img/subdivision-flags/uy-cl.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-co": {
+      "path": "/img/subdivision-flags/uy-co.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-du": {
+      "path": "/img/subdivision-flags/uy-du.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-fd": {
+      "path": "/img/subdivision-flags/uy-fd.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-fs": {
+      "path": "/img/subdivision-flags/uy-fs.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-la": {
+      "path": "/img/subdivision-flags/uy-la.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-ma": {
+      "path": "/img/subdivision-flags/uy-ma.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-mo": {
+      "path": "/img/subdivision-flags/uy-mo.png",
+      "status": "parent-country-fallback"
+    },
+    "uy-pa": {
+      "path": "/img/subdivision-flags/uy-pa.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-rn": {
+      "path": "/img/subdivision-flags/uy-rn.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-ro": {
+      "path": "/img/subdivision-flags/uy-ro.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-rv": {
+      "path": "/img/subdivision-flags/uy-rv.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-sa": {
+      "path": "/img/subdivision-flags/uy-sa.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-sj": {
+      "path": "/img/subdivision-flags/uy-sj.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-so": {
+      "path": "/img/subdivision-flags/uy-so.png",
+      "status": "wikidata-flag-image"
+    },
+    "uy-ta": {
+      "path": "/img/subdivision-flags/uy-ta.png",
+      "status": "parent-country-fallback"
+    },
+    "uy-tt": {
+      "path": "/img/subdivision-flags/uy-tt.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-a": {
+      "path": "/img/subdivision-flags/ve-a.png",
+      "status": "reviewed-commons-file"
+    },
+    "ve-b": {
+      "path": "/img/subdivision-flags/ve-b.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-c": {
+      "path": "/img/subdivision-flags/ve-c.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-d": {
+      "path": "/img/subdivision-flags/ve-d.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-e": {
+      "path": "/img/subdivision-flags/ve-e.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-f": {
+      "path": "/img/subdivision-flags/ve-f.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-g": {
+      "path": "/img/subdivision-flags/ve-g.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-h": {
+      "path": "/img/subdivision-flags/ve-h.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-i": {
+      "path": "/img/subdivision-flags/ve-i.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-j": {
+      "path": "/img/subdivision-flags/ve-j.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-k": {
+      "path": "/img/subdivision-flags/ve-k.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-l": {
+      "path": "/img/subdivision-flags/ve-l.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-m": {
+      "path": "/img/subdivision-flags/ve-m.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-n": {
+      "path": "/img/subdivision-flags/ve-n.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-o": {
+      "path": "/img/subdivision-flags/ve-o.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-p": {
+      "path": "/img/subdivision-flags/ve-p.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-r": {
+      "path": "/img/subdivision-flags/ve-r.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-s": {
+      "path": "/img/subdivision-flags/ve-s.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-t": {
+      "path": "/img/subdivision-flags/ve-t.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-u": {
+      "path": "/img/subdivision-flags/ve-u.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-v": {
+      "path": "/img/subdivision-flags/ve-v.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-w": {
+      "path": "/img/subdivision-flags/ve-w.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-x": {
+      "path": "/img/subdivision-flags/ve-x.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-y": {
+      "path": "/img/subdivision-flags/ve-y.png",
+      "status": "wikidata-flag-image"
+    },
+    "ve-z": {
+      "path": "/img/subdivision-flags/ve-z.png",
+      "status": "wikidata-flag-image"
+    },
+    "za-ec": {
+      "path": "/img/subdivision-flags/za-ec.png",
+      "status": "unofficial-conventional"
+    },
+    "za-fs": {
+      "path": "/img/subdivision-flags/za-fs.png",
+      "status": "unofficial-conventional"
+    },
+    "za-gt": {
+      "path": "/img/subdivision-flags/za-gt.png",
+      "status": "unofficial-conventional"
+    },
+    "za-kzn": {
+      "path": "/img/subdivision-flags/za-kzn.png",
+      "status": "unofficial-conventional"
+    },
+    "za-lp": {
+      "path": "/img/subdivision-flags/za-lp.png",
+      "status": "unofficial-conventional"
+    },
+    "za-mp": {
+      "path": "/img/subdivision-flags/za-mp.png",
+      "status": "wikidata-flag-image"
+    },
+    "za-nc": {
+      "path": "/img/subdivision-flags/za-nc.png",
+      "status": "unofficial-conventional"
+    },
+    "za-nw": {
+      "path": "/img/subdivision-flags/za-nw.png",
+      "status": "unofficial-conventional"
+    },
+    "za-wc": {
+      "path": "/img/subdivision-flags/za-wc.png",
+      "status": "unofficial-conventional"
+    }
+  }
+}

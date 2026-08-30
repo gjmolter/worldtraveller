@@ -1,0 +1,79 @@
+{
+  "reviewedOn": "2026-08-23",
+  "places": [
+    {
+      "id": "es-ce",
+      "name": "Ceuta",
+      "flagCode": "es-ce",
+      "land": 18.5,
+      "independent": false,
+      "unMember": false,
+      "coordinates": [-5.3213, 35.8894],
+      "entityType": "Autonomous city of Spain",
+      "categoryIds": ["land", "africa"],
+      "languages": ["Spanish"],
+      "calloutMinZoom": 4.25
+    },
+    {
+      "id": "es-ml",
+      "name": "Melilla",
+      "flagCode": "es-ml",
+      "land": 12.3,
+      "independent": false,
+      "unMember": false,
+      "coordinates": [-2.9381, 35.2923],
+      "entityType": "Autonomous city of Spain",
+      "categoryIds": ["land", "africa"],
+      "languages": ["Spanish"],
+      "calloutMinZoom": 4.25
+    },
+    {
+      "id": "eng",
+      "name": "England",
+      "flagCode": "gb-eng",
+      "land": 130519.1,
+      "independent": false,
+      "unMember": false,
+      "coordinates": [-0.1276, 51.5072],
+      "entityType": "UK constituent country / FIFA member association",
+      "categoryIds": ["land", "europe", "fifa"],
+      "languages": ["English"]
+    },
+    {
+      "id": "nir",
+      "name": "Northern Ireland",
+      "flagCode": "gb-nir",
+      "land": 14334.5,
+      "independent": false,
+      "unMember": false,
+      "coordinates": [-5.9301, 54.5973],
+      "entityType": "UK constituent country / FIFA member association",
+      "categoryIds": ["land", "europe", "fifa"],
+      "languages": ["English"]
+    },
+    {
+      "id": "sco",
+      "name": "Scotland",
+      "flagCode": "gb-sct",
+      "land": 78697,
+      "independent": false,
+      "unMember": false,
+      "coordinates": [-3.1883, 55.9533],
+      "entityType": "UK constituent country / FIFA member association",
+      "categoryIds": ["land", "europe", "fifa"],
+      "languages": ["English"]
+    },
+    {
+      "id": "wal",
+      "name": "Wales",
+      "flagCode": "gb-wls",
+      "land": 20786,
+      "independent": false,
+      "unMember": false,
+      "coordinates": [-3.1791, 51.4816],
+      "entityType": "UK constituent country / FIFA member association",
+      "categoryIds": ["land", "europe", "fifa"],
+      "languages": ["English", "Welsh"]
+    }
+  ]
+}

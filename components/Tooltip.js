@@ -1,38 +1,50 @@
-import { useState, useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 const Tooltip = ({ text = "", offsetX = 0, offsetY = 0, children }) => {
-  const [xPos, setXPos] = useState(0);
-  const [yPos, setYPos] = useState(0);
-
-  function getTooltipPosition({ clientX: xPosition, clientY: yPosition }) {
-    setXPos(xPosition);
-    setYPos(yPosition);
-  }
+  const tooltipRef = useRef(null);
 
   useEffect(() => {
-    if (text !== "") {
-      window.addEventListener("mousemove", getTooltipPosition);
-    } else {
-      window.removeEventListener("mousemove", getTooltipPosition);
-    }
+    let animationFrame = null;
+    let nextPosition = null;
+    const updateTooltipPosition = ({ clientX, clientY }) => {
+      nextPosition = { x: clientX + offsetX, y: clientY + offsetY };
+      if (animationFrame != null) return;
+
+      animationFrame = window.requestAnimationFrame(() => {
+        animationFrame = null;
+        if (!tooltipRef.current || !nextPosition) return;
+        tooltipRef.current.style.transform =
+          `translate3d(${nextPosition.x}px, ${nextPosition.y}px, 0)`;
+      });
+    };
+
+    window.addEventListener("mousemove", updateTooltipPosition, {
+      passive: true,
+    });
 
     return () => {
-      if (text !== "") {
-        window.removeEventListener("mousemove", getTooltipPosition);
+      window.removeEventListener("mousemove", updateTooltipPosition);
+      if (animationFrame != null) {
+        window.cancelAnimationFrame(animationFrame);
       }
     };
-  }, [text]);
+  }, [offsetX, offsetY]);
 
   return (
     <div
+      ref={tooltipRef}
+      role="tooltip"
+      aria-hidden={text === ""}
+      data-visible={text !== ""}
       style={{
         display: text !== "" ? "block" : "none",
         position: "fixed",
-        top: yPos + offsetY,
-        left: xPos + offsetX,
+        top: 0,
+        left: 0,
         zIndex: 10,
         pointerEvents: "none",
         whiteSpace: "nowrap",
+        willChange: "transform",
       }}
     >
       <span className="tooltip">{text}</span>
@@ -41,7 +53,7 @@ const Tooltip = ({ text = "", offsetX = 0, offsetY = 0, children }) => {
           background: #363533bb;
           padding: 4px 7px;
           border-radius: 5px;
-          color: #46e992;
+          color: var(--accent-on-dark, #8fc9a7);
           font-size: 12px;
           -webkit-user-select: none;
           -moz-user-select: none;

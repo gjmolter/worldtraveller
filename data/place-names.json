@@ -1,0 +1,26 @@
+{
+  "reviewedOn": "2026-08-24",
+  "sourceUrl": "https://unstats.un.org/unsd/methodology/m49/",
+  "displayNames": {
+    "cv": "Cabo Verde",
+    "ci": "Côte d’Ivoire",
+    "cd": "Democratic Republic of the Congo",
+    "mo": "Macao",
+    "ps": "State of Palestine",
+    "gs": "South Georgia and the South Sandwich Islands"
+  },
+  "aliases": {
+    "cv": ["Cape Verde"],
+    "ci": ["Ivory Coast", "Côte d'Ivoire"],
+    "cd": ["DR Congo", "Democratic Republic of Congo"],
+    "mo": ["Macau", "China, Macao Special Administrative Region"],
+    "ps": ["Palestine"],
+    "gs": ["South Georgia", "South Georgia & the South Sandwich Islands"],
+    "va": ["Holy See"]
+  },
+  "contextualNames": {
+    "va": {
+      "international": "Holy See"
+    }
+  }
+}

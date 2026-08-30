@@ -1,16 +1,34 @@
 {
-  "name": "nextjs",
+  "name": "cpbr-atlas",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "predev": "node scripts/copy-maplibre-worker.mjs",
     "dev": "next dev",
     "prebuild": "node scripts/copy-maplibre-worker.mjs",
+    "build:maritime": "node scripts/build-maritime-targets.mjs",
+    "build:maritime-overview": "node scripts/build-maritime-overview.mjs",
+    "build:subnational": "node scripts/build-subnational-places.mjs",
+    "build:subdivision-data": "node scripts/build-south-america-subdivision-data.mjs",
+    "build:subdivisions": "node scripts/build-admin1-subdivisions.mjs",
+    "build:subdivision-centroids": "node scripts/build-subdivision-centroids.mjs",
+    "build:subdivision-flags": "node scripts/build-subdivision-flags.mjs",
+    "build:highlight-colors": "node scripts/build-flag-highlight-colors.mjs",
+    "build:fifa": "node scripts/build-fifa-members.mjs",
+    "audit:categories": "node scripts/build-category-audit.mjs",
+    "audit:continents": "node scripts/check-continent-sources.mjs",
+    "audit:flags": "node scripts/check-flag-coverage.mjs",
+    "audit:subdivision-flags": "node scripts/check-subdivision-flag-coverage.mjs",
+    "audit:data": "node scripts/check-data-integrity.mjs",
+    "test:unit": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run test:unit && npm run test:e2e",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "downloadjs": "^1.4.7",
+    "flag-icons": "^7.5.0",
     "html-to-image": "^1.3.21",
     "maplibre-gl": "^6.4.0",
     "next": "16.3.1",
@@ -20,6 +38,11 @@
     "world-countries": "^5.1.0"
   },
   "devDependencies": {
-    "@turf/simplify": "^7.4.0"
+    "@playwright/test": "^1.62.1",
+    "@turf/area": "^7.4.0",
+    "@turf/simplify": "^7.4.0",
+    "@turf/union": "^7.4.0",
+    "sharp": "^0.35.3",
+    "shpjs": "^6.2.0"
   }
 }

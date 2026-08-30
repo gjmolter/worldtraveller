@@ -1,0 +1,340 @@
+{
+  "reviewedOn": "2026-08-23",
+  "continentExceptions": {
+    "aq": {
+      "continents": ["antarctica"],
+      "reason": "Antarctica is the continental landmass itself.",
+      "sourceIds": ["un-m49"]
+    },
+    "az": {
+      "continents": ["europe", "asia"],
+      "reason": "Azerbaijan lies at the Europe–Asia boundary in the Caucasus, so the travel taxonomy includes it in both.",
+      "sourceIds": ["azerbaijan-geography"]
+    },
+    "bv": {
+      "continents": ["antarctica"],
+      "reason": "Bouvet Island is a subantarctic island in the Southern Ocean. It is grouped with the Antarctic region, not South America, while remaining distinct from the Antarctic continent.",
+      "sourceIds": ["bouvet-geography"]
+    },
+    "cy": {
+      "continents": ["europe"],
+      "reason": "CPBR Atlas follows the conventional European travel and political classification for Cyprus. It is an EU member state and is presented as European here despite UN M49's statistical placement in Western Asia.",
+      "sourceIds": ["eu"]
+    },
+    "eg": {
+      "continents": ["africa"],
+      "reason": "CPBR Atlas classifies Egypt as Africa for country-level travel completion. Sinai extends into Asia, but that does not give Egypt a second continent category here.",
+      "sourceIds": ["egypt-geography"]
+    },
+    "ge": {
+      "continents": ["europe", "asia"],
+      "reason": "Georgia lies at the Europe–Asia boundary in the Caucasus, so the travel taxonomy includes it in both.",
+      "sourceIds": ["georgia-geography"]
+    },
+    "gs": {
+      "continents": ["antarctica"],
+      "reason": "South Georgia and the South Sandwich Islands are subantarctic islands in the Southern Ocean and are grouped with the Antarctic region rather than South America.",
+      "sourceIds": ["south-georgia-geography"]
+    },
+    "hm": {
+      "continents": ["antarctica"],
+      "reason": "Heard Island and McDonald Islands are an official subantarctic island group in the Southern Ocean.",
+      "sourceIds": ["heard-island-geography"]
+    },
+    "id": {
+      "continents": ["asia", "oceania"],
+      "reason": "The Indonesian archipelago bridges Asia and the Australian continent, including western New Guinea, so it is included in Asia and Oceania.",
+      "sourceIds": ["indonesia-geography"]
+    },
+    "kz": {
+      "continents": ["europe", "asia"],
+      "reason": "Kazakhstan has territory in both Europe and Asia.",
+      "sourceIds": ["kazakhstan-geography"]
+    },
+    "ru": {
+      "continents": ["europe", "asia"],
+      "reason": "Russia covers Eastern Europe and Northern Asia.",
+      "sourceIds": ["russia-geography"]
+    },
+    "tf": {
+      "continents": ["africa", "antarctica"],
+      "reason": "The French Southern Territories ISO entry combines districts near Madagascar with southern and Antarctic districts, so the composite place belongs to both groupings.",
+      "sourceIds": ["taaf-geography"]
+    },
+    "tw": {
+      "continents": ["asia"],
+      "reason": "Taiwan is a separately selectable place in the app and is geographically in Eastern Asia. UN M49 includes it within China's statistical entry rather than as a separate row.",
+      "sourceIds": ["un-m49"]
+    },
+    "tr": {
+      "continents": ["europe", "asia"],
+      "reason": "Türkiye has territory in both Europe and Asia.",
+      "sourceIds": ["turkiye-geography"]
+    },
+    "um": {
+      "continents": ["north-america", "oceania"],
+      "reason": "The United States Minor Outlying Islands ISO entry is composite: Navassa Island is in the Caribbean while the other listed islands are in the Pacific.",
+      "sourceIds": ["us-minor-islands-geography"]
+    },
+    "xk": {
+      "continents": ["europe"],
+      "reason": "Kosovo is a separately selectable place in the app and is geographically in Europe. UN M49 treats it within Serbia rather than as a standard separate country-or-area row.",
+      "sourceIds": ["un-m49"]
+    }
+  },
+  "memberships": {
+    "europeanUnion": [
+      "at", "be", "bg", "cy", "cz", "de", "dk", "ee", "es", "fi",
+      "fr", "gr", "hr", "hu", "ie", "it", "lt", "lu", "lv", "mt",
+      "nl", "pl", "pt", "ro", "se", "si", "sk"
+    ],
+    "g20": [
+      "ar", "au", "br", "ca", "cn", "fr", "de", "in", "id", "it",
+      "jp", "mx", "ru", "sa", "za", "kr", "tr", "gb", "us"
+    ],
+    "asean": [
+      "bn", "kh", "id", "la", "my", "mm", "ph", "sg", "th", "tl", "vn"
+    ],
+    "africanUnion": [
+      "dz", "ao", "bj", "bw", "bf", "bi", "cv", "cm", "cf", "td",
+      "km", "cg", "cd", "ci", "dj", "eg", "gq", "er", "sz", "et",
+      "ga", "gm", "gh", "gn", "gw", "ke", "ls", "lr", "ly", "mg",
+      "mw", "ml", "mr", "mu", "ma", "mz", "na", "ne", "ng", "rw",
+      "eh", "st", "sn", "sc", "sl", "so", "za", "ss", "sd", "tz",
+      "tg", "tn", "ug", "zm", "zw"
+    ],
+    "mercosur": ["ar", "bo", "br", "py", "uy"],
+    "monarchies": [
+      "qa", "va", "om", "sa", "sz", "bn", "th", "bt", "ad", "kh",
+      "ls", "tv", "kn", "ag", "bz", "lc", "vc", "sb", "es", "pg",
+      "gd", "se", "bs", "to", "jm", "my", "dk", "jp", "nz", "au",
+      "lu", "ca", "be", "nl", "no", "gb", "ae", "bh", "kw", "jo",
+      "mc", "li", "ma"
+    ],
+    "sevenWondersOld": ["eg", "iq", "gr", "tr"],
+    "sevenWondersNew": ["cn", "in", "jo", "it", "br", "mx", "pe"]
+  },
+  "sources": [
+    {
+      "id": "world-countries",
+      "label": "world-countries 5.1.0",
+      "url": "https://www.npmjs.com/package/world-countries",
+      "dateLabel": "Published 26 Feb 2025; reviewed 22 Aug 2026",
+      "detail": "Place names, areas, independence status, base coordinates, and official-language fields. The base list contains the 249 ISO 3166-1 countries and areas plus Kosovo under the widely used user-assigned code XK. CPBR Atlas additionally exposes Ceuta, Melilla, and the four UK constituent countries where its travel and organization models need finer-grained selection."
+    },
+    {
+      "id": "un-m49",
+      "label": "United Nations M49 geographic regions",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "dateLabel": "Reviewed 24 Aug 2026",
+      "detail": "Current English place nomenclature and baseline geographic assignments use the UN Statistics Division's M49 list. The UN describes its regions as being for statistical convenience, so its one-region-only rule is supplemented here with sourced physical-geography overlaps and subantarctic exceptions. Vatican City remains the geographic map label, while Holy See is used in international-status contexts."
+    },
+    {
+      "id": "un-members",
+      "label": "United Nations Member States",
+      "url": "https://www.un.org/about-us/member-states",
+      "dateLabel": "193 members; reviewed 23 Aug 2026",
+      "detail": "The official list of the 193 current UN Member States. The Holy See and the State of Palestine are UN observer states and are not counted in this category."
+    },
+    {
+      "id": "fifa-members",
+      "label": "FIFA Member Associations",
+      "url": "https://inside.fifa.com/en/about-fifa/associations",
+      "dateLabel": "211 associations; reviewed 23 Aug 2026",
+      "detail": "The official list of FIFA's 211 member associations. England, Northern Ireland, Scotland and Wales are represented separately, exactly as FIFA lists them."
+    },
+    {
+      "id": "russia-geography",
+      "label": "Russian Federal State Statistics Service",
+      "url": "https://eng.rosstat.gov.ru/storage/mediabank/rus-eng12.pdf",
+      "dateLabel": "Official reference; reviewed 22 Aug 2026",
+      "detail": "Rosstat states that Russia covers Eastern Europe and Northern Asia."
+    },
+    {
+      "id": "kazakhstan-geography",
+      "label": "Government of Kazakhstan",
+      "url": "https://www.gov.kz/memleket/entities/mfa-ottawa/press/news/details/768194?lang=en",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "Kazakhstan's government states that approximately 94.5% of its territory is in Asia and 5.5% is in Europe."
+    },
+    {
+      "id": "egypt-geography",
+      "label": "Egypt State Information Service",
+      "url": "https://sis.gov.eg/en/media-center/files/egypts-return-to-its-african-leadership/",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "Egypt's official information service identifies Egypt geographically with the African continent while describing its territory as the land link between Africa and Asia. CPBR Atlas therefore counts the country in Africa only."
+    },
+    {
+      "id": "turkiye-geography",
+      "label": "Republic of Türkiye Ministry of Foreign Affairs",
+      "url": "https://rotterdam-cg.mfa.gov.tr/Mission/ShowAnnouncement/377604",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "Türkiye's foreign ministry describes it as one of the countries with territory in both Asia and Europe."
+    },
+    {
+      "id": "georgia-geography",
+      "label": "Georgia environmental information centre",
+      "url": "https://eiec.gov.ge/En/Documents/ViewFile/3960",
+      "dateLabel": "Official national report; reviewed 22 Aug 2026",
+      "detail": "Georgia's national report locates it at the crossroads of Europe and Asia and in the southern Greater Caucasus; the app treats the boundary case as belonging to both."
+    },
+    {
+      "id": "azerbaijan-geography",
+      "label": "Republic of Azerbaijan Ministry of Foreign Affairs",
+      "url": "https://tehran.mfa.gov.az/en/content/45/nature-and-resources",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "Azerbaijan's foreign ministry locates it at the crossroads of Europe and Asia; the app treats the boundary case as belonging to both."
+    },
+    {
+      "id": "indonesia-geography",
+      "label": "Geological Agency of Indonesia",
+      "url": "https://geologi.esdm.go.id/geolindo",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "Indonesia's Geological Agency describes the archipelago as bridging the Asian and Australian continents."
+    },
+    {
+      "id": "bouvet-geography",
+      "label": "Norwegian Polar Institute — Bouvet Island",
+      "url": "https://npolar.no/en/themes/bouvetoya/",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "The Norwegian Polar Institute describes Bouvet as a subantarctic island in the Southern Ocean and notes that it is north of the Antarctic Treaty area's 60°S boundary."
+    },
+    {
+      "id": "heard-island-geography",
+      "label": "Australian Antarctic Program — Heard Island",
+      "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "The Australian Antarctic Program describes Heard Island and McDonald Islands as a subantarctic island group in the Southern Ocean."
+    },
+    {
+      "id": "south-georgia-geography",
+      "label": "Government of South Georgia and the South Sandwich Islands",
+      "url": "https://gov.gs/south-georgia-the-south-sandwich-islands/",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "The territory government describes the islands and their ecology as subantarctic and part of the Southern Ocean system."
+    },
+    {
+      "id": "taaf-geography",
+      "label": "French Southern and Antarctic Lands administration",
+      "url": "https://taaf.fr/collectivites/presentation/",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "The official TAAF administration lists a composite territory spanning the Scattered Islands near Madagascar, southern islands, and Adélie Land in Antarctica."
+    },
+    {
+      "id": "us-minor-islands-geography",
+      "label": "United States Department of the Interior",
+      "url": "https://www.doi.gov/oia/islands/islandfactsheet2",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "The Department of the Interior lists the U.S. minor islands across the Pacific and Caribbean; the ISO entry therefore spans Oceania and North America."
+    },
+    {
+      "id": "eu",
+      "label": "European Union member countries",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "27 current EU Member States."
+    },
+    {
+      "id": "g20",
+      "label": "G20 membership",
+      "url": "https://g20.org/about-g20/",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "The category counts the 19 selectable country members. The European Union and African Union are also G20 members but are organizations, not selectable countries."
+    },
+    {
+      "id": "asean",
+      "label": "ASEAN membership",
+      "url": "https://asean.org/wp-content/uploads/2026/02/Initiative-for-ASEAN-Integration-IAI-Work-Plan-V-2026-2030.pdf",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "11 Member States, including Timor-Leste following its admission on 26 Oct 2025."
+    },
+    {
+      "id": "african-union",
+      "label": "African Union Member States",
+      "url": "https://www.au.int/en/member_states/countryprofiles2",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "55 Member States, including the Sahrawi Arab Democratic Republic, represented in the app by Western Sahara."
+    },
+    {
+      "id": "mercosur",
+      "label": "Mercosur countries",
+      "url": "https://www.mercosur.int/en/about-mercosur/countries",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "Five active States Parties. Venezuela remains suspended and is not counted."
+    },
+    {
+      "id": "monarchies",
+      "label": "Current sovereign monarchies",
+      "url": "https://en.wikipedia.org/wiki/List_of_current_monarchies",
+      "dateLabel": "Cross-checked 22 Aug 2026",
+      "detail": "43 sovereign states whose head of state is a monarch. Cross-checked against current government-type profiles in the CIA World Factbook; there is no single official worldwide registry."
+    },
+    {
+      "id": "ancient-wonders",
+      "label": "Seven Wonders of the Ancient World",
+      "url": "https://www.britannica.com/topic/Seven-Wonders-of-the-World",
+      "dateLabel": "Reviewed 22 Aug 2026",
+      "detail": "The four modern-day countries containing the seven ancient sites."
+    },
+    {
+      "id": "new-wonders",
+      "label": "New7Wonders official declaration",
+      "url": "https://world.new7wonders.com/lisbon-on-07-07-2007/",
+      "dateLabel": "Declared 7 Jul 2007; reviewed 22 Aug 2026",
+      "detail": "The seven countries containing the officially declared New 7 Wonders."
+    }
+  ],
+  "sections": [
+    {
+      "label": "Overview",
+      "groups": [
+        { "id": "land", "label": "World", "membershipKey": "worldPlaces", "description": "All supported geographic places. Place grouping controls whether detailed divisions, countries and territories, or sovereign-state groups form the equal-weight units; Land mode always uses actual visited land area.", "sourceIds": ["world-countries"] }
+      ]
+    },
+    {
+      "label": "Continents",
+      "groups": [
+        { "id": "africa", "label": "Africa", "membershipKey": "africa", "description": "Physical-geography travel grouping using UN M49 as a baseline, with dual membership for places that span a continental boundary.", "sourceIds": ["un-m49", "egypt-geography", "taaf-geography"] },
+        { "id": "asia", "label": "Asia", "membershipKey": "asia", "description": "Physical-geography travel grouping using UN M49 as a baseline, with dual membership for transcontinental and boundary-spanning places.", "sourceIds": ["un-m49", "russia-geography", "kazakhstan-geography", "turkiye-geography", "georgia-geography", "azerbaijan-geography", "indonesia-geography"] },
+        { "id": "europe", "label": "Europe", "membershipKey": "europe", "description": "Geographic travel grouping using UN M49 as a baseline, with sourced overlaps and conventional European placement for Cyprus.", "sourceIds": ["un-m49", "eu", "russia-geography", "kazakhstan-geography", "turkiye-geography", "georgia-geography", "azerbaijan-geography"] },
+        { "id": "north-america", "label": "North America", "membershipKey": "northAmerica", "description": "Northern America, Central America, and the Caribbean, with composite territories allowed to overlap another grouping.", "sourceIds": ["un-m49", "us-minor-islands-geography"] },
+        { "id": "south-america", "label": "South America", "membershipKey": "southAmerica", "description": "South American countries and separately coded areas. Subantarctic islands are grouped with the Antarctic region instead.", "sourceIds": ["un-m49", "bouvet-geography", "south-georgia-geography"] },
+        { "id": "oceania", "label": "Oceania", "membershipKey": "oceania", "description": "Australia and New Zealand, Melanesia, Micronesia, and Polynesia, plus sourced boundary-spanning places.", "sourceIds": ["un-m49", "indonesia-geography", "us-minor-islands-geography"] },
+        { "id": "antarctica", "label": "Antarctica & Subantarctic", "membershipKey": "antarctica", "description": "Antarctica plus separately coded subantarctic and southern territories. Inclusion here describes an Antarctic-region travel grouping and does not claim that every island is part of the Antarctic continent.", "sourceIds": ["un-m49", "bouvet-geography", "heard-island-geography", "south-georgia-geography", "taaf-geography"] }
+      ]
+    },
+    {
+      "label": "Organizations",
+      "groups": [
+        { "id": "un", "label": "UN Members", "membershipKey": "unMembers", "description": "The 193 current Member States of the United Nations. Observer states are not included.", "sourceIds": ["un-members"] },
+        { "id": "fifa", "label": "FIFA Members", "membershipKey": "fifaMembers", "description": "FIFA's 211 member associations, including countries, territories and the four UK home associations listed separately.", "sourceIds": ["fifa-members"] },
+        { "id": "eu", "label": "European Union", "membershipKey": "europeanUnion", "description": "The European Union is a political and economic union of 27 European countries.", "sourceIds": ["eu"] },
+        { "id": "g20", "label": "G20", "membershipKey": "g20", "description": "An international economic forum. Progress tracks its 19 country members; the European Union and African Union are also members but are not selectable countries.", "sourceIds": ["g20"] },
+        { "id": "asean", "label": "ASEAN", "membershipKey": "asean", "description": "The Association of Southeast Asian Nations has 11 Member States, including Timor-Leste since 2025.", "sourceIds": ["asean"] },
+        { "id": "african-union", "label": "African Union", "membershipKey": "africanUnion", "description": "A continental organization made up of 55 Member States.", "sourceIds": ["african-union"] },
+        { "id": "mercosur", "label": "Mercosur", "membershipKey": "mercosur", "description": "A South American integration bloc. This list tracks its five active States Parties; suspended member Venezuela is not included.", "sourceIds": ["mercosur"] },
+        { "id": "monarchies", "label": "World Monarchies", "membershipKey": "monarchies", "description": "The 43 sovereign states whose head of state is a monarch, including constitutional, absolute, and elective monarchies.", "sourceIds": ["monarchies"] }
+      ]
+    },
+    {
+      "label": "Languages",
+      "groups": [
+        { "id": "anglophone", "label": "Anglophone", "membershipKey": "anglophone", "description": "Places where English is an official or co-official language. This objective scope does not attempt to classify every country where English is commonly spoken as a second language.", "sourceIds": ["world-countries"] },
+        { "id": "francophone", "label": "Francophone", "membershipKey": "francophone", "description": "Places where French is an official or co-official language. This is a language-status grouping, not membership of the Organisation internationale de la Francophonie.", "sourceIds": ["world-countries"] },
+        { "id": "hispanophone", "label": "Hispanophone", "membershipKey": "hispanophone", "description": "Places where Spanish is an official or co-official language.", "sourceIds": ["world-countries"] },
+        { "id": "lusophone", "label": "Lusophone", "membershipKey": "lusophone", "description": "Places where Portuguese is an official or co-official language.", "sourceIds": ["world-countries"] },
+        { "id": "arabophone", "label": "Arabophone", "membershipKey": "arabophone", "description": "Places where Arabic is an official or co-official language.", "sourceIds": ["world-countries"] },
+        { "id": "german-speaking", "label": "German-speaking", "membershipKey": "germanSpeaking", "description": "Places where German is an official or co-official language.", "sourceIds": ["world-countries"] },
+        { "id": "dutch-speaking", "label": "Dutch-speaking", "membershipKey": "dutchSpeaking", "description": "Places where Dutch is an official or co-official language.", "sourceIds": ["world-countries"] },
+        { "id": "russian-speaking", "label": "Russian-speaking", "membershipKey": "russianSpeaking", "description": "Places where Russian is an official or co-official language.", "sourceIds": ["world-countries"] }
+      ]
+    },
+    {
+      "label": "Travel Challenges",
+      "groups": [
+        { "id": "7old", "label": "Ancient 7 Wonders", "membershipKey": "sevenWondersOld", "description": "The modern-day countries containing the sites of the Seven Wonders of the Ancient World.", "sourceIds": ["ancient-wonders"] },
+        { "id": "7new", "label": "New 7 Wonders", "membershipKey": "sevenWondersNew", "description": "The seven countries containing the landmarks selected as the New 7 Wonders of the World in 2007.", "sourceIds": ["new-wonders"] }
+      ]
+    }
+  ]
+}

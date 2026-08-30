@@ -1,0 +1,1365 @@
+{
+  "reviewedOn": "2026-08-24",
+  "sources": [
+    {
+      "id": "uruguay-departments",
+      "label": "Uruguay IDE — Límites departamentales; geometry via pinned geoBoundaries",
+      "url": "https://catalogodatos.gub.uy/dataset/9bfa6e97-f40f-437e-aa13-a3406c50f762/resource/3c1b430a-c010-4db1-880d-bdc0f11e4ce9",
+      "dateLabel": "19 departments; reviewed 2026-08-24"
+    },
+    {
+      "id": "paraguay-departments",
+      "label": "Paraguay INE — Atlas Cartográfico; geometry via pinned geoBoundaries",
+      "url": "https://www.ine.gov.py/resumen/35/atlas-cartografico-del-paraguay-2012",
+      "dateLabel": "17 departments and Asunción; reviewed 2026-08-24"
+    },
+    {
+      "id": "bolivia-departments",
+      "label": "Bolivia INE — nine-department cartography; geometry via pinned geoBoundaries",
+      "url": "https://www.ine.gob.bo/index.php/actualizacion-cartografica-para-el-censo-llega-a-44-municipios-de-los-9-departamentos/",
+      "dateLabel": "9 departments; reviewed 2026-08-24"
+    },
+    {
+      "id": "peru-departments",
+      "label": "Peru INEI — political-administrative division; geometry via pinned geoBoundaries",
+      "url": "https://ide.inei.gob.pe/",
+      "dateLabel": "24 departments and Callao; reviewed 2026-08-24"
+    },
+    {
+      "id": "ecuador-provinces",
+      "label": "Ecuador INEC — Marco Geoestadístico; geometry via pinned geoBoundaries",
+      "url": "https://idgn.ecuadorencifras.gob.ec/server/rest/services/Hosted/Marco_Geoestadistico_2022/FeatureServer/0",
+      "dateLabel": "24 provinces; reviewed 2026-08-24"
+    },
+    {
+      "id": "venezuela-states",
+      "label": "ISO 3166-2 Venezuela roster; geometry via pinned geoBoundaries",
+      "url": "https://www.iso.org/obp/ui/#iso:code:3166:VE",
+      "dateLabel": "23 states, Capital District and Federal Dependencies; reviewed 2026-08-24"
+    },
+    {
+      "id": "guyana-regions",
+      "label": "Bureau of Statistics Guyana — 2022 census regions; geometry via pinned geoBoundaries",
+      "url": "https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/Preliminary-Report-Guyana-National-Population-and-Housing-Census-2022.pdf",
+      "dateLabel": "10 regions; reviewed 2026-08-24"
+    },
+    {
+      "id": "suriname-districts",
+      "label": "General Bureau of Statistics Suriname — cartography; geometry via pinned geoBoundaries",
+      "url": "https://statistics-suriname.org/cartografie/",
+      "dateLabel": "10 districts; reviewed 2026-08-24"
+    }
+  ],
+  "groups": [
+    {
+      "id": "uy-subdivisions",
+      "label": "Uruguayan Departments",
+      "description": "Uruguay’s 19 departments.",
+      "sourceId": "uruguay-departments"
+    },
+    {
+      "id": "py-subdivisions",
+      "label": "Paraguayan Departments & Capital",
+      "description": "Paraguay’s 17 departments plus the autonomous capital, Asunción.",
+      "sourceId": "paraguay-departments"
+    },
+    {
+      "id": "bo-subdivisions",
+      "label": "Bolivian Departments",
+      "description": "Bolivia’s nine departments.",
+      "sourceId": "bolivia-departments"
+    },
+    {
+      "id": "pe-subdivisions",
+      "label": "Peruvian Departments & Callao",
+      "description": "Peru’s 24 departments plus the Constitutional Province of Callao, represented as 25 first-level units.",
+      "sourceId": "peru-departments"
+    },
+    {
+      "id": "ec-subdivisions",
+      "label": "Ecuadorian Provinces",
+      "description": "Ecuador’s 24 provinces.",
+      "sourceId": "ecuador-provinces"
+    },
+    {
+      "id": "ve-subdivisions",
+      "label": "Venezuelan States & Federal Areas",
+      "description": "Venezuela’s 23 states, Capital District and Federal Dependencies within the app’s internationally recognized country outline.",
+      "sourceId": "venezuela-states"
+    },
+    {
+      "id": "gy-subdivisions",
+      "label": "Guyanese Regions",
+      "description": "Guyana’s ten administrative regions.",
+      "sourceId": "guyana-regions"
+    },
+    {
+      "id": "sr-subdivisions",
+      "label": "Surinamese Districts",
+      "description": "Suriname’s ten districts.",
+      "sourceId": "suriname-districts"
+    }
+  ],
+  "places": [
+    {
+      "id": "uy-ar",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Artigas",
+      "code": "AR",
+      "kind": "Department",
+      "sourceCode": "AR"
+    },
+    {
+      "id": "uy-ca",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Canelones",
+      "code": "CA",
+      "kind": "Department",
+      "sourceCode": "CA"
+    },
+    {
+      "id": "uy-cl",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Cerro Largo",
+      "code": "CL",
+      "kind": "Department",
+      "sourceCode": "CL"
+    },
+    {
+      "id": "uy-co",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Colonia",
+      "code": "CO",
+      "kind": "Department",
+      "sourceCode": "CO"
+    },
+    {
+      "id": "uy-du",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Durazno",
+      "code": "DU",
+      "kind": "Department",
+      "sourceCode": "DU"
+    },
+    {
+      "id": "uy-fd",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Florida",
+      "code": "FD",
+      "kind": "Department",
+      "sourceCode": "FD"
+    },
+    {
+      "id": "uy-fs",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Flores",
+      "code": "FS",
+      "kind": "Department",
+      "sourceCode": "FS"
+    },
+    {
+      "id": "uy-la",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Lavalleja",
+      "code": "LA",
+      "kind": "Department",
+      "sourceCode": "LA"
+    },
+    {
+      "id": "uy-ma",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Maldonado",
+      "code": "MA",
+      "kind": "Department",
+      "sourceCode": "MA"
+    },
+    {
+      "id": "uy-mo",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Montevideo",
+      "code": "MO",
+      "kind": "Department",
+      "sourceCode": "MO"
+    },
+    {
+      "id": "uy-pa",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Paysandú",
+      "code": "PA",
+      "kind": "Department",
+      "sourceCode": "PA"
+    },
+    {
+      "id": "uy-rn",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Río Negro",
+      "code": "RN",
+      "kind": "Department",
+      "sourceCode": "RN"
+    },
+    {
+      "id": "uy-ro",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Rocha",
+      "code": "RO",
+      "kind": "Department",
+      "sourceCode": "RO"
+    },
+    {
+      "id": "uy-rv",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Rivera",
+      "code": "RV",
+      "kind": "Department",
+      "sourceCode": "RV"
+    },
+    {
+      "id": "uy-sa",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Salto",
+      "code": "SA",
+      "kind": "Department",
+      "sourceCode": "SA"
+    },
+    {
+      "id": "uy-sj",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "San José",
+      "code": "SJ",
+      "kind": "Department",
+      "sourceCode": "SJ"
+    },
+    {
+      "id": "uy-so",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Soriano",
+      "code": "SO",
+      "kind": "Department",
+      "sourceCode": "SO"
+    },
+    {
+      "id": "uy-ta",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Tacuarembó",
+      "code": "TA",
+      "kind": "Department",
+      "sourceCode": "TA"
+    },
+    {
+      "id": "uy-tt",
+      "parentId": "uy",
+      "groupId": "uy-subdivisions",
+      "name": "Treinta y Tres",
+      "code": "TT",
+      "kind": "Department",
+      "sourceCode": "TT"
+    },
+    {
+      "id": "py-asu",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Asunción",
+      "code": "ASU",
+      "kind": "Capital District",
+      "sourceCode": "ASU"
+    },
+    {
+      "id": "py-1",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Concepción",
+      "code": "1",
+      "kind": "Department",
+      "sourceCode": "1"
+    },
+    {
+      "id": "py-2",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "San Pedro",
+      "code": "2",
+      "kind": "Department",
+      "sourceCode": "2"
+    },
+    {
+      "id": "py-3",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Cordillera",
+      "code": "3",
+      "kind": "Department",
+      "sourceCode": "3"
+    },
+    {
+      "id": "py-4",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Guairá",
+      "code": "4",
+      "kind": "Department",
+      "sourceCode": "4"
+    },
+    {
+      "id": "py-5",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Caaguazú",
+      "code": "5",
+      "kind": "Department",
+      "sourceCode": "5"
+    },
+    {
+      "id": "py-6",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Caazapá",
+      "code": "6",
+      "kind": "Department",
+      "sourceCode": "6"
+    },
+    {
+      "id": "py-7",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Itapúa",
+      "code": "7",
+      "kind": "Department",
+      "sourceCode": "7"
+    },
+    {
+      "id": "py-8",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Misiones",
+      "code": "8",
+      "kind": "Department",
+      "sourceCode": "8"
+    },
+    {
+      "id": "py-9",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Paraguarí",
+      "code": "9",
+      "kind": "Department",
+      "sourceCode": "9"
+    },
+    {
+      "id": "py-10",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Alto Paraná",
+      "code": "10",
+      "kind": "Department",
+      "sourceCode": "10"
+    },
+    {
+      "id": "py-11",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Central",
+      "code": "11",
+      "kind": "Department",
+      "sourceCode": "11"
+    },
+    {
+      "id": "py-12",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Ñeembucú",
+      "code": "12",
+      "kind": "Department",
+      "sourceCode": "12"
+    },
+    {
+      "id": "py-13",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Amambay",
+      "code": "13",
+      "kind": "Department",
+      "sourceCode": "13"
+    },
+    {
+      "id": "py-14",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Canindeyú",
+      "code": "14",
+      "kind": "Department",
+      "sourceCode": "14"
+    },
+    {
+      "id": "py-15",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Presidente Hayes",
+      "code": "15",
+      "kind": "Department",
+      "sourceCode": "15"
+    },
+    {
+      "id": "py-16",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Alto Paraguay",
+      "code": "16",
+      "kind": "Department",
+      "sourceCode": "16"
+    },
+    {
+      "id": "py-19",
+      "parentId": "py",
+      "groupId": "py-subdivisions",
+      "name": "Boquerón",
+      "code": "19",
+      "kind": "Department",
+      "sourceCode": "19"
+    },
+    {
+      "id": "bo-b",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Beni",
+      "code": "B",
+      "kind": "Department",
+      "sourceCode": "B"
+    },
+    {
+      "id": "bo-h",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Chuquisaca",
+      "code": "H",
+      "kind": "Department",
+      "sourceCode": "H"
+    },
+    {
+      "id": "bo-c",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Cochabamba",
+      "code": "C",
+      "kind": "Department",
+      "sourceCode": "C"
+    },
+    {
+      "id": "bo-l",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "La Paz",
+      "code": "L",
+      "kind": "Department",
+      "sourceCode": "L"
+    },
+    {
+      "id": "bo-o",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Oruro",
+      "code": "O",
+      "kind": "Department",
+      "sourceCode": "O"
+    },
+    {
+      "id": "bo-n",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Pando",
+      "code": "N",
+      "kind": "Department",
+      "sourceCode": "N"
+    },
+    {
+      "id": "bo-p",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Potosí",
+      "code": "P",
+      "kind": "Department",
+      "sourceCode": "P"
+    },
+    {
+      "id": "bo-s",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Santa Cruz",
+      "code": "S",
+      "kind": "Department",
+      "sourceCode": "S"
+    },
+    {
+      "id": "bo-t",
+      "parentId": "bo",
+      "groupId": "bo-subdivisions",
+      "name": "Tarija",
+      "code": "T",
+      "kind": "Department",
+      "sourceCode": "T"
+    },
+    {
+      "id": "pe-ama",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Amazonas",
+      "code": "AMA",
+      "kind": "Department",
+      "sourceCode": "AMA"
+    },
+    {
+      "id": "pe-anc",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Áncash",
+      "code": "ANC",
+      "kind": "Department",
+      "sourceCode": "ANC"
+    },
+    {
+      "id": "pe-apu",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Apurímac",
+      "code": "APU",
+      "kind": "Department",
+      "sourceCode": "APU"
+    },
+    {
+      "id": "pe-are",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Arequipa",
+      "code": "ARE",
+      "kind": "Department",
+      "sourceCode": "ARE"
+    },
+    {
+      "id": "pe-aya",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Ayacucho",
+      "code": "AYA",
+      "kind": "Department",
+      "sourceCode": "AYA"
+    },
+    {
+      "id": "pe-caj",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Cajamarca",
+      "code": "CAJ",
+      "kind": "Department",
+      "sourceCode": "CAJ"
+    },
+    {
+      "id": "pe-cal",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Callao",
+      "code": "CAL",
+      "kind": "Constitutional Province",
+      "sourceCode": "CAL"
+    },
+    {
+      "id": "pe-cus",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Cusco",
+      "code": "CUS",
+      "kind": "Department",
+      "sourceCode": "CUS"
+    },
+    {
+      "id": "pe-huc",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Huánuco",
+      "code": "HUC",
+      "kind": "Department",
+      "sourceCode": "HUC"
+    },
+    {
+      "id": "pe-huv",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Huancavelica",
+      "code": "HUV",
+      "kind": "Department",
+      "sourceCode": "HUV"
+    },
+    {
+      "id": "pe-ica",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Ica",
+      "code": "ICA",
+      "kind": "Department",
+      "sourceCode": "ICA"
+    },
+    {
+      "id": "pe-jun",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Junín",
+      "code": "JUN",
+      "kind": "Department",
+      "sourceCode": "JUN"
+    },
+    {
+      "id": "pe-lal",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "La Libertad",
+      "code": "LAL",
+      "kind": "Department",
+      "sourceCode": "LAL"
+    },
+    {
+      "id": "pe-lam",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Lambayeque",
+      "code": "LAM",
+      "kind": "Department",
+      "sourceCode": "LAM"
+    },
+    {
+      "id": "pe-lim",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Lima",
+      "code": "LIM",
+      "kind": "Department",
+      "sourceCode": "LIM"
+    },
+    {
+      "id": "pe-lor",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Loreto",
+      "code": "LOR",
+      "kind": "Department",
+      "sourceCode": "LOR"
+    },
+    {
+      "id": "pe-mdd",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Madre de Dios",
+      "code": "MDD",
+      "kind": "Department",
+      "sourceCode": "MDD"
+    },
+    {
+      "id": "pe-moq",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Moquegua",
+      "code": "MOQ",
+      "kind": "Department",
+      "sourceCode": "MOQ"
+    },
+    {
+      "id": "pe-pas",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Pasco",
+      "code": "PAS",
+      "kind": "Department",
+      "sourceCode": "PAS"
+    },
+    {
+      "id": "pe-piu",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Piura",
+      "code": "PIU",
+      "kind": "Department",
+      "sourceCode": "PIU"
+    },
+    {
+      "id": "pe-pun",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Puno",
+      "code": "PUN",
+      "kind": "Department",
+      "sourceCode": "PUN"
+    },
+    {
+      "id": "pe-sam",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "San Martín",
+      "code": "SAM",
+      "kind": "Department",
+      "sourceCode": "SAM"
+    },
+    {
+      "id": "pe-tac",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Tacna",
+      "code": "TAC",
+      "kind": "Department",
+      "sourceCode": "TAC"
+    },
+    {
+      "id": "pe-tum",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Tumbes",
+      "code": "TUM",
+      "kind": "Department",
+      "sourceCode": "TUM"
+    },
+    {
+      "id": "pe-uca",
+      "parentId": "pe",
+      "groupId": "pe-subdivisions",
+      "name": "Ucayali",
+      "code": "UCA",
+      "kind": "Department",
+      "sourceCode": "UCA"
+    },
+    {
+      "id": "ec-a",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Azuay",
+      "code": "A",
+      "kind": "Province",
+      "sourceCode": "Azuay"
+    },
+    {
+      "id": "ec-b",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Bolívar",
+      "code": "B",
+      "kind": "Province",
+      "sourceCode": "Bolivar"
+    },
+    {
+      "id": "ec-f",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Cañar",
+      "code": "F",
+      "kind": "Province",
+      "sourceCode": "Canar"
+    },
+    {
+      "id": "ec-c",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Carchi",
+      "code": "C",
+      "kind": "Province",
+      "sourceCode": "Carchi"
+    },
+    {
+      "id": "ec-h",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Chimborazo",
+      "code": "H",
+      "kind": "Province",
+      "sourceCode": "Chimborazo"
+    },
+    {
+      "id": "ec-x",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Cotopaxi",
+      "code": "X",
+      "kind": "Province",
+      "sourceCode": "Cotopaxi"
+    },
+    {
+      "id": "ec-o",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "El Oro",
+      "code": "O",
+      "kind": "Province",
+      "sourceCode": "El Oro"
+    },
+    {
+      "id": "ec-e",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Esmeraldas",
+      "code": "E",
+      "kind": "Province",
+      "sourceCode": "Esmeraldas"
+    },
+    {
+      "id": "ec-w",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Galápagos",
+      "code": "W",
+      "kind": "Province",
+      "sourceCode": "Galapagos"
+    },
+    {
+      "id": "ec-g",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Guayas",
+      "code": "G",
+      "kind": "Province",
+      "sourceCode": "Guayas"
+    },
+    {
+      "id": "ec-i",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Imbabura",
+      "code": "I",
+      "kind": "Province",
+      "sourceCode": "Imbabura"
+    },
+    {
+      "id": "ec-l",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Loja",
+      "code": "L",
+      "kind": "Province",
+      "sourceCode": "Loja"
+    },
+    {
+      "id": "ec-r",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Los Ríos",
+      "code": "R",
+      "kind": "Province",
+      "sourceCode": "Los Rios"
+    },
+    {
+      "id": "ec-m",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Manabí",
+      "code": "M",
+      "kind": "Province",
+      "sourceCode": "Manabi"
+    },
+    {
+      "id": "ec-s",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Morona Santiago",
+      "code": "S",
+      "kind": "Province",
+      "sourceCode": "Morona Santiago"
+    },
+    {
+      "id": "ec-n",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Napo",
+      "code": "N",
+      "kind": "Province",
+      "sourceCode": "Napo"
+    },
+    {
+      "id": "ec-d",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Orellana",
+      "code": "D",
+      "kind": "Province",
+      "sourceCode": "Orellana"
+    },
+    {
+      "id": "ec-y",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Pastaza",
+      "code": "Y",
+      "kind": "Province",
+      "sourceCode": "Pastaza"
+    },
+    {
+      "id": "ec-p",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Pichincha",
+      "code": "P",
+      "kind": "Province",
+      "sourceCode": "Pichincha"
+    },
+    {
+      "id": "ec-se",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Santa Elena",
+      "code": "SE",
+      "kind": "Province",
+      "sourceCode": "Santa Elena"
+    },
+    {
+      "id": "ec-sd",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Santo Domingo de los Tsáchilas",
+      "code": "SD",
+      "kind": "Province",
+      "sourceCode": "Santo Domingo de los Tsachilas"
+    },
+    {
+      "id": "ec-u",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Sucumbíos",
+      "code": "U",
+      "kind": "Province",
+      "sourceCode": "Sucumbios"
+    },
+    {
+      "id": "ec-t",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Tungurahua",
+      "code": "T",
+      "kind": "Province",
+      "sourceCode": "Tungurahua"
+    },
+    {
+      "id": "ec-z",
+      "parentId": "ec",
+      "groupId": "ec-subdivisions",
+      "name": "Zamora Chinchipe",
+      "code": "Z",
+      "kind": "Province",
+      "sourceCode": "Zamora Chinchipe"
+    },
+    {
+      "id": "ve-z",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Amazonas",
+      "code": "Z",
+      "kind": "State",
+      "sourceCode": "Z"
+    },
+    {
+      "id": "ve-b",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Anzoátegui",
+      "code": "B",
+      "kind": "State",
+      "sourceCode": "B"
+    },
+    {
+      "id": "ve-c",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Apure",
+      "code": "C",
+      "kind": "State",
+      "sourceCode": "C"
+    },
+    {
+      "id": "ve-d",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Aragua",
+      "code": "D",
+      "kind": "State",
+      "sourceCode": "D"
+    },
+    {
+      "id": "ve-e",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Barinas",
+      "code": "E",
+      "kind": "State",
+      "sourceCode": "E"
+    },
+    {
+      "id": "ve-f",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Bolívar",
+      "code": "F",
+      "kind": "State",
+      "sourceCode": "F"
+    },
+    {
+      "id": "ve-g",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Carabobo",
+      "code": "G",
+      "kind": "State",
+      "sourceCode": "G"
+    },
+    {
+      "id": "ve-h",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Cojedes",
+      "code": "H",
+      "kind": "State",
+      "sourceCode": "H"
+    },
+    {
+      "id": "ve-y",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Delta Amacuro",
+      "code": "Y",
+      "kind": "State",
+      "sourceCode": "Y"
+    },
+    {
+      "id": "ve-a",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Distrito Capital",
+      "code": "A",
+      "kind": "Capital District",
+      "sourceCode": "A"
+    },
+    {
+      "id": "ve-w",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Dependencias Federales",
+      "code": "W",
+      "kind": "Federal Dependencies",
+      "sourceCode": "W"
+    },
+    {
+      "id": "ve-i",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Falcón",
+      "code": "I",
+      "kind": "State",
+      "sourceCode": "I"
+    },
+    {
+      "id": "ve-j",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Guárico",
+      "code": "J",
+      "kind": "State",
+      "sourceCode": "J"
+    },
+    {
+      "id": "ve-x",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "La Guaira",
+      "code": "X",
+      "kind": "State",
+      "sourceCode": "X"
+    },
+    {
+      "id": "ve-k",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Lara",
+      "code": "K",
+      "kind": "State",
+      "sourceCode": "K"
+    },
+    {
+      "id": "ve-l",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Mérida",
+      "code": "L",
+      "kind": "State",
+      "sourceCode": "L"
+    },
+    {
+      "id": "ve-m",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Miranda",
+      "code": "M",
+      "kind": "State",
+      "sourceCode": "M"
+    },
+    {
+      "id": "ve-n",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Monagas",
+      "code": "N",
+      "kind": "State",
+      "sourceCode": "N"
+    },
+    {
+      "id": "ve-o",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Nueva Esparta",
+      "code": "O",
+      "kind": "State",
+      "sourceCode": "O"
+    },
+    {
+      "id": "ve-p",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Portuguesa",
+      "code": "P",
+      "kind": "State",
+      "sourceCode": "P"
+    },
+    {
+      "id": "ve-r",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Sucre",
+      "code": "R",
+      "kind": "State",
+      "sourceCode": "R"
+    },
+    {
+      "id": "ve-s",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Táchira",
+      "code": "S",
+      "kind": "State",
+      "sourceCode": "S"
+    },
+    {
+      "id": "ve-t",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Trujillo",
+      "code": "T",
+      "kind": "State",
+      "sourceCode": "T"
+    },
+    {
+      "id": "ve-u",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Yaracuy",
+      "code": "U",
+      "kind": "State",
+      "sourceCode": "U"
+    },
+    {
+      "id": "ve-v",
+      "parentId": "ve",
+      "groupId": "ve-subdivisions",
+      "name": "Zulia",
+      "code": "V",
+      "kind": "State",
+      "sourceCode": "V"
+    },
+    {
+      "id": "gy-ba",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Barima-Waini",
+      "code": "BA",
+      "kind": "Region",
+      "sourceCode": "BA"
+    },
+    {
+      "id": "gy-cu",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Cuyuni-Mazaruni",
+      "code": "CU",
+      "kind": "Region",
+      "sourceCode": "CU"
+    },
+    {
+      "id": "gy-de",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Demerara-Mahaica",
+      "code": "DE",
+      "kind": "Region",
+      "sourceCode": "DE"
+    },
+    {
+      "id": "gy-eb",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "East Berbice-Corentyne",
+      "code": "EB",
+      "kind": "Region",
+      "sourceCode": "EB"
+    },
+    {
+      "id": "gy-es",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Essequibo Islands-West Demerara",
+      "code": "ES",
+      "kind": "Region",
+      "sourceCode": "ES"
+    },
+    {
+      "id": "gy-ma",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Mahaica-Berbice",
+      "code": "MA",
+      "kind": "Region",
+      "sourceCode": "MA"
+    },
+    {
+      "id": "gy-pm",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Pomeroon-Supenaam",
+      "code": "PM",
+      "kind": "Region",
+      "sourceCode": "PM"
+    },
+    {
+      "id": "gy-pt",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Potaro-Siparuni",
+      "code": "PT",
+      "kind": "Region",
+      "sourceCode": "PT"
+    },
+    {
+      "id": "gy-ud",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Upper Demerara-Berbice",
+      "code": "UD",
+      "kind": "Region",
+      "sourceCode": "UD"
+    },
+    {
+      "id": "gy-ut",
+      "parentId": "gy",
+      "groupId": "gy-subdivisions",
+      "name": "Upper Takutu-Upper Essequibo",
+      "code": "UT",
+      "kind": "Region",
+      "sourceCode": "UT"
+    },
+    {
+      "id": "sr-br",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Brokopondo",
+      "code": "BR",
+      "kind": "District",
+      "sourceCode": "BR"
+    },
+    {
+      "id": "sr-cm",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Commewijne",
+      "code": "CM",
+      "kind": "District",
+      "sourceCode": "CM"
+    },
+    {
+      "id": "sr-cr",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Coronie",
+      "code": "CR",
+      "kind": "District",
+      "sourceCode": "CR"
+    },
+    {
+      "id": "sr-ma",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Marowijne",
+      "code": "MA",
+      "kind": "District",
+      "sourceCode": "MA"
+    },
+    {
+      "id": "sr-ni",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Nickerie",
+      "code": "NI",
+      "kind": "District",
+      "sourceCode": "NI"
+    },
+    {
+      "id": "sr-pr",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Para",
+      "code": "PR",
+      "kind": "District",
+      "sourceCode": "PR"
+    },
+    {
+      "id": "sr-pm",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Paramaribo",
+      "code": "PM",
+      "kind": "District",
+      "sourceCode": "PM"
+    },
+    {
+      "id": "sr-sa",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Saramacca",
+      "code": "SA",
+      "kind": "District",
+      "sourceCode": "SA"
+    },
+    {
+      "id": "sr-si",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Sipaliwini",
+      "code": "SI",
+      "kind": "District",
+      "sourceCode": "SI"
+    },
+    {
+      "id": "sr-wa",
+      "parentId": "sr",
+      "groupId": "sr-subdivisions",
+      "name": "Wanica",
+      "code": "WA",
+      "kind": "District",
+      "sourceCode": "WA"
+    }
+  ]
+}

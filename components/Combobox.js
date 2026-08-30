@@ -1,24 +1,87 @@
 import { useEffect, useRef, useState } from "react";
 
-import { worldJSON } from "../utils/mapData";
+import { getCountryById, worldJSON } from "../utils/mapData";
+import { subdivisions } from "../utils/subdivisionData";
+import { displayStateFor } from "../utils/territoryData";
+import { visitTypeLabel } from "../utils/visitTypes.mjs";
+import PlaceFlag from "./PlaceFlag";
 
-const ComboBox = ({ selectedCountry, selectedList = [] }) => {
+const ComboBox = ({
+  selectedPlace,
+  selectedList = [],
+  selectedSubdivisions = [],
+  placeGrouping = "standard",
+  includeSubdivisions = false,
+  subdivisionParentIds = [],
+  visitTypeByPlaceId = {},
+  disabled = false,
+}) => {
   const [term, setTerm] = useState("");
   const [results, setResults] = useState(worldJSON);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const optionRefs = useRef(new Map());
+  const closeTimeoutRef = useRef(null);
+  const subdivisionParentFilter = new Set(subdivisionParentIds);
 
   useEffect(() => {
-    var tempCountries = worldJSON.filter((country) => {
-      return (
-        country.name.toLowerCase().includes(term.trim().toLowerCase()) &&
-        !selectedList.includes(country.id.toLowerCase())
-      );
-    });
-    setResults(tempCountries);
+    const query = term.trim().toLowerCase();
+    const countries = worldJSON
+      .filter(
+        (country) =>
+          country.selectable !== false &&
+          (placeGrouping !== "sovereign" ||
+            displayStateFor(country.id.toLowerCase(), placeGrouping) ===
+              country.id.toLowerCase()) &&
+          [country.name, ...(country.aliases || [])].some((name) =>
+            name.toLocaleLowerCase().includes(query),
+          ) &&
+          (!selectedList.includes(country.id.toLowerCase()) || query.length > 0),
+      )
+      .map((country) => ({
+        ...country,
+        type: "country",
+        selectedVisitType: visitTypeByPlaceId[country.id.toLowerCase()],
+      }));
+    const childPlaces = includeSubdivisions
+      ? subdivisions
+          .filter(
+            (subdivision) =>
+              subdivisionParentFilter.has(subdivision.parentId) &&
+              subdivision.name.toLowerCase().includes(query) &&
+              (!selectedSubdivisions.includes(subdivision.id) ||
+                query.length > 0),
+          )
+          .map((subdivision) => ({
+            ...subdivision,
+            type: "subdivision",
+            selectedVisitType: visitTypeByPlaceId[subdivision.id],
+          }))
+      : [];
+    setResults([...countries, ...childPlaces]);
     setActiveIndex(-1);
-  }, [term, selectedList]);
+  }, [
+    includeSubdivisions,
+    placeGrouping,
+    selectedList,
+    selectedSubdivisions,
+    subdivisionParentIds,
+    term,
+    visitTypeByPlaceId,
+  ]);
+
+  useEffect(() => {
+    if (!disabled) return;
+    setTerm("");
+    setOpen(false);
+    setActiveIndex(-1);
+  }, [disabled]);
+
+  useEffect(() => () => {
+    if (closeTimeoutRef.current) {
+      window.clearTimeout(closeTimeoutRef.current);
+    }
+  }, []);
 
   useEffect(() => {
     if (!open || activeIndex < 0) return;
@@ -27,8 +90,12 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
     });
   }, [activeIndex, open, results]);
 
-  function selectCountry(country) {
-    selectedCountry(country.name);
+  function selectResult(place) {
+    if (closeTimeoutRef.current) {
+      window.clearTimeout(closeTimeoutRef.current);
+      closeTimeoutRef.current = null;
+    }
+    selectedPlace(place);
     setTerm("");
     setOpen(false);
     setActiveIndex(-1);
@@ -71,7 +138,7 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
 
     if (event.key === "Enter" && open && activeIndex >= 0) {
       event.preventDefault();
-      selectCountry(results[activeIndex]);
+      selectResult(results[activeIndex]);
       return;
     }
 
@@ -92,17 +159,28 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
           setTerm(e.target.value);
           setOpen(true);
         }}
-        onFocus={() => setOpen(true)}
-        onBlur={() =>
-          window.setTimeout(() => {
+        onFocus={() => {
+          if (closeTimeoutRef.current) {
+            window.clearTimeout(closeTimeoutRef.current);
+            closeTimeoutRef.current = null;
+          }
+          setOpen(true);
+        }}
+        onBlur={() => {
+          if (closeTimeoutRef.current) {
+            window.clearTimeout(closeTimeoutRef.current);
+          }
+          closeTimeoutRef.current = window.setTimeout(() => {
             setOpen(false);
             setActiveIndex(-1);
-          }, 100)
-        }
+            closeTimeoutRef.current = null;
+          }, 100);
+        }}
         onKeyDown={handleKeyDown}
         className="addCountryInput"
-        placeholder="Add Country..."
-        aria-label="Add country"
+        placeholder="Add Place..."
+        disabled={disabled}
+        aria-label="Add place"
         aria-autocomplete="list"
         aria-expanded={open}
         aria-controls="country-results"
@@ -121,25 +199,32 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
         >
           {results.length > 0 ? (
             <div>
-              {results.map((country, index) => (
+              {results.map((place, index) => (
                 <button
                   type="button"
-                  id={`country-option-${country.id}`}
-                  key={country.id}
+                  id={`country-option-${place.id}`}
+                  key={place.id}
                   ref={(element) => {
-                    if (element) optionRefs.current.set(country.id, element);
-                    else optionRefs.current.delete(country.id);
+                    if (element) optionRefs.current.set(place.id, element);
+                    else optionRefs.current.delete(place.id);
                   }}
                   className="comboOption"
                   onMouseDown={(event) => event.preventDefault()}
                   onMouseEnter={() => setActiveIndex(index)}
-                  onClick={() => selectCountry(country)}
+                  onClick={() => selectResult(place)}
                   role="option"
                   aria-selected={activeIndex === index}
                   tabIndex={-1}
                 >
-                  <span style={{ marginRight: "8px" }}>{country.flag}</span>
-                  {country.name}
+                  <PlaceFlag placeId={place.id} width={28} />
+                  <span className="comboOptionText">
+                    <strong>{place.name}</strong>
+                    {place.selectedVisitType ? (
+                      <small>Currently {visitTypeLabel(place.selectedVisitType)}</small>
+                    ) : place.type === "subdivision" && (
+                      <small>{getCountryById(place.parentId)?.name}</small>
+                    )}
+                  </span>
                 </button>
               ))}
             </div>
@@ -172,6 +257,26 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
           outline: none;
         }
 
+        .comboOptionText {
+          display: flex;
+          min-width: 0;
+          flex-direction: column;
+          text-align: left;
+        }
+
+        .comboOptionText strong {
+          overflow: hidden;
+          font-weight: 500;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .comboOptionText small {
+          color: rgba(255, 255, 255, 0.58);
+          font-size: 10px;
+          line-height: 1.2;
+        }
+
         .comboPopOver {
           position: absolute;
           z-index: 20;
@@ -197,8 +302,10 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
         }
 
         .comboOption {
-          display: block;
+          display: flex;
           width: 100%;
+          align-items: center;
+          gap: 10px;
           padding: 8px 12px;
           border: 0;
           background: transparent;
@@ -210,7 +317,7 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
         .comboOption:hover,
         .comboOption[aria-selected="true"],
         .comboOption:focus-visible {
-          background: #46e992;
+          background: var(--accent-soft, #8fc9a7);
           color: #2d2d2d;
           font-weight: bold;
         }
@@ -220,14 +327,15 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
         }
         @media only screen and (max-width: 768px) {
           .comboInputWrapper {
-            width: 90%;
-            flex-basis: auto;
+            width: auto;
+            min-width: 0;
+            flex: 1 1 auto;
           }
 
           .addCountryInput {
             width: 100%;
             font-size: 14px;
-            text-align: center;
+            text-align: left;
           }
 
           .comboPopOver {
