@@ -1,17 +1,20 @@
 import Head from "next/head";
+import Script from "next/script";
+import "maplibre-gl/dist/maplibre-gl.css";
+import "flag-icons/css/flag-icons.min.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>I've Travelled the World</title>
+        <title>CPBR Atlas — Map your travels</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-        />
-        <script defer data-domain="worldtraveller.vercel.app" src="https://analytics.cpbr.digital/js/script.js"></script>
       </Head>
+      <Script
+        data-site-id="fd5ee8720205"
+        src="https://nosy.cpbr.digital/api/script.js"
+        strategy="afterInteractive"
+      />
       <Component {...pageProps} />
     </>
   );

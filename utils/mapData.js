@@ -1,109 +1,129 @@
-let worldData = null;
+import countries from "world-countries";
+import customPlaceData from "../data/custom-places.json";
+import placeNameData from "../data/place-names.json";
 
-async function loadWorldData() {
-  const response = await fetch('https://cdn.gabrielmolter.com/world.json');
-  if (!response.ok) {
-    throw new Error(`Failed to load world data: ${response.statusText}`);
-  }
-  worldData = await response.json();
-}
+const customPlaces = customPlaceData.places;
+const separatelyListedSpanishLandArea = customPlaces
+  .filter((place) => place.id === "es-ce" || place.id === "es-ml")
+  .reduce((total, place) => total + place.land, 0);
+const alandLandArea =
+  countries.find((country) => country.cca2 === "AX")?.area || 0;
 
-export const getWorldSVGs = async () => {
-  if (!worldData) await loadWorldData();
-  return {
-    id: worldData.id,
-    name: worldData.name,
-    viewBox: worldData.viewBox,
-    layers: worldData.layers,
-  };
-};
+const isoPlaces = countries
+  .filter((country) => country.cca2 && country.cca3)
+  .map((country) => {
+    const id = country.cca2.toLowerCase();
+    const name = placeNameData.displayNames[id] || country.name.common;
+    const aliases = [
+      country.name.common,
+      ...(placeNameData.aliases[id] || []),
+    ].filter(
+      (alias, index, all) => alias !== name && all.indexOf(alias) === index,
+    );
 
-export const getWorldJSON = async () => {
-  if (!worldData) await loadWorldData();
-  return worldData.worldJSON;
-};
+    return {
+      id,
+      name,
+      aliases,
+      contextualNames: placeNameData.contextualNames[id] || {},
+      flagCode: country.cca2.toLowerCase(),
+      // Spain's autonomous cities and the UK's constituent countries are
+      // exposed separately. Remove their area from the parent entry so land
+      // progress cannot double-count them.
+      land:
+        country.cca2 === "ES"
+          ? country.area - separatelyListedSpanishLandArea
+          : country.cca2 === "FI"
+            ? country.area - alandLandArea
+            : country.cca2 === "GB"
+              ? 0
+              : country.area,
+      // The UK remains in organization lists, but map/search selection uses its
+      // four constituent-country polygons instead of a duplicate whole-UK row.
+      selectable: country.cca2 !== "GB",
+      independent: country.independent === true,
+      // world-countries currently marks Vatican City as a UN member. The Holy
+      // See is a non-member observer state, so keep the app's status accurate.
+      unMember: country.unMember === true && country.cca2 !== "VA",
+      coordinates:
+        country.latlng?.length === 2
+          ? [country.latlng[1], country.latlng[0]]
+          : null,
+      languages: Object.values(country.languages || {}),
+    };
+  });
 
-export const worldLand = 1360100;
-export const monarchies = [
-  "qa",
-  "va",
-  "om",
-  "sa",
-  "sz",
-  "bn",
-  "th",
-  "bt",
+export const worldJSON = [...isoPlaces, ...customPlaces].sort((a, b) =>
+  a.name.localeCompare(b.name),
+);
+
+export const countryCodeByAlpha3 = Object.fromEntries(
+  countries.map((country) => [country.cca3, country.cca2.toLowerCase()]),
+);
+
+const microstateCalloutCodes = new Set([
   "ad",
-  "kh",
-  "ls",
-  "tv",
-  "kn",
-  "ag",
-  "bz",
-  "lc",
-  "vc",
-  "sb",
-  "es",
-  "pg",
-  "gd",
-  "se",
-  "bs",
-  "to",
-  "jm",
-  "my",
-  "dk",
-  "jp",
-  "nz",
-  "au",
-  "lu",
-  "ca",
-  "be",
-  "nl",
-  "no",
-  "gb",
-  "ae",
-  "bh",
-  "kw",
-  "jo",
-  "mc",
+  "ax",
+  "gi",
+  "hk",
   "li",
-  "ma",
-];
-export const europeanUnion = [
-  "at",
-  "be",
-  "bg",
-  "cy",
-  "cz",
-  "de",
-  "dk",
-  "ee",
-  "es",
-  "fi",
-  "fr",
-  "gr",
-  "hr",
-  "hu",
-  "ie",
-  "it",
-  "lt",
-  "lu",
-  "lv",
-  "mt",
-  "nl",
-  "pl",
-  "pt",
-  "ro",
-  "se",
-  "si",
-  "sk",
-];
-
-export const sevenWondersOld = ["eg", "iq", "gr", "tr"];
-export const sevenWondersNew = ["cn", "in", "jo", "it", "br", "mx", "pe"];
-export const getCountryById = (id) => {
-  return worldJSON.filter((country) => country.id === id)[0];
+  "mc",
+  "mo",
+  "sm",
+  "va",
+]);
+const microstateCalloutCoordinateOverrides = {
+  // Mariehamn is a stable, visible anchor within Åland's archipelago.
+  ax: [19.949, 60.0973],
+  // Use the territory itself rather than the broad midpoint coordinates from
+  // world-countries for these compact coastal places.
+  gi: [-5.3536, 36.1408],
+  // Keep Hong Kong selectable without requiring a deep zoom into its dense
+  // Pearl River Delta coastline.
+  hk: [114.1694, 22.3193],
+  // Place Liechtenstein's marker on its capital, Vaduz, rather than the
+  // country's midpoint supplied by world-countries.
+  li: [9.52242309, 47.13845114],
+  mo: [113.5439, 22.1987],
+  // world-countries places San Marino roughly 20 km too far south.
+  sm: [12.457777, 43.94236],
 };
-export const getCountryByName = (name) => {
-  return worldJSON.filter((country) => country.name === name)[0];
+
+export const microstateCallouts = worldJSON
+  .filter(
+    (place) =>
+      microstateCalloutCodes.has(place.id) || place.calloutMinZoom != null,
+  )
+  .map((place) => ({
+    id: place.id,
+    name: place.name,
+    coordinates:
+      microstateCalloutCoordinateOverrides[place.id] || place.coordinates,
+    minZoom: place.calloutMinZoom || 4.25,
+  }));
+
+export const worldLand = worldJSON.reduce(
+  (total, country) => total + country.land,
+  0,
+);
+
+const countryById = Object.fromEntries(
+  worldJSON.map((country) => [country.id, country]),
+);
+const countryByName = Object.fromEntries(
+  worldJSON.flatMap((country) =>
+    [
+      country.name,
+      ...(country.aliases || []),
+      ...Object.values(country.contextualNames || {}),
+    ].map((name) => [name.toLocaleLowerCase(), country]),
+  ),
+);
+
+export const getCountryById = (id) => countryById[id];
+export const getCountryByName = (name) =>
+  countryByName[String(name || "").toLocaleLowerCase()];
+export const getCountryDisplayName = (id, context = "geographic") => {
+  const country = getCountryById(id);
+  return country?.contextualNames?.[context] || country?.name;
 };

@@ -11,7 +11,7 @@ const Toast = ({ text }) => {
         background: "#373534d6",
         fontSize: "15px",
         borderRadius: "10px",
-        color: "#46e992",
+        color: "var(--accent-on-dark, #8fc9a7)",
         transition: "bottom 200ms ease",
         zIndex: "1",
       }}

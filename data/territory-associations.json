@@ -1,0 +1,82 @@
+{
+  "reviewedOn": "2026-08-24",
+  "groups": [
+    {
+      "state": "au",
+      "places": ["cc", "cx", "hm", "nf"]
+    },
+    {
+      "state": "cn",
+      "places": ["hk", "mo"]
+    },
+    {
+      "state": "dk",
+      "places": ["fo", "gl"]
+    },
+    {
+      "state": "fi",
+      "places": ["ax"]
+    },
+    {
+      "state": "es",
+      "places": ["es-ce", "es-ml"]
+    },
+    {
+      "state": "fr",
+      "places": [
+        "bl",
+        "gf",
+        "gp",
+        "mf",
+        "mq",
+        "nc",
+        "pf",
+        "pm",
+        "re",
+        "tf",
+        "wf",
+        "yt"
+      ]
+    },
+    {
+      "state": "gb",
+      "places": [
+        "ai",
+        "bm",
+        "eng",
+        "fk",
+        "gg",
+        "gi",
+        "gs",
+        "im",
+        "io",
+        "je",
+        "ky",
+        "ms",
+        "nir",
+        "pn",
+        "sco",
+        "sh",
+        "tc",
+        "vg",
+        "wal"
+      ]
+    },
+    {
+      "state": "nl",
+      "places": ["aw", "bq", "cw", "sx"]
+    },
+    {
+      "state": "no",
+      "places": ["bv", "sj"]
+    },
+    {
+      "state": "nz",
+      "places": ["tk"]
+    },
+    {
+      "state": "us",
+      "places": ["as", "gu", "mp", "pr", "um", "vi"]
+    }
+  ]
+}

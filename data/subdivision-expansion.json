@@ -1,0 +1,1716 @@
+{
+  "reviewedOn": "2026-08-24",
+  "sources": [
+    {
+      "id": "geoboundaries-france-regions",
+      "label": "geoBoundaries — France ADM1, sourced from IGN Admin Express",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/FRA/ADM1/",
+      "dateLabel": "2022 metropolitan regions; reviewed against INSEE on 24 Aug 2026"
+    },
+    {
+      "id": "geoboundaries-portugal-districts",
+      "label": "geoBoundaries — Portugal ADM1, sourced from Direção-Geral do Território",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/PRT/ADM1/",
+      "dateLabel": "2016 geometry; roster reviewed against CAOP2025 on 24 Aug 2026"
+    },
+    {
+      "id": "geoboundaries-india-states",
+      "label": "geoBoundaries — India ADM1, sourced from DataMeet and the Election Commission of India",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+      "dateLabel": "36 current units; roster reviewed against India MHA on 24 Aug 2026"
+    },
+    {
+      "id": "geoboundaries-china-provinces",
+      "label": "geoBoundaries — China ADM1",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/CHN/ADM1/",
+      "dateLabel": "2019 geometry; 31-mainland-unit roster reviewed against China NBS on 24 Aug 2026"
+    },
+    {
+      "id": "geoboundaries-russia-subjects",
+      "label": "geoBoundaries — Russian Federation ADM1, sourced from OpenStreetMap",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/RUS/ADM1/",
+      "dateLabel": "2017 internationally undisputed 83-subject geometry; reviewed 24 Aug 2026"
+    }
+  ],
+  "groups": [
+    {
+      "id": "fr-subdivisions",
+      "label": "French Metropolitan Regions",
+      "description": "France’s 13 metropolitan regions. Guadeloupe, French Guiana, Martinique, Mayotte and Réunion remain standalone CPBR Atlas places.",
+      "sourceId": "geoboundaries-france-regions"
+    },
+    {
+      "id": "pt-subdivisions",
+      "label": "Portuguese Districts & Autonomous Regions",
+      "description": "Portugal’s 18 mainland districts plus the autonomous regions of the Azores and Madeira.",
+      "sourceId": "geoboundaries-portugal-districts"
+    },
+    {
+      "id": "in-subdivisions",
+      "label": "Indian States & Union Territories",
+      "description": "India’s 28 states and eight union territories using the current Ministry of Home Affairs roster.",
+      "sourceId": "geoboundaries-india-states"
+    },
+    {
+      "id": "cn-subdivisions",
+      "label": "Chinese Mainland Provincial-level Divisions",
+      "description": "The 31 provinces, autonomous regions and municipalities of mainland China. Hong Kong, Macao and Taiwan remain standalone CPBR Atlas places.",
+      "sourceId": "geoboundaries-china-provinces"
+    },
+    {
+      "id": "ru-subdivisions",
+      "label": "Russian Federal Subjects",
+      "description": "The 83 federal subjects within Russia’s internationally recognized pre-2014 borders. Crimea, Sevastopol and the four claimed Ukrainian regions remain excluded.",
+      "sourceId": "geoboundaries-russia-subjects"
+    }
+  ],
+  "places": [
+    {
+      "id": "cn-ah",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Anhui",
+      "code": "AH",
+      "kind": "Province",
+      "sourceCode": "Anhui Province"
+    },
+    {
+      "id": "cn-bj",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Beijing",
+      "code": "BJ",
+      "kind": "Municipality",
+      "sourceCode": "Beijing Municipality"
+    },
+    {
+      "id": "cn-cq",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Chongqing",
+      "code": "CQ",
+      "kind": "Municipality",
+      "sourceCode": "Chongqing Municipality"
+    },
+    {
+      "id": "cn-fj",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Fujian",
+      "code": "FJ",
+      "kind": "Province",
+      "sourceCode": "Fujian Province"
+    },
+    {
+      "id": "cn-gs",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Gansu",
+      "code": "GS",
+      "kind": "Province",
+      "sourceCode": "Gansu Province"
+    },
+    {
+      "id": "cn-gd",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Guangdong",
+      "code": "GD",
+      "kind": "Province",
+      "sourceCode": "Guangzhou Province"
+    },
+    {
+      "id": "cn-gx",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Guangxi Zhuang Autonomous Region",
+      "code": "GX",
+      "kind": "Autonomous region",
+      "sourceCode": "Guangxi Zhuang Autonomous Region"
+    },
+    {
+      "id": "cn-gz",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Guizhou",
+      "code": "GZ",
+      "kind": "Province",
+      "sourceCode": "Guizhou Province"
+    },
+    {
+      "id": "cn-hi",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Hainan",
+      "code": "HI",
+      "kind": "Province",
+      "sourceCode": "Hainan Province"
+    },
+    {
+      "id": "cn-he",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Hebei",
+      "code": "HE",
+      "kind": "Province",
+      "sourceCode": "Hebei Province"
+    },
+    {
+      "id": "cn-hl",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Heilongjiang",
+      "code": "HL",
+      "kind": "Province",
+      "sourceCode": "Heilongjiang Province"
+    },
+    {
+      "id": "cn-ha",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Henan",
+      "code": "HA",
+      "kind": "Province",
+      "sourceCode": "Henan Province"
+    },
+    {
+      "id": "cn-hb",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Hubei",
+      "code": "HB",
+      "kind": "Province",
+      "sourceCode": "Hubei Province"
+    },
+    {
+      "id": "cn-hn",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Hunan",
+      "code": "HN",
+      "kind": "Province",
+      "sourceCode": "Hunan Province"
+    },
+    {
+      "id": "cn-nm",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Inner Mongolia Autonomous Region",
+      "code": "NM",
+      "kind": "Autonomous region",
+      "sourceCode": "Inner Mongolia Autonomous Region"
+    },
+    {
+      "id": "cn-js",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Jiangsu",
+      "code": "JS",
+      "kind": "Province",
+      "sourceCode": "Jiangsu Province"
+    },
+    {
+      "id": "cn-jx",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Jiangxi",
+      "code": "JX",
+      "kind": "Province",
+      "sourceCode": "Jiangxi Province"
+    },
+    {
+      "id": "cn-jl",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Jilin",
+      "code": "JL",
+      "kind": "Province",
+      "sourceCode": "Jilin Province"
+    },
+    {
+      "id": "cn-ln",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Liaoning",
+      "code": "LN",
+      "kind": "Province",
+      "sourceCode": "Liaoning Province"
+    },
+    {
+      "id": "cn-nx",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Ningxia Hui Autonomous Region",
+      "code": "NX",
+      "kind": "Autonomous region",
+      "sourceCode": "Ningxia Ningxia Hui Autonomous Region"
+    },
+    {
+      "id": "cn-qh",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Qinghai",
+      "code": "QH",
+      "kind": "Province",
+      "sourceCode": "Qinghai Province"
+    },
+    {
+      "id": "cn-sn",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Shaanxi",
+      "code": "SN",
+      "kind": "Province",
+      "sourceCode": "Shaanxi Province"
+    },
+    {
+      "id": "cn-sd",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Shandong",
+      "code": "SD",
+      "kind": "Province",
+      "sourceCode": "Shandong Province"
+    },
+    {
+      "id": "cn-sh",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Shanghai",
+      "code": "SH",
+      "kind": "Municipality",
+      "sourceCode": "Shanghai Municipality"
+    },
+    {
+      "id": "cn-sx",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Shanxi",
+      "code": "SX",
+      "kind": "Province",
+      "sourceCode": "Shanxi Province"
+    },
+    {
+      "id": "cn-sc",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Sichuan",
+      "code": "SC",
+      "kind": "Province",
+      "sourceCode": "Sichuan Province"
+    },
+    {
+      "id": "cn-tj",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Tianjin",
+      "code": "TJ",
+      "kind": "Municipality",
+      "sourceCode": "Tianjin Municipality"
+    },
+    {
+      "id": "cn-xz",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Tibet Autonomous Region",
+      "code": "XZ",
+      "kind": "Autonomous region",
+      "sourceCode": "Tibet Autonomous Region"
+    },
+    {
+      "id": "cn-xj",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Xinjiang Uyghur Autonomous Region",
+      "code": "XJ",
+      "kind": "Autonomous region",
+      "sourceCode": "Xinjiang Uyghur Autonomous Region"
+    },
+    {
+      "id": "cn-yn",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Yunnan",
+      "code": "YN",
+      "kind": "Province",
+      "sourceCode": "Yunnan Province"
+    },
+    {
+      "id": "cn-zj",
+      "parentId": "cn",
+      "groupId": "cn-subdivisions",
+      "name": "Zhejiang",
+      "code": "ZJ",
+      "kind": "Province",
+      "sourceCode": "Zhejiang Province"
+    },
+    {
+      "id": "fr-ara",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Auvergne-Rhône-Alpes",
+      "code": "ARA",
+      "kind": "Region",
+      "sourceCode": "ARA"
+    },
+    {
+      "id": "fr-bfc",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Bourgogne-Franche-Comté",
+      "code": "BFC",
+      "kind": "Region",
+      "sourceCode": "BFC"
+    },
+    {
+      "id": "fr-bre",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Bretagne",
+      "code": "BRE",
+      "kind": "Region",
+      "sourceCode": "BRE"
+    },
+    {
+      "id": "fr-cvl",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Centre-Val de Loire",
+      "code": "CVL",
+      "kind": "Region",
+      "sourceCode": "CVL"
+    },
+    {
+      "id": "fr-20r",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Corse",
+      "code": "20R",
+      "kind": "Region",
+      "sourceCode": "20R"
+    },
+    {
+      "id": "fr-ges",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Grand Est",
+      "code": "GES",
+      "kind": "Region",
+      "sourceCode": "GES"
+    },
+    {
+      "id": "fr-hdf",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Hauts-de-France",
+      "code": "HDF",
+      "kind": "Region",
+      "sourceCode": "HDF"
+    },
+    {
+      "id": "fr-idf",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Île-de-France",
+      "code": "IDF",
+      "kind": "Region",
+      "sourceCode": "IDF"
+    },
+    {
+      "id": "fr-nor",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Normandie",
+      "code": "NOR",
+      "kind": "Region",
+      "sourceCode": "NOR"
+    },
+    {
+      "id": "fr-naq",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Nouvelle-Aquitaine",
+      "code": "NAQ",
+      "kind": "Region",
+      "sourceCode": "NAQ"
+    },
+    {
+      "id": "fr-occ",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Occitanie",
+      "code": "OCC",
+      "kind": "Region",
+      "sourceCode": "OCC"
+    },
+    {
+      "id": "fr-pdl",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Pays de la Loire",
+      "code": "PDL",
+      "kind": "Region",
+      "sourceCode": "PDL"
+    },
+    {
+      "id": "fr-pac",
+      "parentId": "fr",
+      "groupId": "fr-subdivisions",
+      "name": "Provence-Alpes-Côte d'Azur",
+      "code": "PAC",
+      "kind": "Region",
+      "sourceCode": "PAC"
+    },
+    {
+      "id": "in-an",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Andaman and Nicobar Islands",
+      "code": "AN",
+      "kind": "Union territory",
+      "sourceCode": "AN"
+    },
+    {
+      "id": "in-ap",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Andhra Pradesh",
+      "code": "AP",
+      "kind": "State",
+      "sourceCode": "AP"
+    },
+    {
+      "id": "in-ar",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Arunachal Pradesh",
+      "code": "AR",
+      "kind": "State",
+      "sourceCode": "AR"
+    },
+    {
+      "id": "in-as",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Assam",
+      "code": "AS",
+      "kind": "State",
+      "sourceCode": "AS"
+    },
+    {
+      "id": "in-br",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Bihar",
+      "code": "BR",
+      "kind": "State",
+      "sourceCode": "BR"
+    },
+    {
+      "id": "in-ch",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Chandigarh",
+      "code": "CH",
+      "kind": "Union territory",
+      "sourceCode": "CH"
+    },
+    {
+      "id": "in-cg",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Chhattisgarh",
+      "code": "CG",
+      "kind": "State",
+      "sourceCode": "CT"
+    },
+    {
+      "id": "in-dh",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "code": "DH",
+      "kind": "Union territory",
+      "sourceCode": "DH"
+    },
+    {
+      "id": "in-dl",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Delhi",
+      "code": "DL",
+      "kind": "Union territory",
+      "sourceCode": "DL"
+    },
+    {
+      "id": "in-ga",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Goa",
+      "code": "GA",
+      "kind": "State",
+      "sourceCode": "GA"
+    },
+    {
+      "id": "in-gj",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Gujarat",
+      "code": "GJ",
+      "kind": "State",
+      "sourceCode": "GJ"
+    },
+    {
+      "id": "in-hr",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Haryana",
+      "code": "HR",
+      "kind": "State",
+      "sourceCode": "HR"
+    },
+    {
+      "id": "in-hp",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Himachal Pradesh",
+      "code": "HP",
+      "kind": "State",
+      "sourceCode": "HP"
+    },
+    {
+      "id": "in-jk",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Jammu and Kashmir",
+      "code": "JK",
+      "kind": "Union territory",
+      "sourceCode": "JK"
+    },
+    {
+      "id": "in-jh",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Jharkhand",
+      "code": "JH",
+      "kind": "State",
+      "sourceCode": "JH"
+    },
+    {
+      "id": "in-ka",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Karnataka",
+      "code": "KA",
+      "kind": "State",
+      "sourceCode": "KA"
+    },
+    {
+      "id": "in-kl",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Kerala",
+      "code": "KL",
+      "kind": "State",
+      "sourceCode": "KL"
+    },
+    {
+      "id": "in-la",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Ladakh",
+      "code": "LA",
+      "kind": "Union territory",
+      "sourceCode": "LA"
+    },
+    {
+      "id": "in-ld",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Lakshadweep",
+      "code": "LD",
+      "kind": "Union territory",
+      "sourceCode": "LD"
+    },
+    {
+      "id": "in-mp",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Madhya Pradesh",
+      "code": "MP",
+      "kind": "State",
+      "sourceCode": "MP"
+    },
+    {
+      "id": "in-mh",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Maharashtra",
+      "code": "MH",
+      "kind": "State",
+      "sourceCode": "MH"
+    },
+    {
+      "id": "in-mn",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Manipur",
+      "code": "MN",
+      "kind": "State",
+      "sourceCode": "MN"
+    },
+    {
+      "id": "in-ml",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Meghalaya",
+      "code": "ML",
+      "kind": "State",
+      "sourceCode": "ML"
+    },
+    {
+      "id": "in-mz",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Mizoram",
+      "code": "MZ",
+      "kind": "State",
+      "sourceCode": "MZ"
+    },
+    {
+      "id": "in-nl",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Nagaland",
+      "code": "NL",
+      "kind": "State",
+      "sourceCode": "NL"
+    },
+    {
+      "id": "in-od",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Odisha",
+      "code": "OD",
+      "kind": "State",
+      "sourceCode": "OR"
+    },
+    {
+      "id": "in-py",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Puducherry",
+      "code": "PY",
+      "kind": "Union territory",
+      "sourceCode": "PY"
+    },
+    {
+      "id": "in-pb",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Punjab",
+      "code": "PB",
+      "kind": "State",
+      "sourceCode": "PB"
+    },
+    {
+      "id": "in-rj",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Rajasthan",
+      "code": "RJ",
+      "kind": "State",
+      "sourceCode": "RJ"
+    },
+    {
+      "id": "in-sk",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Sikkim",
+      "code": "SK",
+      "kind": "State",
+      "sourceCode": "SK"
+    },
+    {
+      "id": "in-tn",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Tamil Nadu",
+      "code": "TN",
+      "kind": "State",
+      "sourceCode": "TN"
+    },
+    {
+      "id": "in-ts",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Telangana",
+      "code": "TS",
+      "kind": "State",
+      "sourceCode": "TG"
+    },
+    {
+      "id": "in-tr",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Tripura",
+      "code": "TR",
+      "kind": "State",
+      "sourceCode": "TR"
+    },
+    {
+      "id": "in-up",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Uttar Pradesh",
+      "code": "UP",
+      "kind": "State",
+      "sourceCode": "UP"
+    },
+    {
+      "id": "in-uk",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "Uttarakhand",
+      "code": "UK",
+      "kind": "State",
+      "sourceCode": "UT"
+    },
+    {
+      "id": "in-wb",
+      "parentId": "in",
+      "groupId": "in-subdivisions",
+      "name": "West Bengal",
+      "code": "WB",
+      "kind": "State",
+      "sourceCode": "WB"
+    },
+    {
+      "id": "pt-01",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Aveiro",
+      "code": "01",
+      "kind": "District",
+      "sourceCode": "01"
+    },
+    {
+      "id": "pt-20",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Azores",
+      "code": "20",
+      "kind": "Autonomous region",
+      "sourceCode": "20"
+    },
+    {
+      "id": "pt-02",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Beja",
+      "code": "02",
+      "kind": "District",
+      "sourceCode": "02"
+    },
+    {
+      "id": "pt-03",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Braga",
+      "code": "03",
+      "kind": "District",
+      "sourceCode": "03"
+    },
+    {
+      "id": "pt-04",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Bragança",
+      "code": "04",
+      "kind": "District",
+      "sourceCode": "04"
+    },
+    {
+      "id": "pt-05",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Castelo Branco",
+      "code": "05",
+      "kind": "District",
+      "sourceCode": "05"
+    },
+    {
+      "id": "pt-06",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Coimbra",
+      "code": "06",
+      "kind": "District",
+      "sourceCode": "06"
+    },
+    {
+      "id": "pt-07",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Évora",
+      "code": "07",
+      "kind": "District",
+      "sourceCode": "07"
+    },
+    {
+      "id": "pt-08",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Faro",
+      "code": "08",
+      "kind": "District",
+      "sourceCode": "08"
+    },
+    {
+      "id": "pt-09",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Guarda",
+      "code": "09",
+      "kind": "District",
+      "sourceCode": "09"
+    },
+    {
+      "id": "pt-10",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Leiria",
+      "code": "10",
+      "kind": "District",
+      "sourceCode": "10"
+    },
+    {
+      "id": "pt-11",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Lisbon",
+      "code": "11",
+      "kind": "District",
+      "sourceCode": "11"
+    },
+    {
+      "id": "pt-30",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Madeira",
+      "code": "30",
+      "kind": "Autonomous region",
+      "sourceCode": "30"
+    },
+    {
+      "id": "pt-12",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Portalegre",
+      "code": "12",
+      "kind": "District",
+      "sourceCode": "12"
+    },
+    {
+      "id": "pt-13",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Porto",
+      "code": "13",
+      "kind": "District",
+      "sourceCode": "13"
+    },
+    {
+      "id": "pt-14",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Santarém",
+      "code": "14",
+      "kind": "District",
+      "sourceCode": "14"
+    },
+    {
+      "id": "pt-15",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Setúbal",
+      "code": "15",
+      "kind": "District",
+      "sourceCode": "15"
+    },
+    {
+      "id": "pt-16",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Viana do Castelo",
+      "code": "16",
+      "kind": "District",
+      "sourceCode": "16"
+    },
+    {
+      "id": "pt-17",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Vila Real",
+      "code": "17",
+      "kind": "District",
+      "sourceCode": "17"
+    },
+    {
+      "id": "pt-18",
+      "parentId": "pt",
+      "groupId": "pt-subdivisions",
+      "name": "Viseu",
+      "code": "18",
+      "kind": "District",
+      "sourceCode": "18"
+    },
+    {
+      "id": "ru-ad",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Adygea",
+      "code": "AD",
+      "kind": "Republic",
+      "sourceCode": "AD"
+    },
+    {
+      "id": "ru-alt",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Altai Krai",
+      "code": "ALT",
+      "kind": "Krai",
+      "sourceCode": "ALT"
+    },
+    {
+      "id": "ru-al",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Altai Republic",
+      "code": "AL",
+      "kind": "Republic",
+      "sourceCode": "AL"
+    },
+    {
+      "id": "ru-amu",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Amur Oblast",
+      "code": "AMU",
+      "kind": "Oblast",
+      "sourceCode": "AMU"
+    },
+    {
+      "id": "ru-ark",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Arkhangelsk Oblast",
+      "code": "ARK",
+      "kind": "Oblast",
+      "sourceCode": "ARK"
+    },
+    {
+      "id": "ru-ast",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Astrakhan Oblast",
+      "code": "AST",
+      "kind": "Oblast",
+      "sourceCode": "AST"
+    },
+    {
+      "id": "ru-ba",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Bashkortostan",
+      "code": "BA",
+      "kind": "Republic",
+      "sourceCode": "BA"
+    },
+    {
+      "id": "ru-bel",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Belgorod Oblast",
+      "code": "BEL",
+      "kind": "Oblast",
+      "sourceCode": "BEL"
+    },
+    {
+      "id": "ru-bry",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Bryansk Oblast",
+      "code": "BRY",
+      "kind": "Oblast",
+      "sourceCode": "BRY"
+    },
+    {
+      "id": "ru-bu",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Buryatia",
+      "code": "BU",
+      "kind": "Republic",
+      "sourceCode": "BU"
+    },
+    {
+      "id": "ru-ce",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Chechnya",
+      "code": "CE",
+      "kind": "Republic",
+      "sourceCode": "CE"
+    },
+    {
+      "id": "ru-che",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Chelyabinsk Oblast",
+      "code": "CHE",
+      "kind": "Oblast",
+      "sourceCode": "CHE"
+    },
+    {
+      "id": "ru-chu",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Chukotka Autonomous Okrug",
+      "code": "CHU",
+      "kind": "Autonomous okrug",
+      "sourceCode": "CHU"
+    },
+    {
+      "id": "ru-cu",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Chuvashia",
+      "code": "CU",
+      "kind": "Republic",
+      "sourceCode": "CU"
+    },
+    {
+      "id": "ru-da",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Dagestan",
+      "code": "DA",
+      "kind": "Republic",
+      "sourceCode": "DA"
+    },
+    {
+      "id": "ru-in",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Ingushetia",
+      "code": "IN",
+      "kind": "Republic",
+      "sourceCode": "IN"
+    },
+    {
+      "id": "ru-irk",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Irkutsk Oblast",
+      "code": "IRK",
+      "kind": "Oblast",
+      "sourceCode": "IRK"
+    },
+    {
+      "id": "ru-iva",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Ivanovo Oblast",
+      "code": "IVA",
+      "kind": "Oblast",
+      "sourceCode": "IVA"
+    },
+    {
+      "id": "ru-yev",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Jewish Autonomous Oblast",
+      "code": "YEV",
+      "kind": "Autonomous oblast",
+      "sourceCode": "YEV"
+    },
+    {
+      "id": "ru-kb",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kabardino-Balkaria",
+      "code": "KB",
+      "kind": "Republic",
+      "sourceCode": "KB"
+    },
+    {
+      "id": "ru-kgd",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kaliningrad Oblast",
+      "code": "KGD",
+      "kind": "Oblast",
+      "sourceCode": "KGD"
+    },
+    {
+      "id": "ru-kl",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kalmykia",
+      "code": "KL",
+      "kind": "Republic",
+      "sourceCode": "KL"
+    },
+    {
+      "id": "ru-klu",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kaluga Oblast",
+      "code": "KLU",
+      "kind": "Oblast",
+      "sourceCode": "KLU"
+    },
+    {
+      "id": "ru-kam",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kamchatka Krai",
+      "code": "KAM",
+      "kind": "Krai",
+      "sourceCode": "KAM"
+    },
+    {
+      "id": "ru-kc",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Karachay-Cherkessia",
+      "code": "KC",
+      "kind": "Republic",
+      "sourceCode": "KC"
+    },
+    {
+      "id": "ru-kem",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kemerovo Oblast",
+      "code": "KEM",
+      "kind": "Oblast",
+      "sourceCode": "KEM"
+    },
+    {
+      "id": "ru-kha",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Khabarovsk Krai",
+      "code": "KHA",
+      "kind": "Krai",
+      "sourceCode": "KHA"
+    },
+    {
+      "id": "ru-kk",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Khakassia",
+      "code": "KK",
+      "kind": "Republic",
+      "sourceCode": "KK"
+    },
+    {
+      "id": "ru-khm",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+      "code": "KHM",
+      "kind": "Autonomous okrug",
+      "sourceCode": "KHM"
+    },
+    {
+      "id": "ru-kir",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kirov Oblast",
+      "code": "KIR",
+      "kind": "Oblast",
+      "sourceCode": "KIR"
+    },
+    {
+      "id": "ru-ko",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Komi Republic",
+      "code": "KO",
+      "kind": "Republic",
+      "sourceCode": "KO"
+    },
+    {
+      "id": "ru-kos",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kostroma Oblast",
+      "code": "KOS",
+      "kind": "Oblast",
+      "sourceCode": "KOS"
+    },
+    {
+      "id": "ru-kda",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Krasnodar Krai",
+      "code": "KDA",
+      "kind": "Krai",
+      "sourceCode": "KDA"
+    },
+    {
+      "id": "ru-kya",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Krasnoyarsk Krai",
+      "code": "KYA",
+      "kind": "Krai",
+      "sourceCode": "KYA"
+    },
+    {
+      "id": "ru-kgn",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kurgan Oblast",
+      "code": "KGN",
+      "kind": "Oblast",
+      "sourceCode": "KGN"
+    },
+    {
+      "id": "ru-krs",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Kursk Oblast",
+      "code": "KRS",
+      "kind": "Oblast",
+      "sourceCode": "KRS"
+    },
+    {
+      "id": "ru-len",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Leningrad Oblast",
+      "code": "LEN",
+      "kind": "Oblast",
+      "sourceCode": "LEN"
+    },
+    {
+      "id": "ru-lip",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Lipetsk Oblast",
+      "code": "LIP",
+      "kind": "Oblast",
+      "sourceCode": "LIP"
+    },
+    {
+      "id": "ru-mag",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Magadan Oblast",
+      "code": "MAG",
+      "kind": "Oblast",
+      "sourceCode": "MAG"
+    },
+    {
+      "id": "ru-me",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Mari El",
+      "code": "ME",
+      "kind": "Republic",
+      "sourceCode": "ME"
+    },
+    {
+      "id": "ru-mow",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Moscow",
+      "code": "MOW",
+      "kind": "Federal city",
+      "sourceCode": "MOW"
+    },
+    {
+      "id": "ru-mos",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Moscow Oblast",
+      "code": "MOS",
+      "kind": "Oblast",
+      "sourceCode": "MOS"
+    },
+    {
+      "id": "ru-mur",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Murmansk Oblast",
+      "code": "MUR",
+      "kind": "Oblast",
+      "sourceCode": "MUR"
+    },
+    {
+      "id": "ru-nen",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Nenets Autonomous Okrug",
+      "code": "NEN",
+      "kind": "Autonomous okrug",
+      "sourceCode": "NEN"
+    },
+    {
+      "id": "ru-niz",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Nizhny Novgorod Oblast",
+      "code": "NIZ",
+      "kind": "Oblast",
+      "sourceCode": "NIZ"
+    },
+    {
+      "id": "ru-se",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "North Ossetia–Alania",
+      "code": "SE",
+      "kind": "Republic",
+      "sourceCode": "SE"
+    },
+    {
+      "id": "ru-ngr",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Novgorod Oblast",
+      "code": "NGR",
+      "kind": "Oblast",
+      "sourceCode": "NGR"
+    },
+    {
+      "id": "ru-nvs",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Novosibirsk Oblast",
+      "code": "NVS",
+      "kind": "Oblast",
+      "sourceCode": "NVS"
+    },
+    {
+      "id": "ru-oms",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Omsk Oblast",
+      "code": "OMS",
+      "kind": "Oblast",
+      "sourceCode": "OMS"
+    },
+    {
+      "id": "ru-ore",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Orenburg Oblast",
+      "code": "ORE",
+      "kind": "Oblast",
+      "sourceCode": "ORE"
+    },
+    {
+      "id": "ru-orl",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Oryol Oblast",
+      "code": "ORL",
+      "kind": "Oblast",
+      "sourceCode": "ORL"
+    },
+    {
+      "id": "ru-pnz",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Penza Oblast",
+      "code": "PNZ",
+      "kind": "Oblast",
+      "sourceCode": "PNZ"
+    },
+    {
+      "id": "ru-per",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Perm Krai",
+      "code": "PER",
+      "kind": "Krai",
+      "sourceCode": "PER"
+    },
+    {
+      "id": "ru-pri",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Primorsky Krai",
+      "code": "PRI",
+      "kind": "Krai",
+      "sourceCode": "PRI"
+    },
+    {
+      "id": "ru-psk",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Pskov Oblast",
+      "code": "PSK",
+      "kind": "Oblast",
+      "sourceCode": "PSK"
+    },
+    {
+      "id": "ru-kr",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Republic of Karelia",
+      "code": "KR",
+      "kind": "Republic",
+      "sourceCode": "KR"
+    },
+    {
+      "id": "ru-mo",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Republic of Mordovia",
+      "code": "MO",
+      "kind": "Republic",
+      "sourceCode": "MO"
+    },
+    {
+      "id": "ru-ros",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Rostov Oblast",
+      "code": "ROS",
+      "kind": "Oblast",
+      "sourceCode": "ROS"
+    },
+    {
+      "id": "ru-rya",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Ryazan Oblast",
+      "code": "RYA",
+      "kind": "Oblast",
+      "sourceCode": "RYA"
+    },
+    {
+      "id": "ru-spe",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Saint Petersburg",
+      "code": "SPE",
+      "kind": "Federal city",
+      "sourceCode": "SPE"
+    },
+    {
+      "id": "ru-sa",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Sakha Republic",
+      "code": "SA",
+      "kind": "Republic",
+      "sourceCode": "SA"
+    },
+    {
+      "id": "ru-sak",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Sakhalin Oblast",
+      "code": "SAK",
+      "kind": "Oblast",
+      "sourceCode": "SAK"
+    },
+    {
+      "id": "ru-sam",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Samara Oblast",
+      "code": "SAM",
+      "kind": "Oblast",
+      "sourceCode": "SAM"
+    },
+    {
+      "id": "ru-sar",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Saratov Oblast",
+      "code": "SAR",
+      "kind": "Oblast",
+      "sourceCode": "SAR"
+    },
+    {
+      "id": "ru-smo",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Smolensk Oblast",
+      "code": "SMO",
+      "kind": "Oblast",
+      "sourceCode": "SMO"
+    },
+    {
+      "id": "ru-sta",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Stavropol Krai",
+      "code": "STA",
+      "kind": "Krai",
+      "sourceCode": "STA"
+    },
+    {
+      "id": "ru-sve",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Sverdlovsk Oblast",
+      "code": "SVE",
+      "kind": "Oblast",
+      "sourceCode": "SVE"
+    },
+    {
+      "id": "ru-tam",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Tambov Oblast",
+      "code": "TAM",
+      "kind": "Oblast",
+      "sourceCode": "TAM"
+    },
+    {
+      "id": "ru-ta",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Tatarstan",
+      "code": "TA",
+      "kind": "Republic",
+      "sourceCode": "TA"
+    },
+    {
+      "id": "ru-tom",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Tomsk Oblast",
+      "code": "TOM",
+      "kind": "Oblast",
+      "sourceCode": "TOM"
+    },
+    {
+      "id": "ru-tul",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Tula Oblast",
+      "code": "TUL",
+      "kind": "Oblast",
+      "sourceCode": "TUL"
+    },
+    {
+      "id": "ru-ty",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Tuva",
+      "code": "TY",
+      "kind": "Republic",
+      "sourceCode": "TY"
+    },
+    {
+      "id": "ru-tve",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Tver Oblast",
+      "code": "TVE",
+      "kind": "Oblast",
+      "sourceCode": "TVE"
+    },
+    {
+      "id": "ru-tyu",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Tyumen Oblast",
+      "code": "TYU",
+      "kind": "Oblast",
+      "sourceCode": "TYU"
+    },
+    {
+      "id": "ru-ud",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Udmurtia",
+      "code": "UD",
+      "kind": "Republic",
+      "sourceCode": "UD"
+    },
+    {
+      "id": "ru-uly",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Ulyanovsk Oblast",
+      "code": "ULY",
+      "kind": "Oblast",
+      "sourceCode": "ULY"
+    },
+    {
+      "id": "ru-vla",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Vladimir Oblast",
+      "code": "VLA",
+      "kind": "Oblast",
+      "sourceCode": "VLA"
+    },
+    {
+      "id": "ru-vgg",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Volgograd Oblast",
+      "code": "VGG",
+      "kind": "Oblast",
+      "sourceCode": "VGG"
+    },
+    {
+      "id": "ru-vlg",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Vologda Oblast",
+      "code": "VLG",
+      "kind": "Oblast",
+      "sourceCode": "VLG"
+    },
+    {
+      "id": "ru-vor",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Voronezh Oblast",
+      "code": "VOR",
+      "kind": "Oblast",
+      "sourceCode": "VOR"
+    },
+    {
+      "id": "ru-yan",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Yamalo-Nenets Autonomous Okrug",
+      "code": "YAN",
+      "kind": "Autonomous okrug",
+      "sourceCode": "YAN"
+    },
+    {
+      "id": "ru-yar",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Yaroslavl Oblast",
+      "code": "YAR",
+      "kind": "Oblast",
+      "sourceCode": "YAR"
+    },
+    {
+      "id": "ru-zab",
+      "parentId": "ru",
+      "groupId": "ru-subdivisions",
+      "name": "Zabaykalsky Krai",
+      "code": "ZAB",
+      "kind": "Krai",
+      "sourceCode": "ZAB"
+    }
+  ]
+}

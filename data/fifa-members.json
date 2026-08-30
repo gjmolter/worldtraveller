@@ -1,0 +1,1272 @@
+{
+  "reviewedOn": "2026-08-23",
+  "sourceUrl": "https://inside.fifa.com/en/about-fifa/associations",
+  "members": [
+    {
+      "name": "Afghanistan",
+      "confederation": "AFC",
+      "fifaCode": "AFG",
+      "countryId": "af"
+    },
+    {
+      "name": "Albania",
+      "confederation": "UEFA",
+      "fifaCode": "ALB",
+      "countryId": "al"
+    },
+    {
+      "name": "Algeria",
+      "confederation": "CAF",
+      "fifaCode": "ALG",
+      "countryId": "dz"
+    },
+    {
+      "name": "American Samoa",
+      "confederation": "OFC",
+      "fifaCode": "ASA",
+      "countryId": "as"
+    },
+    {
+      "name": "Andorra",
+      "confederation": "UEFA",
+      "fifaCode": "AND",
+      "countryId": "ad"
+    },
+    {
+      "name": "Angola",
+      "confederation": "CAF",
+      "fifaCode": "ANG",
+      "countryId": "ao"
+    },
+    {
+      "name": "Anguilla",
+      "confederation": "CONCACAF",
+      "fifaCode": "AIA",
+      "countryId": "ai"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "confederation": "CONCACAF",
+      "fifaCode": "ATG",
+      "countryId": "ag"
+    },
+    {
+      "name": "Argentina",
+      "confederation": "CONMEBOL",
+      "fifaCode": "ARG",
+      "countryId": "ar"
+    },
+    {
+      "name": "Armenia",
+      "confederation": "UEFA",
+      "fifaCode": "ARM",
+      "countryId": "am"
+    },
+    {
+      "name": "Aruba",
+      "confederation": "CONCACAF",
+      "fifaCode": "ARU",
+      "countryId": "aw"
+    },
+    {
+      "name": "Australia",
+      "confederation": "AFC",
+      "fifaCode": "AUS",
+      "countryId": "au"
+    },
+    {
+      "name": "Austria",
+      "confederation": "UEFA",
+      "fifaCode": "AUT",
+      "countryId": "at"
+    },
+    {
+      "name": "Azerbaijan",
+      "confederation": "UEFA",
+      "fifaCode": "AZE",
+      "countryId": "az"
+    },
+    {
+      "name": "Bahamas",
+      "confederation": "CONCACAF",
+      "fifaCode": "BAH",
+      "countryId": "bs"
+    },
+    {
+      "name": "Bahrain",
+      "confederation": "AFC",
+      "fifaCode": "BHR",
+      "countryId": "bh"
+    },
+    {
+      "name": "Bangladesh",
+      "confederation": "AFC",
+      "fifaCode": "BAN",
+      "countryId": "bd"
+    },
+    {
+      "name": "Barbados",
+      "confederation": "CONCACAF",
+      "fifaCode": "BRB",
+      "countryId": "bb"
+    },
+    {
+      "name": "Belarus",
+      "confederation": "UEFA",
+      "fifaCode": "BLR",
+      "countryId": "by"
+    },
+    {
+      "name": "Belgium",
+      "confederation": "UEFA",
+      "fifaCode": "BEL",
+      "countryId": "be"
+    },
+    {
+      "name": "Belize",
+      "confederation": "CONCACAF",
+      "fifaCode": "BLZ",
+      "countryId": "bz"
+    },
+    {
+      "name": "Benin",
+      "confederation": "CAF",
+      "fifaCode": "BEN",
+      "countryId": "bj"
+    },
+    {
+      "name": "Bermuda",
+      "confederation": "CONCACAF",
+      "fifaCode": "BER",
+      "countryId": "bm"
+    },
+    {
+      "name": "Bhutan",
+      "confederation": "AFC",
+      "fifaCode": "BHU",
+      "countryId": "bt"
+    },
+    {
+      "name": "Bolivia",
+      "confederation": "CONMEBOL",
+      "fifaCode": "BOL",
+      "countryId": "bo"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "confederation": "UEFA",
+      "fifaCode": "BIH",
+      "countryId": "ba"
+    },
+    {
+      "name": "Botswana",
+      "confederation": "CAF",
+      "fifaCode": "BOT",
+      "countryId": "bw"
+    },
+    {
+      "name": "Brazil",
+      "confederation": "CONMEBOL",
+      "fifaCode": "BRA",
+      "countryId": "br"
+    },
+    {
+      "name": "British Virgin Islands",
+      "confederation": "CONCACAF",
+      "fifaCode": "VGB",
+      "countryId": "vg"
+    },
+    {
+      "name": "Brunei Darussalam",
+      "confederation": "AFC",
+      "fifaCode": "BRU",
+      "countryId": "bn"
+    },
+    {
+      "name": "Bulgaria",
+      "confederation": "UEFA",
+      "fifaCode": "BUL",
+      "countryId": "bg"
+    },
+    {
+      "name": "Burkina Faso",
+      "confederation": "CAF",
+      "fifaCode": "BFA",
+      "countryId": "bf"
+    },
+    {
+      "name": "Burundi",
+      "confederation": "CAF",
+      "fifaCode": "BDI",
+      "countryId": "bi"
+    },
+    {
+      "name": "Cabo Verde",
+      "confederation": "CAF",
+      "fifaCode": "CPV",
+      "countryId": "cv"
+    },
+    {
+      "name": "Cambodia",
+      "confederation": "AFC",
+      "fifaCode": "CAM",
+      "countryId": "kh"
+    },
+    {
+      "name": "Cameroon",
+      "confederation": "CAF",
+      "fifaCode": "CMR",
+      "countryId": "cm"
+    },
+    {
+      "name": "Canada",
+      "confederation": "CONCACAF",
+      "fifaCode": "CAN",
+      "countryId": "ca"
+    },
+    {
+      "name": "Cayman Islands",
+      "confederation": "CONCACAF",
+      "fifaCode": "CAY",
+      "countryId": "ky"
+    },
+    {
+      "name": "Central African Republic",
+      "confederation": "CAF",
+      "fifaCode": "CTA",
+      "countryId": "cf"
+    },
+    {
+      "name": "Chad",
+      "confederation": "CAF",
+      "fifaCode": "CHA",
+      "countryId": "td"
+    },
+    {
+      "name": "Chile",
+      "confederation": "CONMEBOL",
+      "fifaCode": "CHI",
+      "countryId": "cl"
+    },
+    {
+      "name": "China PR",
+      "confederation": "AFC",
+      "fifaCode": "CHN",
+      "countryId": "cn"
+    },
+    {
+      "name": "Chinese Taipei",
+      "confederation": "AFC",
+      "fifaCode": "TPE",
+      "countryId": "tw"
+    },
+    {
+      "name": "Colombia",
+      "confederation": "CONMEBOL",
+      "fifaCode": "COL",
+      "countryId": "co"
+    },
+    {
+      "name": "Comoros",
+      "confederation": "CAF",
+      "fifaCode": "COM",
+      "countryId": "km"
+    },
+    {
+      "name": "Congo",
+      "confederation": "CAF",
+      "fifaCode": "CGO",
+      "countryId": "cg"
+    },
+    {
+      "name": "Congo DR",
+      "confederation": "CAF",
+      "fifaCode": "COD",
+      "countryId": "cd"
+    },
+    {
+      "name": "Cook Islands",
+      "confederation": "OFC",
+      "fifaCode": "COK",
+      "countryId": "ck"
+    },
+    {
+      "name": "Costa Rica",
+      "confederation": "CONCACAF",
+      "fifaCode": "CRC",
+      "countryId": "cr"
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "confederation": "CAF",
+      "fifaCode": "CIV",
+      "countryId": "ci"
+    },
+    {
+      "name": "Croatia",
+      "confederation": "UEFA",
+      "fifaCode": "CRO",
+      "countryId": "hr"
+    },
+    {
+      "name": "Cuba",
+      "confederation": "CONCACAF",
+      "fifaCode": "CUB",
+      "countryId": "cu"
+    },
+    {
+      "name": "Curaçao",
+      "confederation": "CONCACAF",
+      "fifaCode": "CUW",
+      "countryId": "cw"
+    },
+    {
+      "name": "Cyprus",
+      "confederation": "UEFA",
+      "fifaCode": "CYP",
+      "countryId": "cy"
+    },
+    {
+      "name": "Czechia",
+      "confederation": "UEFA",
+      "fifaCode": "CZE",
+      "countryId": "cz"
+    },
+    {
+      "name": "Denmark",
+      "confederation": "UEFA",
+      "fifaCode": "DEN",
+      "countryId": "dk"
+    },
+    {
+      "name": "Djibouti",
+      "confederation": "CAF",
+      "fifaCode": "DJI",
+      "countryId": "dj"
+    },
+    {
+      "name": "Dominica",
+      "confederation": "CONCACAF",
+      "fifaCode": "DMA",
+      "countryId": "dm"
+    },
+    {
+      "name": "Dominican Republic",
+      "confederation": "CONCACAF",
+      "fifaCode": "DOM",
+      "countryId": "do"
+    },
+    {
+      "name": "DPR Korea",
+      "confederation": "AFC",
+      "fifaCode": "PRK",
+      "countryId": "kp"
+    },
+    {
+      "name": "Ecuador",
+      "confederation": "CONMEBOL",
+      "fifaCode": "ECU",
+      "countryId": "ec"
+    },
+    {
+      "name": "Egypt",
+      "confederation": "CAF",
+      "fifaCode": "EGY",
+      "countryId": "eg"
+    },
+    {
+      "name": "El Salvador",
+      "confederation": "CONCACAF",
+      "fifaCode": "SLV",
+      "countryId": "sv"
+    },
+    {
+      "name": "England",
+      "confederation": "UEFA",
+      "fifaCode": "ENG",
+      "countryId": "eng"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "confederation": "CAF",
+      "fifaCode": "EQG",
+      "countryId": "gq"
+    },
+    {
+      "name": "Eritrea",
+      "confederation": "CAF",
+      "fifaCode": "ERI",
+      "countryId": "er"
+    },
+    {
+      "name": "Estonia",
+      "confederation": "UEFA",
+      "fifaCode": "EST",
+      "countryId": "ee"
+    },
+    {
+      "name": "Eswatini",
+      "confederation": "CAF",
+      "fifaCode": "SWZ",
+      "countryId": "sz"
+    },
+    {
+      "name": "Ethiopia",
+      "confederation": "CAF",
+      "fifaCode": "ETH",
+      "countryId": "et"
+    },
+    {
+      "name": "Faroe Islands",
+      "confederation": "UEFA",
+      "fifaCode": "FRO",
+      "countryId": "fo"
+    },
+    {
+      "name": "Fiji",
+      "confederation": "OFC",
+      "fifaCode": "FIJ",
+      "countryId": "fj"
+    },
+    {
+      "name": "Finland",
+      "confederation": "UEFA",
+      "fifaCode": "FIN",
+      "countryId": "fi"
+    },
+    {
+      "name": "France",
+      "confederation": "UEFA",
+      "fifaCode": "FRA",
+      "countryId": "fr"
+    },
+    {
+      "name": "Gabon",
+      "confederation": "CAF",
+      "fifaCode": "GAB",
+      "countryId": "ga"
+    },
+    {
+      "name": "Georgia",
+      "confederation": "UEFA",
+      "fifaCode": "GEO",
+      "countryId": "ge"
+    },
+    {
+      "name": "Germany",
+      "confederation": "UEFA",
+      "fifaCode": "GER",
+      "countryId": "de"
+    },
+    {
+      "name": "Ghana",
+      "confederation": "CAF",
+      "fifaCode": "GHA",
+      "countryId": "gh"
+    },
+    {
+      "name": "Gibraltar",
+      "confederation": "UEFA",
+      "fifaCode": "GIB",
+      "countryId": "gi"
+    },
+    {
+      "name": "Greece",
+      "confederation": "UEFA",
+      "fifaCode": "GRE",
+      "countryId": "gr"
+    },
+    {
+      "name": "Grenada",
+      "confederation": "CONCACAF",
+      "fifaCode": "GRN",
+      "countryId": "gd"
+    },
+    {
+      "name": "Guam",
+      "confederation": "AFC",
+      "fifaCode": "GUM",
+      "countryId": "gu"
+    },
+    {
+      "name": "Guatemala",
+      "confederation": "CONCACAF",
+      "fifaCode": "GUA",
+      "countryId": "gt"
+    },
+    {
+      "name": "Guinea",
+      "confederation": "CAF",
+      "fifaCode": "GUI",
+      "countryId": "gn"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "confederation": "CAF",
+      "fifaCode": "GNB",
+      "countryId": "gw"
+    },
+    {
+      "name": "Guyana",
+      "confederation": "CONCACAF",
+      "fifaCode": "GUY",
+      "countryId": "gy"
+    },
+    {
+      "name": "Haiti",
+      "confederation": "CONCACAF",
+      "fifaCode": "HAI",
+      "countryId": "ht"
+    },
+    {
+      "name": "Honduras",
+      "confederation": "CONCACAF",
+      "fifaCode": "HON",
+      "countryId": "hn"
+    },
+    {
+      "name": "Hong Kong, China",
+      "confederation": "AFC",
+      "fifaCode": "HKG",
+      "countryId": "hk"
+    },
+    {
+      "name": "Hungary",
+      "confederation": "UEFA",
+      "fifaCode": "HUN",
+      "countryId": "hu"
+    },
+    {
+      "name": "Iceland",
+      "confederation": "UEFA",
+      "fifaCode": "ISL",
+      "countryId": "is"
+    },
+    {
+      "name": "India",
+      "confederation": "AFC",
+      "fifaCode": "IND",
+      "countryId": "in"
+    },
+    {
+      "name": "Indonesia",
+      "confederation": "AFC",
+      "fifaCode": "IDN",
+      "countryId": "id"
+    },
+    {
+      "name": "IR Iran",
+      "confederation": "AFC",
+      "fifaCode": "IRN",
+      "countryId": "ir"
+    },
+    {
+      "name": "Iraq",
+      "confederation": "AFC",
+      "fifaCode": "IRQ",
+      "countryId": "iq"
+    },
+    {
+      "name": "Israel",
+      "confederation": "UEFA",
+      "fifaCode": "ISR",
+      "countryId": "il"
+    },
+    {
+      "name": "Italy",
+      "confederation": "UEFA",
+      "fifaCode": "ITA",
+      "countryId": "it"
+    },
+    {
+      "name": "Jamaica",
+      "confederation": "CONCACAF",
+      "fifaCode": "JAM",
+      "countryId": "jm"
+    },
+    {
+      "name": "Japan",
+      "confederation": "AFC",
+      "fifaCode": "JPN",
+      "countryId": "jp"
+    },
+    {
+      "name": "Jordan",
+      "confederation": "AFC",
+      "fifaCode": "JOR",
+      "countryId": "jo"
+    },
+    {
+      "name": "Kazakhstan",
+      "confederation": "UEFA",
+      "fifaCode": "KAZ",
+      "countryId": "kz"
+    },
+    {
+      "name": "Kenya",
+      "confederation": "CAF",
+      "fifaCode": "KEN",
+      "countryId": "ke"
+    },
+    {
+      "name": "Korea Republic",
+      "confederation": "AFC",
+      "fifaCode": "KOR",
+      "countryId": "kr"
+    },
+    {
+      "name": "Kosovo",
+      "confederation": "UEFA",
+      "fifaCode": "KOS",
+      "countryId": "xk"
+    },
+    {
+      "name": "Kuwait",
+      "confederation": "AFC",
+      "fifaCode": "KUW",
+      "countryId": "kw"
+    },
+    {
+      "name": "Kyrgyz Republic",
+      "confederation": "AFC",
+      "fifaCode": "KGZ",
+      "countryId": "kg"
+    },
+    {
+      "name": "Laos",
+      "confederation": "AFC",
+      "fifaCode": "LAO",
+      "countryId": "la"
+    },
+    {
+      "name": "Latvia",
+      "confederation": "UEFA",
+      "fifaCode": "LVA",
+      "countryId": "lv"
+    },
+    {
+      "name": "Lebanon",
+      "confederation": "AFC",
+      "fifaCode": "LBN",
+      "countryId": "lb"
+    },
+    {
+      "name": "Lesotho",
+      "confederation": "CAF",
+      "fifaCode": "LES",
+      "countryId": "ls"
+    },
+    {
+      "name": "Liberia",
+      "confederation": "CAF",
+      "fifaCode": "LBR",
+      "countryId": "lr"
+    },
+    {
+      "name": "Libya",
+      "confederation": "CAF",
+      "fifaCode": "LBY",
+      "countryId": "ly"
+    },
+    {
+      "name": "Liechtenstein",
+      "confederation": "UEFA",
+      "fifaCode": "LIE",
+      "countryId": "li"
+    },
+    {
+      "name": "Lithuania",
+      "confederation": "UEFA",
+      "fifaCode": "LTU",
+      "countryId": "lt"
+    },
+    {
+      "name": "Luxembourg",
+      "confederation": "UEFA",
+      "fifaCode": "LUX",
+      "countryId": "lu"
+    },
+    {
+      "name": "Macau, China",
+      "confederation": "AFC",
+      "fifaCode": "MAC",
+      "countryId": "mo"
+    },
+    {
+      "name": "Madagascar",
+      "confederation": "CAF",
+      "fifaCode": "MAD",
+      "countryId": "mg"
+    },
+    {
+      "name": "Malawi",
+      "confederation": "CAF",
+      "fifaCode": "MWI",
+      "countryId": "mw"
+    },
+    {
+      "name": "Malaysia",
+      "confederation": "AFC",
+      "fifaCode": "MAS",
+      "countryId": "my"
+    },
+    {
+      "name": "Maldives",
+      "confederation": "AFC",
+      "fifaCode": "MDV",
+      "countryId": "mv"
+    },
+    {
+      "name": "Mali",
+      "confederation": "CAF",
+      "fifaCode": "MLI",
+      "countryId": "ml"
+    },
+    {
+      "name": "Malta",
+      "confederation": "UEFA",
+      "fifaCode": "MLT",
+      "countryId": "mt"
+    },
+    {
+      "name": "Mauritania",
+      "confederation": "CAF",
+      "fifaCode": "MTN",
+      "countryId": "mr"
+    },
+    {
+      "name": "Mauritius",
+      "confederation": "CAF",
+      "fifaCode": "MRI",
+      "countryId": "mu"
+    },
+    {
+      "name": "Mexico",
+      "confederation": "CONCACAF",
+      "fifaCode": "MEX",
+      "countryId": "mx"
+    },
+    {
+      "name": "Moldova",
+      "confederation": "UEFA",
+      "fifaCode": "MDA",
+      "countryId": "md"
+    },
+    {
+      "name": "Mongolia",
+      "confederation": "AFC",
+      "fifaCode": "MNG",
+      "countryId": "mn"
+    },
+    {
+      "name": "Montenegro",
+      "confederation": "UEFA",
+      "fifaCode": "MNE",
+      "countryId": "me"
+    },
+    {
+      "name": "Montserrat",
+      "confederation": "CONCACAF",
+      "fifaCode": "MSR",
+      "countryId": "ms"
+    },
+    {
+      "name": "Morocco",
+      "confederation": "CAF",
+      "fifaCode": "MAR",
+      "countryId": "ma"
+    },
+    {
+      "name": "Mozambique",
+      "confederation": "CAF",
+      "fifaCode": "MOZ",
+      "countryId": "mz"
+    },
+    {
+      "name": "Myanmar",
+      "confederation": "AFC",
+      "fifaCode": "MYA",
+      "countryId": "mm"
+    },
+    {
+      "name": "Namibia",
+      "confederation": "CAF",
+      "fifaCode": "NAM",
+      "countryId": "na"
+    },
+    {
+      "name": "Nepal",
+      "confederation": "AFC",
+      "fifaCode": "NEP",
+      "countryId": "np"
+    },
+    {
+      "name": "Netherlands",
+      "confederation": "UEFA",
+      "fifaCode": "NED",
+      "countryId": "nl"
+    },
+    {
+      "name": "New Caledonia",
+      "confederation": "OFC",
+      "fifaCode": "NCL",
+      "countryId": "nc"
+    },
+    {
+      "name": "New Zealand",
+      "confederation": "OFC",
+      "fifaCode": "NZL",
+      "countryId": "nz"
+    },
+    {
+      "name": "Nicaragua",
+      "confederation": "CONCACAF",
+      "fifaCode": "NCA",
+      "countryId": "ni"
+    },
+    {
+      "name": "Niger",
+      "confederation": "CAF",
+      "fifaCode": "NIG",
+      "countryId": "ne"
+    },
+    {
+      "name": "Nigeria",
+      "confederation": "CAF",
+      "fifaCode": "NGA",
+      "countryId": "ng"
+    },
+    {
+      "name": "North Macedonia",
+      "confederation": "UEFA",
+      "fifaCode": "MKD",
+      "countryId": "mk"
+    },
+    {
+      "name": "Northern Ireland",
+      "confederation": "UEFA",
+      "fifaCode": "NIR",
+      "countryId": "nir"
+    },
+    {
+      "name": "Norway",
+      "confederation": "UEFA",
+      "fifaCode": "NOR",
+      "countryId": "no"
+    },
+    {
+      "name": "Oman",
+      "confederation": "AFC",
+      "fifaCode": "OMA",
+      "countryId": "om"
+    },
+    {
+      "name": "Pakistan",
+      "confederation": "AFC",
+      "fifaCode": "PAK",
+      "countryId": "pk"
+    },
+    {
+      "name": "Palestine",
+      "confederation": "AFC",
+      "fifaCode": "PLE",
+      "countryId": "ps"
+    },
+    {
+      "name": "Panama",
+      "confederation": "CONCACAF",
+      "fifaCode": "PAN",
+      "countryId": "pa"
+    },
+    {
+      "name": "Papua New Guinea",
+      "confederation": "OFC",
+      "fifaCode": "PNG",
+      "countryId": "pg"
+    },
+    {
+      "name": "Paraguay",
+      "confederation": "CONMEBOL",
+      "fifaCode": "PAR",
+      "countryId": "py"
+    },
+    {
+      "name": "Peru",
+      "confederation": "CONMEBOL",
+      "fifaCode": "PER",
+      "countryId": "pe"
+    },
+    {
+      "name": "Philippines",
+      "confederation": "AFC",
+      "fifaCode": "PHI",
+      "countryId": "ph"
+    },
+    {
+      "name": "Poland",
+      "confederation": "UEFA",
+      "fifaCode": "POL",
+      "countryId": "pl"
+    },
+    {
+      "name": "Portugal",
+      "confederation": "UEFA",
+      "fifaCode": "POR",
+      "countryId": "pt"
+    },
+    {
+      "name": "Puerto Rico",
+      "confederation": "CONCACAF",
+      "fifaCode": "PUR",
+      "countryId": "pr"
+    },
+    {
+      "name": "Qatar",
+      "confederation": "AFC",
+      "fifaCode": "QAT",
+      "countryId": "qa"
+    },
+    {
+      "name": "Republic of Ireland",
+      "confederation": "UEFA",
+      "fifaCode": "IRL",
+      "countryId": "ie"
+    },
+    {
+      "name": "Romania",
+      "confederation": "UEFA",
+      "fifaCode": "ROU",
+      "countryId": "ro"
+    },
+    {
+      "name": "Russia",
+      "confederation": "UEFA",
+      "fifaCode": "RUS",
+      "countryId": "ru"
+    },
+    {
+      "name": "Rwanda",
+      "confederation": "CAF",
+      "fifaCode": "RWA",
+      "countryId": "rw"
+    },
+    {
+      "name": "Samoa",
+      "confederation": "OFC",
+      "fifaCode": "SAM",
+      "countryId": "ws"
+    },
+    {
+      "name": "San Marino",
+      "confederation": "UEFA",
+      "fifaCode": "SMR",
+      "countryId": "sm"
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "confederation": "CAF",
+      "fifaCode": "STP",
+      "countryId": "st"
+    },
+    {
+      "name": "Saudi Arabia",
+      "confederation": "AFC",
+      "fifaCode": "KSA",
+      "countryId": "sa"
+    },
+    {
+      "name": "Scotland",
+      "confederation": "UEFA",
+      "fifaCode": "SCO",
+      "countryId": "sco"
+    },
+    {
+      "name": "Senegal",
+      "confederation": "CAF",
+      "fifaCode": "SEN",
+      "countryId": "sn"
+    },
+    {
+      "name": "Serbia",
+      "confederation": "UEFA",
+      "fifaCode": "SRB",
+      "countryId": "rs"
+    },
+    {
+      "name": "Seychelles",
+      "confederation": "CAF",
+      "fifaCode": "SEY",
+      "countryId": "sc"
+    },
+    {
+      "name": "Sierra Leone",
+      "confederation": "CAF",
+      "fifaCode": "SLE",
+      "countryId": "sl"
+    },
+    {
+      "name": "Singapore",
+      "confederation": "AFC",
+      "fifaCode": "SGP",
+      "countryId": "sg"
+    },
+    {
+      "name": "Slovakia",
+      "confederation": "UEFA",
+      "fifaCode": "SVK",
+      "countryId": "sk"
+    },
+    {
+      "name": "Slovenia",
+      "confederation": "UEFA",
+      "fifaCode": "SVN",
+      "countryId": "si"
+    },
+    {
+      "name": "Solomon Islands",
+      "confederation": "OFC",
+      "fifaCode": "SOL",
+      "countryId": "sb"
+    },
+    {
+      "name": "Somalia",
+      "confederation": "CAF",
+      "fifaCode": "SOM",
+      "countryId": "so"
+    },
+    {
+      "name": "South Africa",
+      "confederation": "CAF",
+      "fifaCode": "RSA",
+      "countryId": "za"
+    },
+    {
+      "name": "South Sudan",
+      "confederation": "CAF",
+      "fifaCode": "SSD",
+      "countryId": "ss"
+    },
+    {
+      "name": "Spain",
+      "confederation": "UEFA",
+      "fifaCode": "ESP",
+      "countryId": "es"
+    },
+    {
+      "name": "Sri Lanka",
+      "confederation": "AFC",
+      "fifaCode": "SRI",
+      "countryId": "lk"
+    },
+    {
+      "name": "St Kitts and Nevis",
+      "confederation": "CONCACAF",
+      "fifaCode": "SKN",
+      "countryId": "kn"
+    },
+    {
+      "name": "St Lucia",
+      "confederation": "CONCACAF",
+      "fifaCode": "LCA",
+      "countryId": "lc"
+    },
+    {
+      "name": "St Vincent and the Grenadines",
+      "confederation": "CONCACAF",
+      "fifaCode": "VIN",
+      "countryId": "vc"
+    },
+    {
+      "name": "Sudan",
+      "confederation": "CAF",
+      "fifaCode": "SDN",
+      "countryId": "sd"
+    },
+    {
+      "name": "Suriname",
+      "confederation": "CONCACAF",
+      "fifaCode": "SUR",
+      "countryId": "sr"
+    },
+    {
+      "name": "Sweden",
+      "confederation": "UEFA",
+      "fifaCode": "SWE",
+      "countryId": "se"
+    },
+    {
+      "name": "Switzerland",
+      "confederation": "UEFA",
+      "fifaCode": "SUI",
+      "countryId": "ch"
+    },
+    {
+      "name": "Syria",
+      "confederation": "AFC",
+      "fifaCode": "SYR",
+      "countryId": "sy"
+    },
+    {
+      "name": "Tahiti",
+      "confederation": "OFC",
+      "fifaCode": "TAH",
+      "countryId": "pf"
+    },
+    {
+      "name": "Tajikistan",
+      "confederation": "AFC",
+      "fifaCode": "TJK",
+      "countryId": "tj"
+    },
+    {
+      "name": "Tanzania",
+      "confederation": "CAF",
+      "fifaCode": "TAN",
+      "countryId": "tz"
+    },
+    {
+      "name": "Thailand",
+      "confederation": "AFC",
+      "fifaCode": "THA",
+      "countryId": "th"
+    },
+    {
+      "name": "The Gambia",
+      "confederation": "CAF",
+      "fifaCode": "GAM",
+      "countryId": "gm"
+    },
+    {
+      "name": "Timor-Leste",
+      "confederation": "AFC",
+      "fifaCode": "TLS",
+      "countryId": "tl"
+    },
+    {
+      "name": "Togo",
+      "confederation": "CAF",
+      "fifaCode": "TOG",
+      "countryId": "tg"
+    },
+    {
+      "name": "Tonga",
+      "confederation": "OFC",
+      "fifaCode": "TGA",
+      "countryId": "to"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "confederation": "CONCACAF",
+      "fifaCode": "TRI",
+      "countryId": "tt"
+    },
+    {
+      "name": "Tunisia",
+      "confederation": "CAF",
+      "fifaCode": "TUN",
+      "countryId": "tn"
+    },
+    {
+      "name": "Türkiye",
+      "confederation": "UEFA",
+      "fifaCode": "TUR",
+      "countryId": "tr"
+    },
+    {
+      "name": "Turkmenistan",
+      "confederation": "AFC",
+      "fifaCode": "TKM",
+      "countryId": "tm"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "confederation": "CONCACAF",
+      "fifaCode": "TCA",
+      "countryId": "tc"
+    },
+    {
+      "name": "Uganda",
+      "confederation": "CAF",
+      "fifaCode": "UGA",
+      "countryId": "ug"
+    },
+    {
+      "name": "Ukraine",
+      "confederation": "UEFA",
+      "fifaCode": "UKR",
+      "countryId": "ua"
+    },
+    {
+      "name": "United Arab Emirates",
+      "confederation": "AFC",
+      "fifaCode": "UAE",
+      "countryId": "ae"
+    },
+    {
+      "name": "Uruguay",
+      "confederation": "CONMEBOL",
+      "fifaCode": "URU",
+      "countryId": "uy"
+    },
+    {
+      "name": "US Virgin Islands",
+      "confederation": "CONCACAF",
+      "fifaCode": "VIR",
+      "countryId": "vi"
+    },
+    {
+      "name": "USA",
+      "confederation": "CONCACAF",
+      "fifaCode": "USA",
+      "countryId": "us"
+    },
+    {
+      "name": "Uzbekistan",
+      "confederation": "AFC",
+      "fifaCode": "UZB",
+      "countryId": "uz"
+    },
+    {
+      "name": "Vanuatu",
+      "confederation": "OFC",
+      "fifaCode": "VAN",
+      "countryId": "vu"
+    },
+    {
+      "name": "Venezuela",
+      "confederation": "CONMEBOL",
+      "fifaCode": "VEN",
+      "countryId": "ve"
+    },
+    {
+      "name": "Vietnam",
+      "confederation": "AFC",
+      "fifaCode": "VIE",
+      "countryId": "vn"
+    },
+    {
+      "name": "Wales",
+      "confederation": "UEFA",
+      "fifaCode": "WAL",
+      "countryId": "wal"
+    },
+    {
+      "name": "Yemen",
+      "confederation": "AFC",
+      "fifaCode": "YEM",
+      "countryId": "ye"
+    },
+    {
+      "name": "Zambia",
+      "confederation": "CAF",
+      "fifaCode": "ZAM",
+      "countryId": "zm"
+    },
+    {
+      "name": "Zimbabwe",
+      "confederation": "CAF",
+      "fifaCode": "ZIM",
+      "countryId": "zw"
+    }
+  ]
+}
